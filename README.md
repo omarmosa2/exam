@@ -1,10 +1,46 @@
-# 🎓 تطبيق اختبار اللغة الإنجليزية / English Quiz Application
+# 🎓 تطبيق اختبار اللغة الإنجليزية المحدّث / Enhanced English Quiz Application
 
 تطبيق ويب تفاعلي لاختبارات اللغة الإنجليزية يعمل بالكامل باستخدام HTML وCSS وJavaScript فقط.
 
 An interactive web application for English language quizzes built entirely with HTML, CSS, and JavaScript.
 
-## ✨ المميزات / Features
+## 🆕 التحديثات الجديدة / New Updates
+
+### ✨ نظام الشروحات الذكي / Smart Explanation System
+
+**تم إضافة نظام شامل لشرح الإجابات بناءً على قواعد اللغة الإنجليزية!**
+
+**A comprehensive explanation system has been added based on English grammar rules!**
+
+#### المميزات الجديدة / New Features:
+
+1. **📚 القاعدة النحوية / Grammar Rule**
+   - عرض القاعدة المُختبرة في كل سؤال
+   - Display the grammar rule being tested in each question
+
+2. **✅ شرح الإجابة الصحيحة / Correct Answer Explanation**
+   - لماذا الإجابة صحيحة بناءً على القواعد
+   - Why the answer is correct based on grammar rules
+
+3. **❌ شرح الإجابات الخاطئة / Wrong Answers Explanation**
+   - لماذا كل خيار خاطئ مع التفاصيل
+   - Why each option is wrong with details
+
+4. **🌐 شروحات ثنائية اللغة / Bilingual Explanations**
+   - جميع الشروحات بالعربية والإنجليزية
+   - All explanations in Arabic and English
+
+5. **📖 قواعد معتمدة / Standard Rules**
+   - جميع الشروحات مبنية على قواعد اللغة الإنجليزية المعتمدة
+   - All explanations based on standard English grammar rules
+
+6. **🎨 تصميم مرئي واضح / Clear Visual Design**
+   - ألوان مميزة لكل نوع من الشروحات
+   - Distinctive colors for each type of explanation
+
+---
+
+## ✨ المميزات الأساسية / Core Features
 
 ### 1. واجهة البداية / Start Interface
 - اختيار عدد الأسئلة من خيارات محددة مسبقاً (10، 20، 30، 40، 50، أو الكل)
@@ -21,9 +57,13 @@ An interactive web application for English language quizzes built entirely with 
 ### 3. التفاعل مع الأسئلة / Question Interaction
 - ✅ الإجابة الصحيحة تظهر باللون الأخضر
 - ❌ الإجابة الخاطئة تظهر باللون الأحمر
+- 📝 **جديد:** شرح تفصيلي فوري لكل إجابة
+- 📚 **جديد:** عرض القاعدة النحوية المُختبرة
 - إمكانية الإجابة على كل سؤال مرة واحدة فقط
 - Correct answers highlighted in green
 - Wrong answers highlighted in red
+- **NEW:** Instant detailed explanation for each answer
+- **NEW:** Display of the grammar rule being tested
 - Each question can only be answered once
 
 ### 4. التنقل بين الأسئلة / Navigation
@@ -88,11 +128,13 @@ An interactive web application for English language quizzes built entirely with 
 
 ```
 exam/
-├── index.html          # الملف الرئيسي / Main HTML file
-├── styles.css          # ملف التصميم / Styling file
-├── script.js           # ملف البرمجة / JavaScript functionality
-├── question.json       # ملف الأسئلة / Questions database
-└── README.md          # هذا الملف / This file
+├── index.html              # الملف الرئيسي / Main HTML file
+├── styles.css              # ملف التصميم / Styling file
+├── script.js               # ملف البرمجة / JavaScript functionality
+├── question.json           # ملف الأسئلة مع الشروحات / Questions with explanations
+├── EXPLANATION_GUIDE.md    # دليل نظام الشروحات / Explanation system guide
+├── generate_explanations.py # سكريبت لإضافة الشروحات / Script for adding explanations
+└── README.md               # هذا الملف / This file
 ```
 
 ## 🎨 التصميم / Design
@@ -120,16 +162,29 @@ You can add new questions by editing the `question.json` file:
 {
   "question": "سؤالك هنا / Your question here",
   "answers": [
-    { "text": "خيار 1 / Option 1" },
-    { "text": "خيار 2 / Option 2", "correct": 1 },
-    { "text": "خيار 3 / Option 3" },
-    { "text": "خيار 4 / Option 4" }
-  ]
+    { "text": "A) خيار 1 / Option 1" },
+    { "text": "B) خيار 2 / Option 2", "correct": 1 },
+    { "text": "C) خيار 3 / Option 3" },
+    { "text": "D) خيار 4 / Option 4" }
+  ],
+  "explanation": {
+    "rule": "القاعدة النحوية / Grammar Rule",
+    "correct_answer": "B) خيار 2 / Option 2",
+    "why_correct": "شرح لماذا هذه الإجابة صحيحة\n\nExplanation why this is correct",
+    "why_others_wrong": {
+      "A": "شرح لماذا A خاطئ\n\nWhy A is wrong",
+      "C": "شرح لماذا C خاطئ\n\nWhy C is wrong",
+      "D": "شرح لماذا D خاطئ\n\nWhy D is wrong"
+    }
+  }
 }
 ```
 
 **ملاحظة:** أضف `"correct": 1` للإجابة الصحيحة فقط
 **Note:** Add `"correct": 1` only to the correct answer
+
+**جديد:** أضف حقل `explanation` لكل سؤال لتوفير شروحات تفصيلية
+**NEW:** Add `explanation` field for each question to provide detailed explanations
 
 ### تغيير الألوان / Changing Colors
 

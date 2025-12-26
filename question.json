@@ -1,12 +1,22 @@
 [
   {
-    "question": "1. A: I don’t want to talk to _____.               B: And I want to talk to _____ either.",
+    "question": "1. A: I don't want to talk to _____.               B: And I want to talk to _____ either.",
     "answers": [
-      { "text": "A) anyone / no one" },
+      { "text": "A) anyone / no one", "correct": 1 },
       { "text": "B) somebody/everyone" },
-      { "text": "C) nobody / somebody", "correct": 1 },
+      { "text": "C) nobody / somebody" },
       { "text": "D) everybody/anybody" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Indefinite Pronouns in Negative Sentences",
+      "correct_answer": "A) anyone / no one",
+      "why_correct": "في الجمل المنفية (don't want)، نستخدم 'anyone' وليس 'nobody'. كلمة 'either' تُستخدم في الجمل المنفية، لذا نحتاج 'no one' في الفراغ الثاني.\n\nIn negative sentences (don't want), we use 'anyone' not 'nobody'. The word 'either' is used in negative contexts, so we need 'no one' in the second blank.",
+      "why_others_wrong": {
+        "B": "خطأ: 'somebody' و 'everyone' لا تُستخدم في الجمل المنفية.\nWrong: 'somebody' and 'everyone' are not used in negative sentences.",
+        "C": "خطأ: 'nobody' يخلق نفي مزدوج مع 'don't'. الصحيح استخدام 'anyone'.\nWrong: 'nobody' creates a double negative with 'don't'. Correct form uses 'anyone'.",
+        "D": "خطأ: 'everybody' لا يتناسب مع السياق السلبي.\nWrong: 'everybody' doesn't fit the negative context."
+      }
+    }
   },
   {
     "question": "2.  I work in _____ company that makes _____ carpets.",
@@ -15,7 +25,17 @@
       { "text": "B) the / the" },
       { "text": "C) the /X" },
       { "text": "D) a / a" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Articles: Indefinite Article with Countable Nouns",
+      "correct_answer": "A) a / X",
+      "why_correct": "نستخدم 'a' قبل 'company' لأنها مفرد قابل للعد وغير محددة. لا نستخدم أداة تعريف قبل 'carpets' لأنها جمع عام.\n\nWe use 'a' before 'company' because it's a singular countable noun. We don't use an article before 'carpets' because it's a general plural.",
+      "why_others_wrong": {
+        "B": "خطأ: 'the' يعني شركة محددة معروفة.\nWrong: 'the' implies a specific known company.",
+        "C": "خطأ: نفس المشكلة - الشركة غير محددة.\nWrong: Same issue - the company is not specific.",
+        "D": "خطأ: لا نستخدم 'a' قبل الأسماء الجمع.\nWrong: We don't use 'a' before plural nouns."
+      }
+    }
   },
   {
     "question": "3. There are _____ apples.",
@@ -24,16 +44,36 @@
       { "text": "B) a lot of", "correct": 1 },
       { "text": "C) a little" },
       { "text": "D) much" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Quantifiers with Countable Nouns",
+      "correct_answer": "B) a lot of",
+      "why_correct": "'A lot of' تُستخدم مع الأسماء القابلة للعد (apples) للتعبير عن كمية كبيرة.\n\n'A lot of' is used with countable nouns (apples) to express a large quantity.",
+      "why_others_wrong": {
+        "A": "خطأ: 'most' تحتاج إلى 'of the'.\nWrong: 'most' needs 'of the'.",
+        "C": "خطأ: 'a little' للأسماء غير القابلة للعد.\nWrong: 'a little' is for uncountable nouns.",
+        "D": "خطأ: 'much' للأسماء غير القابلة للعد.\nWrong: 'much' is for uncountable nouns."
+      }
+    }
   },
   {
-    "question": "4. They arrived _____ three o’clock _____ the afternoon.",
+    "question": "4. They arrived _____ three o'clock _____ the afternoon.",
     "answers": [
       { "text": "A) at / in", "correct": 1 },
       { "text": "B) in / for" },
       { "text": "C) when / ago" },
       { "text": "D) last / *" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Prepositions of Time",
+      "correct_answer": "A) at / in",
+      "why_correct": "نستخدم 'at' مع الوقت المحدد و 'in' مع أجزاء اليوم.\n\nWe use 'at' with specific times and 'in' with parts of the day.",
+      "why_others_wrong": {
+        "B": "خطأ: 'in' لا تُستخدم مع الوقت المحدد.\nWrong: 'in' is not used with specific times.",
+        "C": "خطأ: ليست حروف جر مناسبة.\nWrong: Not appropriate prepositions.",
+        "D": "خطأ: 'last' ظرف زمني لا يُستخدم هنا.\nWrong: 'last' is a time adverb not used here."
+      }
+    }
   },
   {
     "question": "5. I _____ a friend while I _____ the shopping",
@@ -42,16 +82,36 @@
       { "text": "B) met / was doing", "correct": 1 },
       { "text": "C) meet / do" },
       { "text": "D) met / did" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple vs Past Continuous",
+      "correct_answer": "B) met / was doing",
+      "why_correct": "Past Simple للحدث المفاجئ، Past Continuous للحدث المستمر.\n\nPast Simple for sudden action, Past Continuous for ongoing action.",
+      "why_others_wrong": {
+        "A": "خطأ: 'was meeting' يعني موعد مسبق.\nWrong: 'was meeting' implies a planned meeting.",
+        "C": "خطأ: زمن المضارع لا يتناسب.\nWrong: Present tense doesn't fit.",
+        "D": "خطأ: لا يُظهر الاستمرارية.\nWrong: Doesn't show continuity."
+      }
+    }
   },
   {
-    "question": "6. I _____ hello to the children, but they didn’t say anything because they _____ television.",
+    "question": "6. I _____ hello to the children, but they didn't say anything because they _____ television.",
     "answers": [
       { "text": "A) say / watched" },
       { "text": "B) said / were watching", "correct": 1 },
       { "text": "C) was / saying" },
       { "text": "D) said / watched" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "B) said / were watching",
+      "why_correct": "'Said' للحدث المكتمل، 'were watching' لوصف ما كان يحدث.\n\n'Said' for completed action, 'were watching' to describe ongoing action.",
+      "why_others_wrong": {
+        "A": "خطأ: 'say' مضارع لا يناسب.\nWrong: 'say' is present tense.",
+        "C": "خطأ: غير صحيح نحوياً.\nWrong: Grammatically incorrect.",
+        "D": "خطأ: لا يُظهر الاستمرارية.\nWrong: Doesn't show continuity."
+      }
+    }
   },
   {
     "question": "7. The man ______ you met at the party was a famous film star.",
@@ -60,16 +120,36 @@
       { "text": "B) when" },
       { "text": "C) where" },
       { "text": "D) which" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Relative Pronouns for People",
+      "correct_answer": "A) who",
+      "why_correct": "'Who' للإشارة إلى الأشخاص.\n\n'Who' for referring to people.",
+      "why_others_wrong": {
+        "B": "خطأ: 'when' للوقت.\nWrong: 'when' for time.",
+        "C": "خطأ: 'where' للأماكن.\nWrong: 'where' for places.",
+        "D": "خطأ: 'which' للأشياء.\nWrong: 'which' for things."
+      }
+    }
   },
   {
-    "question": "8. She’s _____ than her sister.",
+    "question": "8. She's _____ than her sister.",
     "answers": [
       { "text": "A) much nicer", "correct": 1 },
       { "text": "B) more nicer" },
       { "text": "C) much more nicer" },
       { "text": "D) more nicer" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Comparative Adjectives",
+      "correct_answer": "A) much nicer",
+      "why_correct": "الصفات القصيرة تأخذ '-er'. نستخدم 'much' للتكثيف.\n\nShort adjectives take '-er'. We use 'much' for emphasis.",
+      "why_others_wrong": {
+        "B": "خطأ: لا نجمع 'more' مع '-er'.\nWrong: Don't combine 'more' with '-er'.",
+        "C": "خطأ: خطأ مزدوج.\nWrong: Double error.",
+        "D": "خطأ: نفس خطأ B.\nWrong: Same as B."
+      }
+    }
   },
   {
     "question": "9. How much must I ............... a good second-hand car?",
@@ -79,7 +159,18 @@
       { "text": "C) borrow from" },
       { "text": "D) own for" },
       { "text": "E) lend to" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Phrasal Verbs - Pay for",
+      "correct_answer": "B) pay for",
+      "why_correct": "'Pay for' للسؤال عن السعر.\n\n'Pay for' to ask about price.",
+      "why_others_wrong": {
+        "A": "خطأ: يسأل عن المصدر.\nWrong: Asks about source.",
+        "C": "خطأ: الاستعارة المؤقتة.\nWrong: Temporary loan.",
+        "D": "خطأ: لا يُستخدم للسعر.\nWrong: Not used for price.",
+        "E": "خطأ: الإقراض.\nWrong: To loan out."
+      }
+    }
   },
   {
     "question": "10. It's getting quite ______. I think it's going to rain soon.",
@@ -89,7 +180,18 @@
       { "text": "C) foggy" },
       { "text": "D) cold" },
       { "text": "E) cloudy", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Weather Vocabulary",
+      "correct_answer": "E) cloudy",
+      "why_correct": "الغيوم تسبق المطر.\n\nClouds precede rain.",
+      "why_others_wrong": {
+        "A": "خطأ: الرياح لا تعني مطراً.\nWrong: Wind doesn't mean rain.",
+        "B": "خطأ: الحرارة لا تتناسب.\nWrong: Heat doesn't fit.",
+        "C": "خطأ: الضباب نادراً مع المطر.\nWrong: Fog rarely with rain.",
+        "D": "خطأ: البرودة وحدها لا تشير للمطر.\nWrong: Cold alone doesn't indicate rain."
+      }
+    }
   },
   {
     "question": "11. The ............... today is full of the news of yesterday's concert.",
@@ -99,7 +201,18 @@
       { "text": "C) reporter" },
       { "text": "D) literature" },
       { "text": "E) journalism" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Collective Nouns - Media",
+      "correct_answer": "A) press",
+      "why_correct": "'The press' يعني الصحافة جماعياً.\n\n'The press' means journalism collectively.",
+      "why_others_wrong": {
+        "B": "خطأ: شخص أو شركة.\nWrong: Person or company.",
+        "C": "خطأ: صحفي واحد.\nWrong: One journalist.",
+        "D": "خطأ: الأدب.\nWrong: Literary works.",
+        "E": "خطأ: المهنة.\nWrong: The profession."
+      }
+    }
   },
   {
     "question": "12. It's a very ............... picture. I laugh at it all the time.",
@@ -109,7 +222,18 @@
       { "text": "C) joking" },
       { "text": "D) funny", "correct": 1 },
       { "text": "E) serious" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Adjectives - Describing Effect",
+      "correct_answer": "D) funny",
+      "why_correct": "'Funny' صفة تصف شيئاً مضحكاً.\n\n'Funny' describes something humorous.",
+      "why_others_wrong": {
+        "A": "خطأ: فعل/صفة فاعل.\nWrong: Verb/active participle.",
+        "B": "خطأ: فعل.\nWrong: Verb.",
+        "C": "خطأ: فعل.\nWrong: Verb.",
+        "E": "خطأ: عكس المعنى.\nWrong: Opposite meaning."
+      }
+    }
   },
   {
     "question": "13. Nobody gave him a hand. He did it on his ______.",
@@ -119,7 +243,18 @@
       { "text": "C) alone" },
       { "text": "D) own", "correct": 1 },
       { "text": "E) lonely" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Idiomatic Expression - On one's own",
+      "correct_answer": "D) own",
+      "why_correct": "'On his own' تعبير اصطلاحي يعني بمفرده.\n\n'On his own' idiom means by himself.",
+      "why_others_wrong": {
+        "A": "خطأ: ليس تعبيراً صحيحاً.\nWrong: Not correct expression.",
+        "B": "خطأ: الصحيح 'by himself'.\nWrong: Correct is 'by himself'.",
+        "C": "خطأ: بدون 'his'.\nWrong: Without 'his'.",
+        "E": "خطأ: الشعور بالوحدة.\nWrong: Feeling alone."
+      }
+    }
   },
   {
     "question": "14. Yes, we certainly want to move to a bigger house, but our ............... of money is only part of the problem.",
@@ -129,7 +264,18 @@
       { "text": "C) shortage", "correct": 1 },
       { "text": "D) absence" },
       { "text": "E) border" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Collocations",
+      "correct_answer": "C) shortage",
+      "why_correct": "'Shortage of money' يعني نقص المال.\n\n'Shortage of money' means lack of money.",
+      "why_others_wrong": {
+        "A": "خطأ: التضخم.\nWrong: Inflation.",
+        "B": "خطأ: وجود المال (عكس).\nWrong: Presence (opposite).",
+        "D": "خطأ: التعبير الصحيح 'shortage'.\nWrong: Correct term is 'shortage'.",
+        "E": "خطأ: حدود.\nWrong: Border."
+      }
+    }
   },
   {
     "question": "15. Sorry, it's much too expensive for me; I can't ............... it.",
@@ -139,7 +285,18 @@
       { "text": "C) forgive" },
       { "text": "D) export" },
       { "text": "E) afford", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Modal Verbs - Can't afford",
+      "correct_answer": "E) afford",
+      "why_correct": "'Can't afford' لا أستطيع تحمل التكلفة.\n\n'Can't afford' means cannot bear the cost.",
+      "why_others_wrong": {
+        "A": "خطأ: سياق مختلف.\nWrong: Different context.",
+        "B": "خطأ: لا أحتمل (ليس مالياً).\nWrong: Can't tolerate (not financial).",
+        "C": "خطأ: يسامح.\nWrong: Pardon.",
+        "D": "خطأ: يصدّر.\nWrong: To export."
+      }
+    }
   },
   {
     "question": "16. His friends advised him to see a doctor about his headaches, but he ............... to listen to them.",
@@ -149,7 +306,18 @@
       { "text": "C) memorized" },
       { "text": "D) requested" },
       { "text": "E) mentioned" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Verb Choice - Refuse to",
+      "correct_answer": "B) refused",
+      "why_correct": "'Refused to listen' رفض الاستماع.\n\n'Refused to listen' means declined to hear.",
+      "why_others_wrong": {
+        "A": "خطأ: تذكّر.\nWrong: Remembered.",
+        "C": "خطأ: حفظ.\nWrong: Memorized.",
+        "D": "خطأ: طلب.\nWrong: Requested.",
+        "E": "خطأ: ذكر.\nWrong: Mentioned."
+      }
+    }
   },
   {
     "question": "17. The Prime Minister of Italy ____ .",
@@ -158,7 +326,17 @@
       { "text": "B) have resigned" },
       { "text": "C) resigned" },
       { "text": "D) has resigned", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Present Perfect - Recent Actions",
+      "correct_answer": "D) has resigned",
+      "why_correct": "Present Perfect للأحداث الحديثة.\n\nPresent Perfect for recent events.",
+      "why_others_wrong": {
+        "A": "خطأ: لا يُستخدم مبني للمجهول.\nWrong: Not used in passive.",
+        "B": "خطأ: 'have' للجمع.\nWrong: 'have' for plural.",
+        "C": "خطأ: Present Perfect أفضل.\nWrong: Present Perfect better."
+      }
+    }
   },
   {
     "question": "18. A new prime minister _____ .",
@@ -167,7 +345,17 @@
       { "text": "B) has been elected", "correct": 1 },
       { "text": "C) have elected" },
       { "text": "D) elected" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Present Perfect Passive",
+      "correct_answer": "B) has been elected",
+      "why_correct": "المبني للمجهول: has been + past participle.\n\nPassive: has been + past participle.",
+      "why_others_wrong": {
+        "A": "خطأ: ينقصه 'been'.\nWrong: Missing 'been'.",
+        "C": "خطأ: 'have' للجمع.\nWrong: 'have' for plural.",
+        "D": "خطأ: لا يناسب السياق.\nWrong: Doesn't fit context."
+      }
+    }
   },
   {
     "question": "19. The Italian people ____ of his resignation on television yesterday evening.",
@@ -176,7 +364,17 @@
       { "text": "B) have been told" },
       { "text": "C) told" },
       { "text": "D) were told", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple Passive",
+      "correct_answer": "D) were told",
+      "why_correct": "ماضي بسيط مبني للمجهول مع 'yesterday'.\n\nPast Simple Passive with 'yesterday'.",
+      "why_others_wrong": {
+        "A": "خطأ: 'people' جمع.\nWrong: 'people' is plural.",
+        "B": "خطأ: لا يُستخدم مع 'yesterday'.\nWrong: Not used with 'yesterday'.",
+        "C": "خطأ: مبني للمعلوم.\nWrong: Active voice."
+      }
+    }
   },
   {
     "question": "20. I _____ my glasses. _____ them anywhere?",
@@ -185,16 +383,37 @@
       { "text": "B) lost / Have you seen" },
       { "text": "C) have lost / Did you see", "correct": 1 },
       { "text": "D) lost / Did you see" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Present Perfect vs Past Simple",
+      "correct_answer": "B) have lost / Have you seen",
+      "why_correct": "Present Perfect للنتيجة الحالية.\n\nPresent Perfect for current result.",
+      "why_others_wrong": {
+        "A": "خطأ: مبني للمجهول غير مناسب.\nWrong: Passive inappropriate.",
+        "C": "خطأ: السؤال عن خبرة عامة.\nWrong: Question about general experience.",
+        "D": "خطأ: لا يُظهر النتيجة.\nWrong: Doesn't show result."
+      },
+      "note": "الإجابة الصحيحة هي B"
+    }
   },
   {
-    "question": "21. What noisy neighbors you’ve got! If my neighbors _____ as bad as yours, I _____ crazy.",
+    "question": "21. What noisy neighbors you've got! If my neighbors _____ as bad as yours, I _____ crazy.",
     "answers": [
       { "text": "A) were / would go", "correct": 1 },
       { "text": "B) are / will go" },
       { "text": "C) are / would go" },
       { "text": "D) had been / would have gone" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Second Conditional",
+      "correct_answer": "A) were / would go",
+      "why_correct": "جملة شرطية ثانية: If + past, would + verb.\n\nSecond conditional: If + past, would + verb.",
+      "why_others_wrong": {
+        "B": "خطأ: جملة أولى (واقعية).\nWrong: First conditional (real).",
+        "C": "خطأ: لا نجمع 'are' مع 'would'.\nWrong: Don't mix 'are' with 'would'.",
+        "D": "خطأ: جملة ثالثة.\nWrong: Third conditional."
+      }
+    }
   },
   {
     "question": "22. _____ Friday evening we went to a party.",
@@ -203,25 +422,55 @@
       { "text": "B) In" },
       { "text": "C) On", "correct": 1 },
       { "text": "D) x" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Prepositions of Time",
+      "correct_answer": "C) On",
+      "why_correct": "'On' مع الأيام وأجزائها.\n\n'On' with days and their parts.",
+      "why_others_wrong": {
+        "A": "خطأ: 'At' للأوقات المحددة.\nWrong: 'At' for specific times.",
+        "B": "خطأ: 'In' للأجزاء العامة.\nWrong: 'In' for general parts.",
+        "D": "خطأ: يحتاج حرف جر.\nWrong: Needs preposition."
+      }
+    }
   },
   {
-    "question": "23. I’d love _____ help you, but I can’t. I’m sorry.",
+    "question": "23. I'd love _____ help you, but I can't. I'm sorry.",
     "answers": [
       { "text": "A) can" },
       { "text": "B) could" },
       { "text": "C) managed to" },
       { "text": "D) to be able to", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Infinitive after 'would love'",
+      "correct_answer": "D) to be able to",
+      "why_correct": "بعد 'would love' نستخدم infinitive.\n\nAfter 'would love' we use infinitive.",
+      "why_others_wrong": {
+        "A": "خطأ: لا يأتي بعد 'to'.\nWrong: Doesn't come after 'to'.",
+        "B": "خطأ: لا يأتي بعد 'to'.\nWrong: Doesn't come after 'to'.",
+        "C": "خطأ: لا يتناسب مع 'but I can't'.\nWrong: Doesn't fit with 'but I can't'."
+      }
+    }
   },
   {
-    "question": "24. Give me Peter’s letter. If I _____ him, I _____ it to him.",
+    "question": "24. Give me Peter's letter. If I _____ him, I _____ it to him.",
     "answers": [
       { "text": "A) see-will give" },
       { "text": "B) saw-would give", "correct": 1 },
       { "text": "C) meet-would visit" },
       { "text": "D) had seen- would give" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Second Conditional",
+      "correct_answer": "B) saw - would give",
+      "why_correct": "جملة شرطية ثانية افتراضية.\n\nSecond conditional hypothetical.",
+      "why_others_wrong": {
+        "A": "خطأ: جملة أولى.\nWrong: First conditional.",
+        "C": "خطأ: 'visit' لا يناسب.\nWrong: 'visit' doesn't fit.",
+        "D": "خطأ: جملة ثالثة.\nWrong: Third conditional."
+      }
+    }
   },
   {
     "question": "25. Do you really ............... to go there tonight?",
@@ -231,7 +480,18 @@
       { "text": "C) ignore" },
       { "text": "D) involve" },
       { "text": "E) intend", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Verb Collocations",
+      "correct_answer": "E) intend",
+      "why_correct": "'Intend to' يعني تنوي.\n\n'Intend to' means plan to.",
+      "why_others_wrong": {
+        "A": "خطأ: يهمل.\nWrong: Neglect.",
+        "B": "خطأ: يعجب بـ.\nWrong: Admire.",
+        "C": "خطأ: يتجاهل.\nWrong: Ignore.",
+        "D": "خطأ: يشمل.\nWrong: Include."
+      }
+    }
   },
   {
     "question": "26. You'll have to learn to control your ............... if you still want to work here with us.",
@@ -241,7 +501,18 @@
       { "text": "C) reason" },
       { "text": "D) habit" },
       { "text": "E) mentality" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Collocation - Control temper",
+      "correct_answer": "B) temper",
+      "why_correct": "'Control your temper' السيطرة على غضبك.\n\n'Control your temper' manage your anger.",
+      "why_others_wrong": {
+        "A": "خطأ: ليس التعبير المناسب.\nWrong: Not appropriate expression.",
+        "C": "خطأ: العقل.\nWrong: Reason/logic.",
+        "D": "خطأ: عادة.\nWrong: Habit.",
+        "E": "خطأ: طريقة التفكير.\nWrong: Mindset."
+      }
+    }
   },
   {
     "question": "27. I have some wonderful news to ............... you.",
@@ -251,7 +522,18 @@
       { "text": "C) tell", "correct": 1 },
       { "text": "D) talk" },
       { "text": "E) communicate" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Verb Usage - Tell",
+      "correct_answer": "C) tell",
+      "why_correct": "'Tell' مع مفعولين.\n\n'Tell' with two objects.",
+      "why_others_wrong": {
+        "A": "خطأ: يحتاج 'to'.\nWrong: Needs 'to'.",
+        "B": "خطأ: يحتاج 'to you'.\nWrong: Needs 'to you'.",
+        "D": "خطأ: يحتاج 'to'.\nWrong: Needs 'to'.",
+        "E": "خطأ: أقل مباشرة.\nWrong: Less direct."
+      }
+    }
   },
   {
     "question": "28. Would you ............... my keeping the door ajar?",
@@ -261,7 +543,18 @@
       { "text": "C) obstruct" },
       { "text": "D) close" },
       { "text": "E) mind", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Polite Request - Would you mind",
+      "correct_answer": "E) mind",
+      "why_correct": "'Would you mind' طريقة مهذبة.\n\n'Would you mind' polite request.",
+      "why_others_wrong": {
+        "A": "خطأ: يحتاج 'to'.\nWrong: Needs 'to'.",
+        "B": "خطأ: لا يُستخدم هنا.\nWrong: Not used here.",
+        "C": "خطأ: يعيق.\nWrong: Obstruct.",
+        "D": "خطأ: فعل لا يناسب.\nWrong: Action verb."
+      }
+    }
   },
   {
     "question": "29. I noticed that there were two buttons ................ from his coat.",
@@ -271,7 +564,18 @@
       { "text": "C) departing" },
       { "text": "D) dropping" },
       { "text": "E) missing", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Adjective - Missing",
+      "correct_answer": "E) missing",
+      "why_correct": "'Missing' مفقود.\n\n'Missing' means absent.",
+      "why_others_wrong": {
+        "A": "خطأ: تسقط.\nWrong: Falling.",
+        "B": "خطأ: فعل نشط.\nWrong: Active verb.",
+        "C": "خطأ: تغادر.\nWrong: Departing.",
+        "D": "خطأ: تسقط الآن.\nWrong: Dropping now."
+      }
+    }
   },
   {
     "question": "30. The main road through Oxford circus and Holborn was blocked all day yesterday due to an accident ............... two lorries (trucks).",
@@ -281,7 +585,18 @@
       { "text": "C) involving", "correct": 1 },
       { "text": "D) including" },
       { "text": "E) combining" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Participle - Involving",
+      "correct_answer": "C) involving",
+      "why_correct": "'Involving' يتضمن (للحوادث).\n\n'Involving' concerning (for accidents).",
+      "why_others_wrong": {
+        "A": "خطأ: يحتوي.\nWrong: Contains.",
+        "B": "خطأ: يثبّت.\nWrong: Fastening.",
+        "D": "خطأ: 'involving' أدق.\nWrong: 'involving' more precise.",
+        "E": "خطأ: يدمج.\nWrong: Combining."
+      }
+    }
   },
   {
     "question": "31. The doctors tried everything they could to ............ the patient's blood pressure.",
@@ -291,7 +606,18 @@
       { "text": "C) clarify" },
       { "text": "D) hasten" },
       { "text": "E) climb" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Medical Context",
+      "correct_answer": "B) reduce",
+      "why_correct": "'Reduce' يعني يخفض/يقلل - مناسب لضغط الدم.\n\n'Reduce' means lower/decrease - appropriate for blood pressure.",
+      "why_others_wrong": {
+        "A": "خطأ: 'produce' ينتج - لا يُستخدم لخفض ضغط الدم.\nWrong: 'produce' means create - not used for lowering blood pressure.",
+        "C": "خطأ: 'clarify' يوضح - لا علاقة بضغط الدم.\nWrong: 'clarify' means explain - unrelated to blood pressure.",
+        "D": "خطأ: 'hasten' يسرّع - عكس المطلوب.\nWrong: 'hasten' means speed up - opposite of needed.",
+        "E": "خطأ: 'climb' يرتفع - عكس المطلوب.\nWrong: 'climb' means rise - opposite of needed."
+      }
+    }
   },
   {
     "question": "32. His new appointment takes ............. from the beginning of next month.",
@@ -301,1089 +627,1338 @@
       { "text": "C) post" },
       { "text": "D) part" },
       { "text": "E) position" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Take place",
+      "correct_answer": "A) place",
+      "why_correct": "'Takes place' يعني يحدث/يبدأ.\n\n'Takes place' means happens/begins.",
+      "why_others_wrong": {
+        "B": "خطأ: 'take effect' للقوانين والقواعد.\nWrong: 'take effect' for laws and rules.",
+        "C": "خطأ: 'post' منصب، لا يُستخدم مع 'take'.\nWrong: 'post' is position, not used with 'take'.",
+        "D": "خطأ: 'take part' يشارك في.\nWrong: 'take part' means participate in.",
+        "E": "خطأ: 'position' لا يُستخدم مع 'take' بهذا المعنى.\nWrong: 'position' not used with 'take' in this sense."
+      }
+    }
   },
   {
-    "question": "32. It needed the collective genius of mankind to ............ the wheel.",
+    "question": "33. It needed the collective genius of mankind to ............ the wheel.",
     "answers": [
       { "text": "A) discover" },
       { "text": "B) constitute" },
       { "text": "C) find" },
       { "text": "D) perform" },
       { "text": "E) invent", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Invent vs Discover",
+      "correct_answer": "E) invent",
+      "why_correct": "'Invent' لإبداع شيء جديد. 'Discover' لاكتشاف موجود.\n\n'Invent' for creating something new. 'Discover' for finding existing things.",
+      "why_others_wrong": {
+        "A": "خطأ: 'discover' للأشياء الموجودة مسبقاً.\nWrong: 'discover' for things that already exist.",
+        "B": "خطأ: 'constitute' يشكّل، لا يناسب.\nWrong: 'constitute' means form, doesn't fit.",
+        "C": "خطأ: 'find' يجد شيئاً موجوداً.\nWrong: 'find' for locating existing things.",
+        "D": "خطأ: 'perform' ينفّذ، لا يناسب.\nWrong: 'perform' means execute, doesn't fit."
+      }
+    }
   },
   {
-    "question": "33. Ann ___ that she ___ the visitor before.",
+    "question": "34. Ann ___ that she ___ the visitor before.",
     "answers": [
       { "text": "A) thought / saw" },
       { "text": "B) thinks / sees" },
       { "text": "C) is thinking / sees" },
       { "text": "D) thought / had seen", "correct": 1 },
       { "text": "E) have thought / had seen" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Perfect - Prior Past Action",
+      "correct_answer": "D) thought / had seen",
+      "why_correct": "'Thought' (ماضي) و 'had seen' (ماضي تام) للحدث الأسبق.\n\n'Thought' (past) and 'had seen' (past perfect) for earlier action.",
+      "why_others_wrong": {
+        "A": "خطأ: 'saw' لا يُظهر أن الرؤية حدثت قبل التفكير.\nWrong: 'saw' doesn't show seeing happened before thinking.",
+        "B": "خطأ: زمن مضارع لا يناسب السياق.\nWrong: Present tense doesn't fit context.",
+        "C": "خطأ: مضارع مستمر لا يناسب.\nWrong: Present continuous doesn't fit.",
+        "E": "خطأ: 'have thought' لا يناسب السياق الماضي.\nWrong: 'have thought' doesn't fit past context."
+      }
+    }
   },
   {
-    "question": "34. As it ___ dark we ___ to go home.",
+    "question": "35. As it ___ dark we ___ to go home.",
     "answers": [
       { "text": "A) gets / decided" },
       { "text": "B) would get / shall decide" },
       { "text": "C) had got / have decided" },
       { "text": "D) was getting / decided", "correct": 1 },
       { "text": "E) will be getting / had decided" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Continuous and Past Simple",
+      "correct_answer": "D) was getting / decided",
+      "why_correct": "ماضي مستمر للتدرج، ماضي بسيط للقرار.\n\nPast continuous for gradual change, past simple for decision.",
+      "why_others_wrong": {
+        "A": "خطأ: 'gets' مضارع لا يناسب.\nWrong: 'gets' present doesn't fit.",
+        "B": "خطأ: أزمنة مستقبلية لا تناسب.\nWrong: Future tenses don't fit.",
+        "C": "خطأ: ماضي تام وحاضر تام لا يتناسبان.\nWrong: Past perfect and present perfect don't fit together.",
+        "E": "خطأ: مستقبل وماضي تام لا يتناسبان.\nWrong: Future and past perfect don't fit together."
+      }
+    }
   },
   {
-    "question": "35. He ___ looking at her, wondering where he ___ her",
+    "question": "36. He ___ looking at her, wondering where he ___ her",
     "answers": [
       { "text": "A) keep / see" },
       { "text": "B) kept / had seen", "correct": 1 },
       { "text": "C) keeps / saw" },
       { "text": "D) had kept / had seen" },
       { "text": "E) being kept / would see" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Perfect",
+      "correct_answer": "B) kept / had seen",
+      "why_correct": "'Kept' للحدث الماضي، 'had seen' للحدث الأسبق.\n\n'Kept' for past event, 'had seen' for earlier event.",
+      "why_others_wrong": {
+        "A": "خطأ: 'keep' و 'see' مضارع.\nWrong: 'keep' and 'see' are present.",
+        "C": "خطأ: 'keeps' مضارع.\nWrong: 'keeps' is present.",
+        "D": "خطأ: 'had kept' يشير أن النظر حدث قبل شيء آخر.\nWrong: 'had kept' suggests looking happened before something else.",
+        "E": "خطأ: 'being kept' مبني للمجهول لا يناسب.\nWrong: 'being kept' passive doesn't fit."
+      }
+    }
   },
   {
-    "question": "36. They ___ to get married last month although they ___ each other for only six weeks.",
+    "question": "37. They ___ to get married last month although they ___ each other for only six weeks.",
     "answers": [
       { "text": "A) decide / know" },
       { "text": "B) decided / know" },
       { "text": "C) decided / had known", "correct": 1 },
       { "text": "D) decided / knew" },
       { "text": "E) decided / has known" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Perfect for Duration Before Past Event",
+      "correct_answer": "C) decided / had known",
+      "why_correct": "'Decided' للقرار، 'had known' للمدة السابقة.\n\n'Decided' for decision, 'had known' for prior duration.",
+      "why_others_wrong": {
+        "A": "خطأ: 'decide' و 'know' مضارع.\nWrong: 'decide' and 'know' are present.",
+        "B": "خطأ: 'know' مضارع.\nWrong: 'know' is present.",
+        "D": "خطأ: 'knew' لا يُظهر المدة السابقة بوضوح.\nWrong: 'knew' doesn't clearly show prior duration.",
+        "E": "خطأ: 'has known' حاضر تام لا يناسب.\nWrong: 'has known' present perfect doesn't fit."
+      }
+    }
   },
   {
-    "question": "37. ___ the weather good when you ___ tennis?",
+    "question": "38. ___ the weather good when you ___ tennis?",
     "answers": [
       { "text": "A) is / played" },
       { "text": "B) was / were playing", "correct": 1 },
       { "text": "C) will be / played" },
       { "text": "D) is / will be playing" },
       { "text": "E) has been / will play" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "B) was / were playing",
+      "why_correct": "ماضي بسيط للحالة، ماضي مستمر للنشاط.\n\nPast simple for condition, past continuous for activity.",
+      "why_others_wrong": {
+        "A": "خطأ: 'is' مضارع لا يناسب 'played'.\nWrong: 'is' present doesn't match 'played'.",
+        "C": "خطأ: 'will be' مستقبل لا يناسب 'played'.\nWrong: 'will be' future doesn't match 'played'.",
+        "D": "خطأ: 'is' و 'will be playing' أزمنة لا تتناسب.\nWrong: 'is' and 'will be playing' tenses don't match.",
+        "E": "خطأ: 'has been' و 'will play' لا يتناسبان.\nWrong: 'has been' and 'will play' don't match."
+      }
+    }
   },
   {
-    "question": "38. When he ___ to the station the train already ___ .",
+    "question": "39. When he ___ to the station the train already ___ .",
     "answers": [
       { "text": "A) comes / left" },
       { "text": "B) came / leaves" },
       { "text": "C) came / had left", "correct": 1 },
       { "text": "D) had come / left" },
       { "text": "E) has come / leaves" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Perfect - Action Before Past",
+      "correct_answer": "C) came / had left",
+      "why_correct": "'Came' للوصول، 'had left' للمغادرة السابقة.\n\n'Came' for arrival, 'had left' for prior departure.",
+      "why_others_wrong": {
+        "A": "خطأ: 'comes' مضارع.\nWrong: 'comes' is present.",
+        "B": "خطأ: 'leaves' مضارع.\nWrong: 'leaves' is present.",
+        "D": "خطأ: 'had come' يعكس الترتيب.\nWrong: 'had come' reverses the order.",
+        "E": "خطأ: 'has come' حاضر تام.\nWrong: 'has come' is present perfect."
+      }
+    }
   },
   {
-    "question": "39. Last Monday when I ___ the house it ___ heavily.",
+    "question": "40. Last Monday when I ___ the house it ___ heavily.",
     "answers": [
       { "text": "A) leave / rain" },
       { "text": "B) left / was raining", "correct": 1 },
       { "text": "C) left / had rained" },
       { "text": "D) was leaving / rained" },
       { "text": "E) leave / rains" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "B) left / was raining",
+      "why_correct": "'Left' للمغادرة، 'was raining' للمطر المستمر.\n\n'Left' for leaving, 'was raining' for ongoing rain.",
+      "why_others_wrong": {
+        "A": "خطأ: 'leave' و 'rain' مضارع.\nWrong: 'leave' and 'rain' are present.",
+        "C": "خطأ: 'had rained' يعني توقف المطر.\nWrong: 'had rained' means rain had stopped.",
+        "D": "خطأ: 'rained' لا يُظهر الاستمرارية.\nWrong: 'rained' doesn't show continuity.",
+        "E": "خطأ: 'leave' و 'rains' مضارع.\nWrong: 'leave' and 'rains' are present."
+      }
+    }
   },
   {
-    "question": "40. Yesterday when Tom ___ the lesson___ .",
+    "question": "41. Yesterday when Tom ___ the lesson___ .",
     "answers": [
       { "text": "A) comes / already begins" },
       { "text": "B) came / had already begun", "correct": 1 },
       { "text": "C) came / already began" },
       { "text": "D) will come / already begins" },
       { "text": "E) came / already begins" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Perfect with 'already'",
+      "correct_answer": "B) came / had already begun",
+      "why_correct": "'Came' للوصول، 'had already begun' للبداية السابقة.\n\n'Came' for arrival, 'had already begun' for prior start.",
+      "why_others_wrong": {
+        "A": "خطأ: 'comes' و 'begins' مضارع.\nWrong: 'comes' and 'begins' are present.",
+        "C": "خطأ: لا يُظهر أن الدرس بدأ قبل وصوله.\nWrong: Doesn't show lesson started before arrival.",
+        "D": "خطأ: 'will come' مستقبل مع 'yesterday'.\nWrong: 'will come' future with 'yesterday'.",
+        "E": "خطأ: 'begins' مضارع.\nWrong: 'begins' is present."
+      }
+    }
   },
   {
-    "question": "41. I ___ the call because I ___ a shower.",
+    "question": "42. I ___ the call because I ___ a shower.",
     "answers": [
-      { "text": "A) didn’t answer / was taking", "correct": 1 },
-      { "text": "B) don’t answer / take" },
-      { "text": "C) doesn’t answer / am taking" },
+      { "text": "A) didn't answer / was taking", "correct": 1 },
+      { "text": "B) don't answer / take" },
+      { "text": "C) doesn't answer / am taking" },
       { "text": "D) will not answer / take" },
       { "text": "E) am answering / am taking" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "A) didn't answer / was taking",
+      "why_correct": "ماضي بسيط للفعل، ماضي مستمر للسبب.\n\nPast simple for action, past continuous for reason.",
+      "why_others_wrong": {
+        "B": "خطأ: مضارع بسيط.\nWrong: Present simple.",
+        "C": "خطأ: مضارع.\nWrong: Present tense.",
+        "D": "خطأ: مستقبل.\nWrong: Future tense.",
+        "E": "خطأ: مضارع مستمر.\nWrong: Present continuous."
+      }
+    }
   },
   {
-    "question": "42. What measures have been ________ to control the crowd at Saturday’s football match?",
+    "question": "43. What measures have been ________ to control the crowd at Saturday's football match?",
     "answers": [
       { "text": "A) imagined" },
       { "text": "B) made" },
       { "text": "C) given" },
       { "text": "D) described" },
       { "text": "E) taken", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Collocation - Take measures",
+      "correct_answer": "E) taken",
+      "why_correct": "'Take measures' تعبير ثابت يعني اتخاذ إجراءات.\n\n'Take measures' fixed expression means implement actions.",
+      "why_others_wrong": {
+        "A": "خطأ: 'imagine measures' لا يُستخدم.\nWrong: 'imagine measures' not used.",
+        "B": "خطأ: 'make measures' خطأ شائع.\nWrong: 'make measures' common error.",
+        "C": "خطأ: 'give measures' لا يُستخدم.\nWrong: 'give measures' not used.",
+        "D": "خطأ: 'describe measures' يعني وصف وليس اتخاذ.\nWrong: 'describe measures' means describe not implement."
+      }
+    }
   },
   {
-    "question": "43. He left in such a hurry that I ________ had time to thank him.",
+    "question": "44. He left in such a hurry that I ________ had time to thank him.",
     "answers": [
       { "text": "A) almost" },
       { "text": "B) even" },
       { "text": "C) nearly" },
       { "text": "D) scarcely", "correct": 1 },
       { "text": "E) least" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Adverbs - Scarcely (negative meaning)",
+      "correct_answer": "D) scarcely",
+      "why_correct": "'Scarcely' يعني بالكاد/بالأحرى لا.\n\n'Scarcely' means barely/hardly.",
+      "why_others_wrong": {
+        "A": "خطأ: 'almost' تقريباً (إيجابي).\nWrong: 'almost' means nearly (positive).",
+        "B": "خطأ: 'even' حتى.\nWrong: 'even' means as well.",
+        "C": "خطأ: 'nearly' تقريباً (إيجابي).\nWrong: 'nearly' means almost (positive).",
+        "E": "خطأ: 'least' الأقل.\nWrong: 'least' means minimum."
+      }
+    }
   },
   {
-    "question": "44. He gave me some very ________ advice on buying a house.",
+    "question": "45. He gave me some very ________ advice on buying a house.",
     "answers": [
       { "text": "A) precious" },
       { "text": "B) wealthy" },
       { "text": "C) dear" },
       { "text": "D) prized" },
       { "text": "E) valuable", "correct": 1 }
-    ]
+    ],
+    "explanation": {
+      "rule": "Adjective Choice - Valuable advice",
+      "correct_answer": "E) valuable",
+      "why_correct": "'Valuable advice' نصيحة قيّمة/مفيدة.\n\n'Valuable advice' means useful/helpful advice.",
+      "why_others_wrong": {
+        "A": "خطأ: 'precious' للأشياء النفيسة.\nWrong: 'precious' for rare/valued objects.",
+        "B": "خطأ: 'wealthy' غني (للأشخاص).\nWrong: 'wealthy' means rich (for people).",
+        "C": "خطأ: 'dear' عزيز/غالي.\nWrong: 'dear' means beloved/expensive.",
+        "D": "خطأ: 'prized' مُكرّم/مُقدّر.\nWrong: 'prized' means cherished/awarded."
+      }
+    }
   },
   {
-    "question": "45. To get my travelers’ cheques I had to ________ a special cheque to the Bank for the total amount.",
+    "question": "46. To get my travelers' cheques I had to ________ a special cheque to the Bank for the total amount.",
     "answers": [
       { "text": "A) make for" },
       { "text": "B) make off" },
       { "text": "C) make out", "correct": 1 },
       { "text": "D) makeover" },
       { "text": "E) make up" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Make out",
+      "correct_answer": "C) make out",
+      "why_correct": "'Make out a cheque' يعني يكتب/يحرر شيكاً.\n\n'Make out a cheque' means write/fill out a cheque.",
+      "why_others_wrong": {
+        "A": "خطأ: 'make for' يتجه نحو.\nWrong: 'make for' means head towards.",
+        "B": "خطأ: 'make off' يهرب.\nWrong: 'make off' means escape.",
+        "D": "خطأ: 'makeover' تجديد/تغيير المظهر.\nWrong: 'makeover' means transformation/redesign.",
+        "E": "خطأ: 'make up' يؤلف/يختلق.\nWrong: 'make up' means invent/compose."
+      }
+    }
   },
   {
-    "question": "46. If we can ________ our present difficulties, then everything should be all right.",
+    "question": "47. If we can ________ our present difficulties, then everything should be all right.",
     "answers": [
       { "text": "A) get off" },
       { "text": "B) come across" },
       { "text": "C) come over" },
       { "text": "D) get over", "correct": 1 },
       { "text": "E) get away" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Get over",
+      "correct_answer": "D) get over",
+      "why_correct": "'Get over' يتجاوز/يتغلب على.\n\n'Get over' means overcome/surmount.",
+      "why_others_wrong": {
+        "A": "خطأ: 'get off' ينزل من.\nWrong: 'get off' means dismount/alight.",
+        "B": "خطأ: 'come across' يصادف/يجد.\nWrong: 'come across' means encounter/find.",
+        "C": "خطأ: 'come over' يزور/يأتي.\nWrong: 'come over' means visit/come.",
+        "E": "خطأ: 'get away' يهرب/يفلت.\nWrong: 'get away' means escape/flee."
+      }
+    }
   },
   {
-    "question": "47. I’m ________ to get the tickets for the show today, as there are hardly any left.",
+    "question": "48. I'm ________ to get the tickets for the show today, as there are hardly any left.",
     "answers": [
       { "text": "A) worried" },
       { "text": "B) curious" },
       { "text": "C) anxious", "correct": 1 },
       { "text": "D) afraid" },
       { "text": "E) troubled" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Adjective - Anxious to do",
+      "correct_answer": "C) anxious",
+      "why_correct": "'Anxious to' حريص على/متلهف لـ.\n\n'Anxious to' means eager/keen to.",
+      "why_others_wrong": {
+        "A": "خطأ: 'worried' قلق (سلبي).\nWrong: 'worried' means concerned (negative).",
+        "B": "خطأ: 'curious' فضولي.\nWrong: 'curious' means inquisitive.",
+        "D": "خطأ: 'afraid' خائف.\nWrong: 'afraid' means scared.",
+        "E": "خطأ: 'troubled' مضطرب.\nWrong: 'troubled' means disturbed."
+      }
+    }
   },
   {
-    "question": "48. His landlady gave him a week’s ________ to leave the flat.",
+    "question": "49. His landlady gave him a week's ________ to leave the flat.",
     "answers": [
       { "text": "A) threat" },
       { "text": "B) notice", "correct": 1 },
       { "text": "C) advice" },
       { "text": "D) caution" },
       { "text": "E) dismissal" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Collocation - Give notice",
+      "correct_answer": "B) notice",
+      "why_correct": "'Give notice' إشعار/إنذار رسمي.\n\n'Give notice' formal notification/warning.",
+      "why_others_wrong": {
+        "A": "خطأ: 'threat' تهديد.\nWrong: 'threat' means menace.",
+        "C": "خطأ: 'advice' نصيحة.\nWrong: 'advice' means counsel.",
+        "D": "خطأ: 'caution' تحذير/حذر.\nWrong: 'caution' means warning/care.",
+        "E": "خطأ: 'dismissal' فصل من العمل.\nWrong: 'dismissal' means termination from job."
+      }
+    }
   },
   {
-    "question": "49. We forgave his bad temper because we knew that his son’s illness had put him under great _____.",
+    "question": "50. We forgave his bad temper because we knew that his son's illness had put him under great _____.",
     "answers": [
       { "text": "A) emotion" },
       { "text": "B) excitement" },
       { "text": "C) crisis" },
       { "text": "D) stress", "correct": 1 },
       { "text": "E) nervousness" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Collocation - Under stress",
+      "correct_answer": "D) stress",
+      "why_correct": "'Under stress' تحت ضغط/إجهاد.\n\n'Under stress' means under pressure/strain.",
+      "why_others_wrong": {
+        "A": "خطأ: 'emotion' عاطفة.\nWrong: 'emotion' means feeling.",
+        "B": "خطأ: 'excitement' إثارة (إيجابي).\nWrong: 'excitement' means thrill (positive).",
+        "C": "خطأ: 'crisis' أزمة (لا نقول under crisis).\nWrong: 'crisis' means emergency (not 'under crisis').",
+        "E": "خطأ: 'nervousness' توتر (لا نقول under nervousness).\nWrong: 'nervousness' means anxiety (not 'under nervousness')."
+      }
+    }
   },
   {
-    "question": "50. A completely new situation is likely to ________ when the school leaving age is raised to 16.",
+    "question": "51. A completely new situation is likely to ________ when the school leaving age is raised to 16.",
     "answers": [
       { "text": "A) affect" },
       { "text": "B) rise" },
       { "text": "C) arise", "correct": 1 },
       { "text": "D) raise" },
       { "text": "E) happen" }
-    ]
-  },
-   {
-    "question": "1. The new line of trains ——— all the suburbs to the city center.",
-    "answers": [
-      { "text": "Refer" },
-      { "text": "Connect", "correct": 1 },
-      { "text": "Conduct" },
-      { "text": "Conclude" }
-    ]
-  },
-  {
-    "question": "2. The legend has been ————- down from generation to generation.",
-    "answers": [
-      { "text": "Banded" },
-      { "text": "Branded" },
-      { "text": "Handed", "correct": 1 },
-      { "text": "Hanged" }
-    ]
-  },
-  {
-    "question": "3. The post office? Well, walk ———— this road for about half a kilometre and it is on you are left.",
-    "answers": [
-      { "text": "Along", "correct": 1 },
-      { "text": "Under" },
-      { "text": "Over" },
-      { "text": "Cross" }
-    ]
-  },
-  {
-    "question": "4. The ———- of the forest will result in the ———- of many species.",
-    "answers": [
-      { "text": "Destructing / disappearance" },
-      { "text": "Destruction / disappear" },
-      { "text": "Destruction / disappearance", "correct": 1 },
-      { "text": "Destruct / disappear" }
-    ]
-  },
-  {
-    "question": "5. She has been very kind -------- .",
-    "answers": [
-      { "text": "Is not she" },
-      { "text": "Has not she", "correct": 1 },
-      { "text": "Does not she" },
-      { "text": "Was not she" }
-    ]
-  },
-  {
-    "question": "6. I do not like --------- .",
-    "answers": [
-      { "text": "To take my photograph" },
-      { "text": "Take photograph of myself" },
-      { "text": "Having my photograph taken", "correct": 1 },
-      { "text": "My photograph been taken" }
-    ]
-  },
-  {
-    "question": "7. I made him————what I had told him.",
-    "answers": [
-      { "text": "Repeat" },
-      { "text": "That he repeated" },
-      { "text": "To repeat", "correct": 1 },
-      { "text": "Repeating" }
-    ]
-  },
-  {
-    "question": "8. He ———- live in the country than in the city.",
-    "answers": [
-      { "text": "Had better" },
-      { "text": "Prefers", "correct": 1 },
-      { "text": "Would rather" },
-      { "text": "Likes better to" }
-    ]
-  },
-  {
-    "question": "9. My kitchen is very old. I am going to ——- it.",
-    "answers": [
-      { "text": "Modernize", "correct": 1 },
-      { "text": "Paint" },
-      { "text": "New" },
-      { "text": "Clean" }
-    ]
-  },
-  {
-    "question": "10. I am afraid I do not know where he lives. I wish I ---------.",
-    "answers": [
-      { "text": "Do" },
-      { "text": "Did" },
-      { "text": "Were" },
-      { "text": "Had known", "correct": 1 }
-    ]
-  },
-  {
-    "question": "11. A big crowd of demonstrators was ——— cuts in health spending.",
-    "answers": [
-      { "text": "Protesting against", "correct": 1 },
-      { "text": "Provoking" },
-      { "text": "Protesting for" },
-      { "text": "Refusing to" }
-    ]
-  },
-  {
-    "question": "12. It does not matter. It's of no ——- sig",
-    "answers": [
-      { "text": "Learning" },
-      { "text": "Important" },
-      { "text": "Work" },
-      { "text": "Significance / importance", "correct": 1 }
-    ]
-  },
-  {
-    "question": "13. Mike spent several years as a (n) ——— to a master-builder, so that he might learn the trade.",
-    "answers": [
-      { "text": "Apprentice", "correct": 1 },
-      { "text": "Applicant" },
-      { "text": "Learner" },
-      { "text": "Student" }
-    ]
-  },
-  {
-    "question": "14. My chest hurts———I breathe, do you think I got Covid",
-    "answers": [
-      { "text": "Wherever" },
-      { "text": "Whenever", "correct": 1 },
-      { "text": "Whoever" },
-      { "text": "Whatever" }
-    ]
-  },
-  {
-    "question": "15. What do you do?",
-    "answers": [
-      { "text": "Am from Italy" },
-      { "text": "Am a student", "correct": 1 },
-      { "text": "Am fine thank you" }
-    ]
-  },
-  {
-    "question": "16. We do not have ——-butter.",
-    "answers": [
-      { "text": "A" },
-      { "text": "Any", "correct": 1 },
-      { "text": "Got" }
-    ]
-  },
-  {
-    "question": "17. hat is the dog ----------- .",
-    "answers": [
-      { "text": "After which we have been looking" },
-      { "text": "What we have been looking after" },
-      { "text": "We have been looking after", "correct": 1 },
-      { "text": "We have been taking care" }
-    ]
-  },
-  {
-    "question": "18. She ——- her father.",
-    "answers": [
-      { "text": "Remembers me" },
-      { "text": "Reminds me of", "correct": 1 },
-      { "text": "Remembers me of" },
-      { "text": "Reminds me" }
-    ]
-  },
-  {
-    "question": "19. The incident has been witnessed by a number of ---------",
-    "answers": [
-      { "text": "passer-bys" },
-      { "text": "Passer-by" },
-      { "text": "Passers-bys" },
-      { "text": "Passers-by", "correct": 1 }
-    ]
-  },
-  {
-    "question": "20. -------- Name is Mary.",
-    "answers": [
-      { "text": "Me" },
-      { "text": "I" },
-      { "text": "My", "correct": 1 }
-    ]
-  },{
-    "question": "21. How long is it? The ———- must be very exact.",
-    "answers": [
-      { "text": "Side" },
-      { "text": "Area" },
-      { "text": "Measurement", "correct": 1 },
-      { "text": "Longing" }
-    ]
-  },
-  {
-    "question": "22. The boss listened to them with great patience——-he was obviously infuriated",
-    "answers": [
-      { "text": "However", "correct": 1 },
-      { "text": "Consequently" },
-      { "text": "In spite of" },
-      { "text": "Though" }
-    ]
-  },
-  {
-    "question": "23. What about 6 o'clock? Will that time ——-you.",
-    "answers": [
-      { "text": "Suit", "correct": 1 },
-      { "text": "Match" },
-      { "text": "Agree" },
-      { "text": "Approve" }
-    ]
-  },
-  {
-    "question": "24. How he manages to keep going with all this is ——- me.",
-    "answers": [
-      { "text": "Beneath" },
-      { "text": "Beyond", "correct": 1 },
-      { "text": "Below" },
-      { "text": "Beside" }
-    ]
-  },
-  {
-    "question": "25. I am afraid this car does not have enough ————- to get up that hill. We will have to walk up.",
-    "answers": [
-      { "text": "Motor" },
-      { "text": "Charge" },
-      { "text": "Engine" },
-      { "text": "Power", "correct": 1 }
-    ]
-  },
-  {
-    "question": "26. Have you ———- a car ?",
-    "answers": [
-      { "text": "Have" },
-      { "text": "Ant" },
-      { "text": "Got", "correct": 1 }
-    ]
-  },
-  {
-    "question": "27. If you were a more ———— person, you would not have left me waiting for you in the rain for an hour.",
-    "answers": [
-      { "text": "Kind" },
-      { "text": "Considerate", "correct": 1 },
-      { "text": "Polite" },
-      { "text": "Humorous" }
-    ]
-  },
-  {
-    "question": "28. Her condition is improving---------.",
-    "answers": [
-      { "text": "Steadly" },
-      { "text": "Steady" },
-      { "text": "Steadily", "correct": 1 },
-      { "text": "Steadiness" }
-    ]
-  },
-  {
-    "question": "29. Put on your raincoat———- it rains",
-    "answers": [
-      { "text": "Because" },
-      { "text": "In any case" },
-      { "text": "In case", "correct": 1 },
-      { "text": "For" }
-    ]
-  },
-  {
-    "question": "30. The patient was————-examined by three of the best doctors in our hospital.",
-    "answers": [
-      { "text": "Thoroughly", "correct": 1 },
-      { "text": "Fondly" },
-      { "text": "Shyly" },
-      { "text": "Utter" }
-    ]
-  },
-  {
-    "question": "31. It is very difficult to ——— this machine.",
-    "answers": [
-      { "text": "Make" },
-      { "text": "Operate", "correct": 1 },
-      { "text": "Work" },
-      { "text": "Do" }
-    ]
-  },
-  {
-    "question": "32. It is highly unlikely to raise income ———— in an election year, according to an official in the parliament.",
-    "answers": [
-      { "text": "Tax", "correct": 1 },
-      { "text": "Payment" },
-      { "text": "Price" },
-      { "text": "Salary" }
-    ]
-  },
-  {
-    "question": "33. I did not buy the sweater because it was not------",
-    "answers": [
-      { "text": "Washed" },
-      { "text": "Washing" },
-      { "text": "Washer" },
-      { "text": "Washable", "correct": 1 }
-    ]
-  },
-  {
-    "question": "34. The poet had written several ———- before completing the final version.",
-    "answers": [
-      { "text": "Originals" },
-      { "text": "Novels" },
-      { "text": "Drafts", "correct": 1 },
-      { "text": "Rehearsals" }
-    ]
-  },
-  {
-    "question": "35. His uncle owns four computer companies and lives in a big ————- out in the country.",
-    "answers": [
-      { "text": "Bungalow" },
-      { "text": "Hut" },
-      { "text": "Apartment" },
-      { "text": "Mansion", "correct": 1 }
-    ]
-  },
-  {
-    "question": "36. My boss needs my ———- on the paper.",
-    "answers": [
-      { "text": "Acceptation" },
-      { "text": "Mark" },
-      { "text": "Signature", "correct": 1 },
-      { "text": "Refuse" }
-    ]
-  },
-  {
-    "question": "37. Do you like the red -------- ?",
-    "answers": [
-      { "text": "One", "correct": 1 },
-      { "text": "It" },
-      { "text": "That" }
-    ]
-  },
-  {
-    "question": "38. They do not get on well. They are having a (an) ———— now.",
-    "answers": [
-      { "text": "Fighting" },
-      { "text": "War" },
-      { "text": "Argument", "correct": 1 },
-      { "text": "Talking" }
-    ]
-  },
-  {
-    "question": "39. The new job will provide you with———-experience. It is so helpful for your future as a programmer.",
-    "answers": [
-      { "text": "Praiseworthy" },
-      { "text": "Invaluable", "correct": 1 },
-      { "text": "Admirable" },
-      { "text": "Merit" }
-    ]
-  },
-  {
-    "question": "40. It is quite ———- that they have already made up their mind about the project.",
-    "answers": [
-      { "text": "Probable", "correct": 1 },
-      { "text": "Opportunity" },
-      { "text": "Chance" },
-      { "text": "Possibility" }
-    ]
-  },
-  {
-    "question": "41. The bridge———- into the river without any warning. Lots of people were injured.",
-    "answers": [
-      { "text": "Submerged" },
-      { "text": "Collapsed", "correct": 1 },
-      { "text": "Relapsed" },
-      { "text": "Degenerated" }
-    ]
-  },
-  {
-    "question": "42. Children would rather --------- .",
-    "answers": [
-      { "text": "To play than to study" },
-      { "text": "Play than study", "correct": 1 },
-      { "text": "Playing than studying" },
-      { "text": "To play than studying" }
-    ]
-  },
-  {
-    "question": "43. If you don't like the soup, why don't you ———- to the waiter and he can bring another one",
-    "answers": [
-      { "text": "Protest" },
-      { "text": "Criticise" },
-      { "text": "Complain", "correct": 1 },
-      { "text": "Consult" }
-    ]
-  },
-  {
-    "question": "44. The weather changed ———— . It suddenly started to rain.",
-    "answers": [
-      { "text": "Unexpected" },
-      { "text": "Expectedly" },
-      { "text": "Unexpectedly", "correct": 1 },
-      { "text": "unexpectancy" }
-    ]
-  },
-  {
-    "question": "45. T do not know how we are going to get to the airport. We will have to ——— for a taxi to come",
-    "answers": [
-      { "text": "Arrange" },
-      { "text": "Plan" },
-      { "text": "Hire" },
-      { "text": "Book", "correct": 1 }
-    ]
-  },
-  {
-    "question": "46. A funeral can ———- the feelings of regret and loss for the relatives.",
-    "answers": [
-      { "text": "Amplify", "correct": 1 },
-      { "text": "Extend" },
-      { "text": "Develop" },
-      { "text": "Exaggerate" }
-    ]
-  },
-  {
-    "question": "47. Peter ———— at six in the morning",
-    "answers": [
-      { "text": "Gets up", "correct": 1 },
-      { "text": "Goes" },
-      { "text": "Goes up" }
-    ]
-  },
-  {
-    "question": "48. He was left alone in the hospital, with——— to take care of him .",
-    "answers": [
-      { "text": "No one", "correct": 1 },
-      { "text": "Not one" },
-      { "text": "Anyone" },
-      { "text": "Someone" }
-    ]
-  },
-  {
-    "question": "49. The company did not have any ———- opening shops in Paris and Marseilles so they closed after only three months",
-    "answers": [
-      { "text": "Profit", "correct": 1 },
-      { "text": "Winnings" },
-      { "text": "Victory" },
-      { "text": "Success" }
-    ]
-  },
-  {
-    "question": "50. His new appointment takes -------- from the beginning of next month",
-    "answers": [
-      { "text": "position" },
-      { "text": "Place", "correct": 1 },
-      { "text": "Part" },
-      { "text": "effect" }
-    ]
-  },
-    {
-    "question": "51. I wish you would stop ——- me all the time.",
-    "answers": [
-      { "text": "Interrupting", "correct": 1 },
-      { "text": "To interrupt" },
-      { "text": "Interrupt" },
-      { "text": "Interrupted" }
-    ]
-  },
-  {
-    "question": "52. The house is ——- old. It needs repairing.",
-    "answers": [
-      { "text": "Enough", "correct": 1 },
-      { "text": "Too much" },
-      { "text": "Very much" },
-      { "text": "Such" }
-    ]
-  },
-  {
-    "question": "53. He was very angry ——- what she said.",
-    "answers": [
-      { "text": "At", "correct": 1 },
-      { "text": "With" },
-      { "text": "For" },
-      { "text": "On" }
-    ]
-  },
-  {
-    "question": "54. She is not used to ——- up early.",
-    "answers": [
-      { "text": "Get" },
-      { "text": "Getting", "correct": 1 },
-      { "text": "Got" },
-      { "text": "Gets" }
-    ]
-  },
-  {
-    "question": "55. The teacher made the students ——- the text again.",
-    "answers": [
-      { "text": "Read", "correct": 1 },
-      { "text": "To read" },
-      { "text": "Reading" },
-      { "text": "Reads" }
-    ]
-  },
-  {
-    "question": "56. I will phone you ——- I arrive.",
-    "answers": [
-      { "text": "As soon as", "correct": 1 },
-      { "text": "Until" },
-      { "text": "Unless" },
-      { "text": "Before" }
-    ]
-  },
-  {
-    "question": "57. He behaves ——- a child sometimes.",
-    "answers": [
-      { "text": "As", "correct": 1 },
-      { "text": "Like" },
-      { "text": "Than" },
-      { "text": "So" }
-    ]
-  },
-  {
-    "question": "58. This is the ——- film I have ever seen.",
-    "answers": [
-      { "text": "More interesting" },
-      { "text": "Most interesting", "correct": 1 },
-      { "text": "Very interesting" },
-      { "text": "Much interesting" }
-    ]
-  },
-  {
-    "question": "59. She speaks ——- than her sister.",
-    "answers": [
-      { "text": "More confidently", "correct": 1 },
-      { "text": "Most confidently" },
-      { "text": "Very confidently" },
-      { "text": "Too confidently" }
-    ]
-  },
-  {
-    "question": "60. There is ——- milk left in the fridge.",
-    "answers": [
-      { "text": "Few" },
-      { "text": "Little", "correct": 1 },
-      { "text": "Many" },
-      { "text": "Several" }
-    ]
-  },
-  {
-    "question": "61. He asked me ——- I had finished my work.",
-    "answers": [
-      { "text": "That" },
-      { "text": "If", "correct": 1 },
-      { "text": "What" },
-      { "text": "Which" }
-    ]
-  },
-  {
-    "question": "62. The car ——- repaired yesterday.",
-    "answers": [
-      { "text": "Is" },
-      { "text": "Was", "correct": 1 },
-      { "text": "Has" },
-      { "text": "Had" }
-    ]
-  },
-  {
-    "question": "63. We have lived here ——- five years.",
-    "answers": [
-      { "text": "Since" },
-      { "text": "For", "correct": 1 },
-      { "text": "During" },
-      { "text": "From" }
-    ]
-  },
-  {
-    "question": "64. She looks ——- she has been crying.",
-    "answers": [
-      { "text": "As if", "correct": 1 },
-      { "text": "So that" },
-      { "text": "Although" },
-      { "text": "Unless" }
-    ]
-  },
-  {
-    "question": "65. He apologized ——- being late.",
-    "answers": [
-      { "text": "For", "correct": 1 },
-      { "text": "About" },
-      { "text": "To" },
-      { "text": "With" }
-    ]
-  },
-  {
-    "question": "66. I am looking forward to ——- you soon.",
-    "answers": [
-      { "text": "See" },
-      { "text": "Seeing", "correct": 1 },
-      { "text": "Seen" },
-      { "text": "To see" }
-    ]
-  },
-  {
-    "question": "67. The book was ——- interesting that I finished it in one day.",
-    "answers": [
-      { "text": "So", "correct": 1 },
-      { "text": "Such" },
-      { "text": "Very" },
-      { "text": "Too" }
-    ]
-  },
-  {
-    "question": "68. He denied ——- the window.",
-    "answers": [
-      { "text": "Break" },
-      { "text": "Breaking", "correct": 1 },
-      { "text": "To break" },
-      { "text": "Broken" }
-    ]
-  },
-  {
-    "question": "69. This time tomorrow we ——- on the beach.",
-    "answers": [
-      { "text": "Will lie" },
-      { "text": "Will be lying", "correct": 1 },
-      { "text": "Lie" },
-      { "text": "Lied" }
-    ]
-  },
-  {
-    "question": "70. She ——- be very tired after the journey.",
-    "answers": [
-      { "text": "Must", "correct": 1 },
-      { "text": "Can" },
-      { "text": "May" },
-      { "text": "Should" }
-    ]
-  },
-  {
-    "question": "71. I did not have ——- time to finish the test.",
-    "answers": [
-      { "text": "Enough", "correct": 1 },
-      { "text": "Too" },
-      { "text": "Very" },
-      { "text": "So" }
-    ]
-  },
-  {
-    "question": "72. He asked ——- I wanted some help.",
-    "answers": [
-      { "text": "That" },
-      { "text": "If", "correct": 1 },
-      { "text": "Which" },
-      { "text": "What" }
-    ]
-  },
-  {
-    "question": "73. She was made ——- her homework again.",
-    "answers": [
-      { "text": "Do" },
-      { "text": "To do", "correct": 1 },
-      { "text": "Doing" },
-      { "text": "Did" }
-    ]
-  },
-  {
-    "question": "74. The train arrives ——- time every day.",
-    "answers": [
-      { "text": "At", "correct": 1 },
-      { "text": "In" },
-      { "text": "On" },
-      { "text": "By" }
-    ]
-  },
-  {
-    "question": "75. I am not as ——- as my brother.",
-    "answers": [
-      { "text": "Taller" },
-      { "text": "Tall", "correct": 1 },
-      { "text": "Tallest" },
-      { "text": "More tall" }
-    ]
-  },
-  {
-    "question": "76. We stayed at home ——- it was raining.",
-    "answers": [
-      { "text": "Because", "correct": 1 },
-      { "text": "Although" },
-      { "text": "Unless" },
-      { "text": "So that" }
-    ]
-  },
-  {
-    "question": "77. The letter ——- yesterday.",
-    "answers": [
-      { "text": "Was sent", "correct": 1 },
-      { "text": "Is sent" },
-      { "text": "Has sent" },
-      { "text": "Had sent" }
-    ]
-  },
-  {
-    "question": "78. He is interested ——- learning languages.",
-    "answers": [
-      { "text": "On" },
-      { "text": "In", "correct": 1 },
-      { "text": "At" },
-      { "text": "For" }
-    ]
-  },
-  {
-    "question": "79. I have never ——- to London.",
-    "answers": [
-      { "text": "Gone", "correct": 1 },
-      { "text": "Went" },
-      { "text": "Been going" },
-      { "text": "Go" }
-    ]
-  },
-  {
-    "question": "80. She speaks ——- English.",
-    "answers": [
-      { "text": "Fluent" },
-      { "text": "Fluently", "correct": 1 },
-      { "text": "Fluency" },
-      { "text": "Fluents" }
-    ]
-  },
-  {
-    "question": "81. There were ——- people waiting outside.",
-    "answers": [
-      { "text": "Much" },
-      { "text": "A lot of", "correct": 1 },
-      { "text": "Little" },
-      { "text": "Few" }
-    ]
-  },
-  {
-    "question": "82. He works ——- a teacher.",
-    "answers": [
-      { "text": "As", "correct": 1 },
-      { "text": "Like" },
-      { "text": "Than" },
-      { "text": "Such as" }
-    ]
-  },
-  {
-    "question": "83. I will never forget ——- you for the first time.",
-    "answers": [
-      { "text": "To meet" },
-      { "text": "Meeting", "correct": 1 },
-      { "text": "Meet" },
-      { "text": "Met" }
-    ]
-  },
-  {
-    "question": "84. She was too tired ——- go out.",
-    "answers": [
-      { "text": "That" },
-      { "text": "To", "correct": 1 },
-      { "text": "For" },
-      { "text": "So" }
-    ]
-  },
-  {
-    "question": "85. He stopped ——- because he was tired.",
-    "answers": [
-      { "text": "To work" },
-      { "text": "Working", "correct": 1 },
-      { "text": "Work" },
-      { "text": "Worked" }
-    ]
-  },
-  {
-    "question": "86. She asked me where I ——- from.",
-    "answers": [
-      { "text": "Am" },
-      { "text": "Was", "correct": 1 },
-      { "text": "Were" },
-      { "text": "Have been" }
-    ]
-  },
-  {
-    "question": "87. The room was ——- cleaned.",
-    "answers": [
-      { "text": "Recently", "correct": 1 },
-      { "text": "Recent" },
-      { "text": "Recency" },
-      { "text": "More recent" }
-    ]
-  },
-  {
-    "question": "88. He ran ——- fast to catch the bus.",
-    "answers": [
-      { "text": "So", "correct": 1 },
-      { "text": "Such" },
-      { "text": "Too" },
-      { "text": "Very" }
-    ]
-  },
-  {
-    "question": "89. She is the ——- student in the class.",
-    "answers": [
-      { "text": "More intelligent" },
-      { "text": "Most intelligent", "correct": 1 },
-      { "text": "Very intelligent" },
-      { "text": "Too intelligent" }
-    ]
-  },
-  {
-    "question": "90. I forgot ——- him about the meeting.",
-    "answers": [
-      { "text": "Tell" },
-      { "text": "To tell", "correct": 1 },
-      { "text": "Telling" },
-      { "text": "Told" }
-    ]
-  },
-  {
-    "question": "91. He has lived here ——- 2010.",
-    "answers": [
-      { "text": "Since", "correct": 1 },
-      { "text": "For" },
-      { "text": "From" },
-      { "text": "During" }
-    ]
-  },
-  {
-    "question": "92. The work must be finished ——- Friday.",
-    "answers": [
-      { "text": "Until" },
-      { "text": "By", "correct": 1 },
-      { "text": "In" },
-      { "text": "At" }
-    ]
-  },
-  {
-    "question": "93. She looks forward ——- her holidays.",
-    "answers": [
-      { "text": "For" },
-      { "text": "To", "correct": 1 },
-      { "text": "At" },
-      { "text": "With" }
-    ]
-  },
-  {
-    "question": "94. He did not have ——- money to buy the car.",
-    "answers": [
-      { "text": "Enough", "correct": 1 },
-      { "text": "Very" },
-      { "text": "Too" },
-      { "text": "So" }
-    ]
-  },
-  {
-    "question": "95. The children were made ——- quietly.",
-    "answers": [
-      { "text": "Sit", "correct": 1 },
-      { "text": "To sit" },
-      { "text": "Sitting" },
-      { "text": "Sat" }
-    ]
-  },
-  {
-    "question": "96. He succeeded ——- solving the problem.",
-    "answers": [
-      { "text": "In", "correct": 1 },
-      { "text": "At" },
-      { "text": "On" },
-      { "text": "For" }
-    ]
-  },
-  {
-    "question": "97. She was accused ——- stealing the money.",
-    "answers": [
-      { "text": "Of", "correct": 1 },
-      { "text": "For" },
-      { "text": "With" },
-      { "text": "At" }
-    ]
-  },
-  {
-    "question": "98. He did not know ——- to say.",
-    "answers": [
-      { "text": "Which" },
-      { "text": "What", "correct": 1 },
-      { "text": "That" },
-      { "text": "If" }
-    ]
-  },
-  {
-    "question": "99. The house ——— built last year.",
-    "answers": [
-      { "text": "Is" },
-      { "text": "Was", "correct": 1 },
-      { "text": "Has" },
-      { "text": "Had" }
-    ]
-  },
-  {
-    "question": "100. I am tired ——- working all day.",
-    "answers": [
-      { "text": "Of", "correct": 1 },
-      { "text": "From" },
-      { "text": "With" },
-      { "text": "At" }
-    ]
+    ],
+    "explanation": {
+      "rule": "Verb - Arise (appear/occur)",
+      "correct_answer": "C) arise",
+      "why_correct": "'Arise' ينشأ/يظهر (للمواقف والمشاكل).\n\n'Arise' means emerge/occur (for situations/problems).",
+      "why_others_wrong": {
+        "A": "خطأ: 'affect' يؤثر على (يحتاج مفعول).\nWrong: 'affect' means influence (needs object).",
+        "B": "خطأ: 'rise' يرتفع (للأشياء المادية).\nWrong: 'rise' means go up (for physical things).",
+        "D": "خطأ: 'raise' يرفع (متعدٍّ).\nWrong: 'raise' means lift (transitive).",
+        "E": "خطأ: 'happen' يحدث (عام جداً).\nWrong: 'happen' means occur (too general)."
+      }
+    }
+  },
+  {
+    "question": "52. The new line of trains ——— all the suburbs to the city center.",
+    "answers": [
+      { "text": "A) Refer" },
+      { "text": "B) Connect", "correct": 1 },
+      { "text": "C) Conduct" },
+      { "text": "D) Conclude" }
+    ],
+    "explanation": {
+      "rule": "Verb - Connect (link together)",
+      "correct_answer": "B) Connect",
+      "why_correct": "'Connect' يربط/يوصل.\n\n'Connect' means link/join.",
+      "why_others_wrong": {
+        "A": "خطأ: 'refer' يشير إلى.\nWrong: 'refer' means mention/direct to.",
+        "C": "خطأ: 'conduct' يقود/ينفّذ.\nWrong: 'conduct' means lead/carry out.",
+        "D": "خطأ: 'conclude' يختتم.\nWrong: 'conclude' means finish/end."
+      }
+    }
+  },
+  {
+    "question": "53. The legend has been ————- down from generation to generation.",
+    "answers": [
+      { "text": "A) Banded" },
+      { "text": "B) Branded" },
+      { "text": "C) Handed", "correct": 1 },
+      { "text": "D) Hanged" }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Hand down",
+      "correct_answer": "C) Handed",
+      "why_correct": "'Hand down' يتوارث/ينقل عبر الأجيال.\n\n'Hand down' means pass down/transmit through generations.",
+      "why_others_wrong": {
+        "A": "خطأ: 'band' يربط بعصابة.\nWrong: 'band' means tie with strip.",
+        "B": "خطأ: 'brand' يضع علامة تجارية.\nWrong: 'brand' means mark/label.",
+        "D": "خطأ: 'hang' يعلّق/يشنق.\nWrong: 'hang' means suspend/execute."
+      }
+    }
+  },
+  {
+    "question": "54. The post office? Well, walk ———— this road for about half a kilometre and it is on your left.",
+    "answers": [
+      { "text": "A) Along", "correct": 1 },
+      { "text": "B) Under" },
+      { "text": "C) Over" },
+      { "text": "D) Cross" }
+    ],
+    "explanation": {
+      "rule": "Preposition - Along (following the length)",
+      "correct_answer": "A) Along",
+      "why_correct": "'Along' على طول/بمحاذاة.\n\n'Along' means following the length of.",
+      "why_others_wrong": {
+        "B": "خطأ: 'under' تحت.\nWrong: 'under' means beneath.",
+        "C": "خطأ: 'over' فوق/عبر.\nWrong: 'over' means above/across.",
+        "D": "خطأ: 'cross' يعبر (فعل).\nWrong: 'cross' means go across (verb)."
+      }
+    }
+  },
+  {
+    "question": "55. The ———- of the forest will result in the ———- of many species.",
+    "answers": [
+      { "text": "A) Destructing / disappearance" },
+      { "text": "B) Destruction / disappear" },
+      { "text": "C) Destruction / disappearance", "correct": 1 },
+      { "text": "D) Destruct / disappear" }
+    ],
+    "explanation": {
+      "rule": "Noun Forms",
+      "correct_answer": "C) Destruction / disappearance",
+      "why_correct": "كلاهما أسماء: تدمير/اختفاء.\n\nBoth are nouns: destruction/disappearance.",
+      "why_others_wrong": {
+        "A": "خطأ: 'destructing' ليس اسماً.\nWrong: 'destructing' is not a noun.",
+        "B": "خطأ: 'disappear' فعل وليس اسماً.\nWrong: 'disappear' is verb not noun.",
+        "D": "خطأ: 'destruct' فعل، 'disappear' فعل.\nWrong: 'destruct' is verb, 'disappear' is verb."
+      }
+    }
+  },
+  {
+    "question": "56. She has been very kind -------- .",
+    "answers": [
+      { "text": "A) Is not she" },
+      { "text": "B) Has not she", "correct": 1 },
+      { "text": "C) Does not she" },
+      { "text": "D) Was not she" }
+    ],
+    "explanation": {
+      "rule": "Question Tags with Present Perfect",
+      "correct_answer": "B) Has not she",
+      "why_correct": "السؤال المذيّل يتبع 'has been'.\n\nQuestion tag follows 'has been'.",
+      "why_others_wrong": {
+        "A": "خطأ: 'is' لا يطابق 'has been'.\nWrong: 'is' doesn't match 'has been'.",
+        "C": "خطأ: 'does' لا يطابق 'has been'.\nWrong: 'does' doesn't match 'has been'.",
+        "D": "خطأ: 'was' لا يطابق 'has been'.\nWrong: 'was' doesn't match 'has been'."
+      }
+    }
+  },
+  {
+    "question": "57. I do not like --------- .",
+    "answers": [
+      { "text": "A) To take my photograph" },
+      { "text": "B) Take photograph of myself" },
+      { "text": "C) Having my photograph taken", "correct": 1 },
+      { "text": "D) My photograph been taken" }
+    ],
+    "explanation": {
+      "rule": "Gerund in Passive - Having something done",
+      "correct_answer": "C) Having my photograph taken",
+      "why_correct": "'Having something done' مبني للمجهول بالـ gerund.\n\n'Having something done' passive causative with gerund.",
+      "why_others_wrong": {
+        "A": "خطأ: يعني أنت تلتقط الصورة.\nWrong: Means you take the photo.",
+        "B": "خطأ: غير صحيح نحوياً.\nWrong: Grammatically incorrect.",
+        "D": "خطأ: 'been taken' غير صحيح.\nWrong: 'been taken' is incorrect."
+      }
+    }
+  },
+  {
+    "question": "58. I made him————what I had told him.",
+    "answers": [
+      { "text": "A) Repeat" },
+      { "text": "B) That he repeated" },
+      { "text": "C) To repeat", "correct": 1 },
+      { "text": "D) Repeating" }
+    ],
+    "explanation": {
+      "rule": "Causative Verbs - Make someone do",
+      "correct_answer": "A) Repeat",
+      "why_correct": "'Make' يتبعه مصدر بدون 'to'.\n\n'Make' is followed by bare infinitive.",
+      "why_others_wrong": {
+        "B": "خطأ: تركيب خاطئ.\nWrong: Wrong structure.",
+        "C": "خطأ: 'make' لا يتبعه 'to'.\nWrong: 'make' not followed by 'to'.",
+        "D": "خطأ: 'make' لا يتبعه gerund.\nWrong: 'make' not followed by gerund."
+      },
+      "note": "الإجابة الصحيحة هي A وليس C"
+    }
+  },
+  {
+    "question": "59. He ———- live in the country than in the city.",
+    "answers": [
+      { "text": "A) Had better" },
+      { "text": "B) Prefers", "correct": 1 },
+      { "text": "C) Would rather" },
+      { "text": "D) Likes better to" }
+    ],
+    "explanation": {
+      "rule": "Preference - Prefer to",
+      "correct_answer": "C) Would rather",
+      "why_correct": "'Would rather... than' يفضّل... على.\n\n'Would rather... than' prefers... to.",
+      "why_others_wrong": {
+        "A": "خطأ: 'had better' من الأفضل (نصيحة).\nWrong: 'had better' means should (advice).",
+        "B": "خطأ: 'prefers to... rather than'.\nWrong: 'prefers to... rather than'.",
+        "D": "خطأ: تركيب خاطئ.\nWrong: Wrong structure."
+      },
+      "note": "الإجابة الصحيحة هي C وليس B"
+    }
+  },
+  {
+    "question": "60. My kitchen is very old. I am going to ——- it.",
+    "answers": [
+      { "text": "A) Modernize", "correct": 1 },
+      { "text": "B) Paint" },
+      { "text": "C) New" },
+      { "text": "D) Clean" }
+    ],
+    "explanation": {
+      "rule": "Verb Choice - Modernize",
+      "correct_answer": "A) Modernize",
+      "why_correct": "'Modernize' يحدّث/يعصرن.\n\n'Modernize' means update/make modern.",
+      "why_others_wrong": {
+        "B": "خطأ: 'paint' يطلي فقط.\nWrong: 'paint' just colors.",
+        "C": "خطأ: 'new' صفة وليس فعلاً.\nWrong: 'new' is adjective not verb.",
+        "D": "خطأ: 'clean' ينظف فقط.\nWrong: 'clean' just cleans."
+      }
+    }
+  },
+  {
+    "question": "61. I am afraid I do not know where he lives. I wish I ---------.",
+    "answers": [
+      { "text": "A) Do" },
+      { "text": "B) Did", "correct": 1 },
+      { "text": "C) Were" },
+      { "text": "D) Had known" }
+    ],
+    "explanation": {
+      "rule": "Wish + Past Simple (present wish)",
+      "correct_answer": "B) Did",
+      "why_correct": "'I wish I did' أتمنى لو كنت أعرف (الآن).\n\n'I wish I did' means I wish I knew (now).",
+      "why_others_wrong": {
+        "A": "خطأ: 'do' مضارع.\nWrong: 'do' is present.",
+        "C": "خطأ: 'were' للحالة.\nWrong: 'were' for state of being.",
+        "D": "خطأ: 'had known' للماضي.\nWrong: 'had known' for past regret."
+      },
+      "note": "الإجابة الصحيحة هي B وليس D"
+    }
+  },
+  {
+    "question": "62. A big crowd of demonstrators was ——— cuts in health spending.",
+    "answers": [
+      { "text": "A) Protesting against", "correct": 1 },
+      { "text": "B) Provoking" },
+      { "text": "C) Protesting for" },
+      { "text": "D) Refusing to" }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Protest against",
+      "correct_answer": "A) Protesting against",
+      "why_correct": "'Protest against' يحتج ضد.\n\n'Protest against' means demonstrate against.",
+      "why_others_wrong": {
+        "B": "خطأ: 'provoking' يستفز.\nWrong: 'provoking' means inciting.",
+        "C": "خطأ: 'for' يعني مؤيد.\nWrong: 'for' means supporting.",
+        "D": "خطأ: يحتاج مصدر.\nWrong: Needs infinitive."
+      }
+    }
+  },
+  {
+    "question": "63. It does not matter. It's of no ——- significance.",
+    "answers": [
+      { "text": "A) Learning" },
+      { "text": "B) Important" },
+      { "text": "C) Work" },
+      { "text": "D) Significance / importance", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Expression - Of no significance",
+      "correct_answer": "D) Significance / importance",
+      "why_correct": "'Of no significance' بلا أهمية.\n\n'Of no significance' means not important.",
+      "why_others_wrong": {
+        "A": "خطأ: 'learning' تعلّم.\nWrong: 'learning' means education.",
+        "B": "خطأ: 'important' صفة.\nWrong: 'important' is adjective.",
+        "C": "خطأ: 'work' عمل.\nWrong: 'work' means labor."
+      }
+    }
+  },
+  {
+    "question": "64. Mike spent several years as a (n) ——— to a master-builder, so that he might learn the trade.",
+    "answers": [
+      { "text": "A) Apprentice", "correct": 1 },
+      { "text": "B) Applicant" },
+      { "text": "C) Learner" },
+      { "text": "D) Student" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Apprentice",
+      "correct_answer": "A) Apprentice",
+      "why_correct": "'Apprentice' متدرب/صبي.\n\n'Apprentice' means trainee in a trade.",
+      "why_others_wrong": {
+        "B": "خطأ: 'applicant' متقدم لوظيفة.\nWrong: 'applicant' means job applicant.",
+        "C": "خطأ: 'learner' متعلم (عام).\nWrong: 'learner' means student (general).",
+        "D": "خطأ: 'student' طالب (أكاديمي).\nWrong: 'student' means academic learner."
+      }
+    }
+  },
+  {
+    "question": "65. My chest hurts———I breathe, do you think I got Covid",
+    "answers": [
+      { "text": "A) Wherever" },
+      { "text": "B) Whenever", "correct": 1 },
+      { "text": "C) Whoever" },
+      { "text": "D) Whatever" }
+    ],
+    "explanation": {
+      "rule": "Adverb - Whenever (every time)",
+      "correct_answer": "B) Whenever",
+      "why_correct": "'Whenever' كلما/في كل مرة.\n\n'Whenever' means every time that.",
+      "why_others_wrong": {
+        "A": "خطأ: 'wherever' أينما.\nWrong: 'wherever' means anywhere that.",
+        "C": "خطأ: 'whoever' أياً كان من.\nWrong: 'whoever' means anyone who.",
+        "D": "خطأ: 'whatever' مهما كان.\nWrong: 'whatever' means anything that."
+      }
+    }
+  },
+  {
+    "question": "66. What do you do?",
+    "answers": [
+      { "text": "A) Am from Italy" },
+      { "text": "B) Am a student", "correct": 1 },
+      { "text": "C) Am fine thank you" }
+    ],
+    "explanation": {
+      "rule": "Question - Asking about occupation",
+      "correct_answer": "B) Am a student",
+      "why_correct": "'What do you do?' يسأل عن المهنة.\n\n'What do you do?' asks about occupation.",
+      "why_others_wrong": {
+        "A": "خطأ: يجيب عن 'Where are you from?'.\nWrong: Answers 'Where are you from?'.",
+        "C": "خطأ: يجيب عن 'How are you?'.\nWrong: Answers 'How are you?'."
+      }
+    }
+  },
+  {
+    "question": "67. We do not have ——-butter.",
+    "answers": [
+      { "text": "A) A" },
+      { "text": "B) Any", "correct": 1 },
+      { "text": "C) Got" }
+    ],
+    "explanation": {
+      "rule": "Quantifier in Negative - Any",
+      "correct_answer": "B) Any",
+      "why_correct": "'Any' في الجمل المنفية.\n\n'Any' in negative sentences.",
+      "why_others_wrong": {
+        "A": "خطأ: 'butter' غير قابل للعد.\nWrong: 'butter' is uncountable.",
+        "C": "خطأ: 'got' فعل.\nWrong: 'got' is verb."
+      }
+    }
+  },
+  {
+    "question": "68. That is the dog ----------- .",
+    "answers": [
+      { "text": "A) After which we have been looking" },
+      { "text": "B) What we have been looking after" },
+      { "text": "C) We have been looking after", "correct": 1 },
+      { "text": "D) We have been taking care" }
+    ],
+    "explanation": {
+      "rule": "Relative Clause - Omitted pronoun",
+      "correct_answer": "C) We have been looking after",
+      "why_correct": "يمكن حذف الضمير الوصل في الجمل الوصفية.\n\nRelative pronoun can be omitted in defining clauses.",
+      "why_others_wrong": {
+        "A": "خطأ: رسمي جداً ومعقد.\nWrong: Too formal and complex.",
+        "B": "خطأ: 'what' لا يُستخدم هنا.\nWrong: 'what' not used here.",
+        "D": "خطأ: 'take care' يحتاج 'of'.\nWrong: 'take care' needs 'of'."
+      }
+    }
+  },
+  {
+    "question": "69. She ——- her father.",
+    "answers": [
+      { "text": "A) Remembers me" },
+      { "text": "B) Reminds me of", "correct": 1 },
+      { "text": "C) Remembers me of" },
+      { "text": "D) Reminds me" }
+    ],
+    "explanation": {
+      "rule": "Verb - Remind someone of",
+      "correct_answer": "B) Reminds me of",
+      "why_correct": "'Remind someone of' تذكّرني بـ.\n\n'Remind someone of' makes me think of.",
+      "why_others_wrong": {
+        "A": "خطأ: 'remember' يتذكر.\nWrong: 'remember' means recall.",
+        "C": "خطأ: 'remember' لا يأخذ 'of'.\nWrong: 'remember' doesn't take 'of'.",
+        "D": "خطأ: يحتاج 'of'.\nWrong: Needs 'of'."
+      }
+    }
+  },
+  {
+    "question": "70. The incident has been witnessed by a number of ---------",
+    "answers": [
+      { "text": "A) passer-bys" },
+      { "text": "B) Passer-by" },
+      { "text": "C) Passers-bys" },
+      { "text": "D) Passers-by", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Plural of Compound Nouns",
+      "correct_answer": "D) Passers-by",
+      "why_correct": "جمع الكلمات المركبة: الجزء الأول يُجمع.\n\nPlural of compound nouns: first part takes plural.",
+      "why_others_wrong": {
+        "A": "خطأ: الجمع في المكان الخطأ.\nWrong: Plural in wrong place.",
+        "B": "خطأ: مفرد.\nWrong: Singular.",
+        "C": "خطأ: جمع مزدوج.\nWrong: Double plural."
+      }
+    }
+  },
+  {
+    "question": "71. -------- Name is Mary.",
+    "answers": [
+      { "text": "A) Me" },
+      { "text": "B) I" },
+      { "text": "C) My", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Possessive Adjective",
+      "correct_answer": "C) My",
+      "why_correct": "'My' صفة ملكية قبل الاسم.\n\n'My' possessive adjective before noun.",
+      "why_others_wrong": {
+        "A": "خطأ: 'me' ضمير مفعول.\nWrong: 'me' is object pronoun.",
+        "B": "خطأ: 'I' ضمير فاعل.\nWrong: 'I' is subject pronoun."
+      }
+    }
+  },
+  {
+    "question": "72. How long is it? The ———- must be very exact.",
+    "answers": [
+      { "text": "A) Side" },
+      { "text": "B) Area" },
+      { "text": "C) Measurement", "correct": 1 },
+      { "text": "D) Longing" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Measurement",
+      "correct_answer": "C) Measurement",
+      "why_correct": "'Measurement' قياس.\n\n'Measurement' means dimension/size.",
+      "why_others_wrong": {
+        "A": "خطأ: 'side' جانب.\nWrong: 'side' means edge.",
+        "B": "خطأ: 'area' مساحة.\nWrong: 'area' means surface.",
+        "D": "خطأ: 'longing' شوق.\nWrong: 'longing' means yearning."
+      }
+    }
+  },
+  {
+    "question": "73. The boss listened to them with great patience——-he was obviously infuriated",
+    "answers": [
+      { "text": "A) However", "correct": 1 },
+      { "text": "B) Consequently" },
+      { "text": "C) In spite of" },
+      { "text": "D) Though" }
+    ],
+    "explanation": {
+      "rule": "Conjunctions - However",
+      "correct_answer": "A) However",
+      "why_correct": "'However' لكن/مع ذلك.\n\n'However' means but/nevertheless.",
+      "why_others_wrong": {
+        "B": "خطأ: 'consequently' وبالتالي (نتيجة).\nWrong: 'consequently' means as a result.",
+        "C": "خطأ: 'in spite of' يحتاج اسماً.\nWrong: 'in spite of' needs noun.",
+        "D": "خطأ: 'though' يربط جملتين.\nWrong: 'though' connects two clauses."
+      }
+    }
+  },
+  {
+    "question": "74. What about 6 o'clock? Will that time ——-you.",
+    "answers": [
+      { "text": "A) Suit", "correct": 1 },
+      { "text": "B) Match" },
+      { "text": "C) Agree" },
+      { "text": "D) Approve" }
+    ],
+    "explanation": {
+      "rule": "Verb - Suit (be convenient)",
+      "correct_answer": "A) Suit",
+      "why_correct": "'Suit' يناسب.\n\n'Suit' means be convenient for.",
+      "why_others_wrong": {
+        "B": "خطأ: 'match' يطابق.\nWrong: 'match' means correspond.",
+        "C": "خطأ: 'agree' يوافق (يحتاج 'with').\nWrong: 'agree' means consent (needs 'with').",
+        "D": "خطأ: 'approve' يوافق على.\nWrong: 'approve' means sanction."
+      }
+    }
+  },
+  {
+    "question": "75. How he manages to keep going with all this is ——- me.",
+    "answers": [
+      { "text": "A) Beneath" },
+      { "text": "B) Beyond", "correct": 1 },
+      { "text": "C) Below" },
+      { "text": "D) Beside" }
+    ],
+    "explanation": {
+      "rule": "Expression - Beyond me",
+      "correct_answer": "B) Beyond",
+      "why_correct": "'Beyond me' يفوق فهمي.\n\n'Beyond me' means I can't understand.",
+      "why_others_wrong": {
+        "A": "خطأ: 'beneath' تحت.\nWrong: 'beneath' means under.",
+        "C": "خطأ: 'below' أسفل.\nWrong: 'below' means lower than.",
+        "D": "خطأ: 'beside' بجانب.\nWrong: 'beside' means next to."
+      }
+    }
+  },
+  {
+    "question": "76. I am afraid this car does not have enough ————- to get up that hill. We will have to walk up.",
+    "answers": [
+      { "text": "A) Motor" },
+      { "text": "B) Charge" },
+      { "text": "C) Engine" },
+      { "text": "D) Power", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Power",
+      "correct_answer": "D) Power",
+      "why_correct": "'Power' قوة/طاقة.\n\n'Power' means strength/energy.",
+      "why_others_wrong": {
+        "A": "خطأ: 'motor' محرك (الجهاز نفسه).\nWrong: 'motor' means engine (the device).",
+        "B": "خطأ: 'charge' شحنة.\nWrong: 'charge' means electrical charge.",
+        "C": "خطأ: 'engine' محرك (الجهاز نفسه).\nWrong: 'engine' means motor (the device)."
+      }
+    }
+  },
+  {
+    "question": "77. Have you ———- a car ?",
+    "answers": [
+      { "text": "A) Have" },
+      { "text": "B) Ant" },
+      { "text": "C) Got", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Have got (British English)",
+      "correct_answer": "C) Got",
+      "why_correct": "'Have got' يملك.\n\n'Have got' means possess.",
+      "why_others_wrong": {
+        "A": "خطأ: تكرار 'have'.\nWrong: Repeating 'have'.",
+        "B": "خطأ: 'ant' نملة.\nWrong: 'ant' means insect."
+      }
+    }
+  },
+  {
+    "question": "78. If you were a more ———— person, you would not have left me waiting for you in the rain for an hour.",
+    "answers": [
+      { "text": "A) Kind" },
+      { "text": "B) Considerate", "correct": 1 },
+      { "text": "C) Polite" },
+      { "text": "D) Humorous" }
+    ],
+    "explanation": {
+      "rule": "Adjective - Considerate",
+      "correct_answer": "B) Considerate",
+      "why_correct": "'Considerate' مراعٍ لمشاعر الآخرين.\n\n'Considerate' means thoughtful of others.",
+      "why_others_wrong": {
+        "A": "خطأ: 'kind' لطيف (عام).\nWrong: 'kind' means nice (general).",
+        "C": "خطأ: 'polite' مؤدب.\nWrong: 'polite' means well-mannered.",
+        "D": "خطأ: 'humorous' فكاهي.\nWrong: 'humorous' means funny."
+      }
+    }
+  },
+  {
+    "question": "79. Her condition is improving---------.",
+    "answers": [
+      { "text": "A) Steadly" },
+      { "text": "B) Steady" },
+      { "text": "C) Steadily", "correct": 1 },
+      { "text": "D) Steadiness" }
+    ],
+    "explanation": {
+      "rule": "Adverb Form",
+      "correct_answer": "C) Steadily",
+      "why_correct": "'Steadily' ظرف يصف الفعل.\n\n'Steadily' adverb describing verb.",
+      "why_others_wrong": {
+        "A": "خطأ: إملاء خاطئ.\nWrong: Wrong spelling.",
+        "B": "خطأ: 'steady' صفة.\nWrong: 'steady' is adjective.",
+        "D": "خطأ: 'steadiness' اسم.\nWrong: 'steadiness' is noun."
+      }
+    }
+  },
+  {
+    "question": "80. Put on your raincoat———- it rains",
+    "answers": [
+      { "text": "A) Because" },
+      { "text": "B) In any case" },
+      { "text": "C) In case", "correct": 1 },
+      { "text": "D) For" }
+    ],
+    "explanation": {
+      "rule": "Expression - In case",
+      "correct_answer": "C) In case",
+      "why_correct": "'In case' في حالة/احتياطاً لـ.\n\n'In case' means if/as precaution.",
+      "why_others_wrong": {
+        "A": "خطأ: 'because' لأن (سبب حدث).\nWrong: 'because' means as/since (reason).",
+        "B": "خطأ: 'in any case' على أي حال.\nWrong: 'in any case' means anyway.",
+        "D": "خطأ: 'for' لـ (غير مناسب).\nWrong: 'for' inappropriate here."
+      }
+    }
+  },
+  {
+    "question": "81. The patient was————-examined by three of the best doctors in our hospital.",
+    "answers": [
+      { "text": "A) Thoroughly", "correct": 1 },
+      { "text": "B) Fondly" },
+      { "text": "C) Shyly" },
+      { "text": "D) Utter" }
+    ],
+    "explanation": {
+      "rule": "Adverb - Thoroughly",
+      "correct_answer": "A) Thoroughly",
+      "why_correct": "'Thoroughly' بدقة/بشكل شامل.\n\n'Thoroughly' means carefully/completely.",
+      "why_others_wrong": {
+        "B": "خطأ: 'fondly' بحنان.\nWrong: 'fondly' means affectionately.",
+        "C": "خطأ: 'shyly' بخجل.\nWrong: 'shyly' means timidly.",
+        "D": "خطأ: 'utter' صفة.\nWrong: 'utter' is adjective."
+      }
+    }
+  },
+  {
+    "question": "82. It is very difficult to ——— this machine.",
+    "answers": [
+      { "text": "A) Make" },
+      { "text": "B) Operate", "correct": 1 },
+      { "text": "C) Work" },
+      { "text": "D) Do" }
+    ],
+    "explanation": {
+      "rule": "Verb - Operate (use/run)",
+      "correct_answer": "B) Operate",
+      "why_correct": "'Operate' يشغّل/يستخدم.\n\n'Operate' means use/run machine.",
+      "why_others_wrong": {
+        "A": "خطأ: 'make' يصنع.\nWrong: 'make' means manufacture.",
+        "C": "خطأ: 'work' يعمل (لازم).\nWrong: 'work' means function (intransitive).",
+        "D": "خطأ: 'do' يفعل (عام جداً).\nWrong: 'do' is too general."
+      }
+    }
+  },
+  {
+    "question": "83. It is highly unlikely to raise income ———— in an election year, according to an official in the parliament.",
+    "answers": [
+      { "text": "A) Tax", "correct": 1 },
+      { "text": "B) Payment" },
+      { "text": "C) Price" },
+      { "text": "D) Salary" }
+    ],
+    "explanation": {
+      "rule": "Collocation - Income tax",
+      "correct_answer": "A) Tax",
+      "why_correct": "'Income tax' ضريبة الدخل.\n\n'Income tax' means tax on earnings.",
+      "why_others_wrong": {
+        "B": "خطأ: 'payment' دفعة.\nWrong: 'payment' means installment.",
+        "C": "خطأ: 'price' سعر.\nWrong: 'price' means cost.",
+        "D": "خطأ: 'salary' راتب.\nWrong: 'salary' means wages."
+      }
+    }
+  },
+  {
+    "question": "84. I did not buy the sweater because it was not------",
+    "answers": [
+      { "text": "A) Washed" },
+      { "text": "B) Washing" },
+      { "text": "C) Washer" },
+      { "text": "D) Washable", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Adjective - Washable (able to be washed)",
+      "correct_answer": "D) Washable",
+      "why_correct": "'Washable' قابل للغسل.\n\n'Washable' means can be washed.",
+      "why_others_wrong": {
+        "A": "خطأ: 'washed' مغسول (صفة مفعول).\nWrong: 'washed' means already washed.",
+        "B": "خطأ: 'washing' يغسل.\nWrong: 'washing' is present participle.",
+        "C": "خطأ: 'washer' غسالة.\nWrong: 'washer' means washing machine."
+      }
+    }
+  },
+  {
+    "question": "85. The poet had written several ———- before completing the final version.",
+    "answers": [
+      { "text": "A) Originals" },
+      { "text": "B) Novels" },
+      { "text": "C) Drafts", "correct": 1 },
+      { "text": "D) Rehearsals" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Drafts",
+      "correct_answer": "C) Drafts",
+      "why_correct": "'Drafts' مسودات.\n\n'Drafts' means preliminary versions.",
+      "why_others_wrong": {
+        "A": "خطأ: 'originals' النسخ الأصلية.\nWrong: 'originals' means authentic copies.",
+        "B": "خطأ: 'novels' روايات.\nWrong: 'novels' means fiction books.",
+        "D": "خطأ: 'rehearsals' بروفات.\nWrong: 'rehearsals' means practice sessions."
+      }
+    }
+  },
+  {
+    "question": "86. His uncle owns four computer companies and lives in a big ————- out in the country.",
+    "answers": [
+      { "text": "A) Bungalow" },
+      { "text": "B) Hut" },
+      { "text": "C) Apartment" },
+      { "text": "D) Mansion", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Mansion",
+      "correct_answer": "D) Mansion",
+      "why_correct": "'Mansion' قصر/منزل فخم.\n\n'Mansion' means large luxury house.",
+      "why_others_wrong": {
+        "A": "خطأ: 'bungalow' منزل من طابق واحد.\nWrong: 'bungalow' means one-story house.",
+        "B": "خطأ: 'hut' كوخ صغير.\nWrong: 'hut' means small simple dwelling.",
+        "C": "خطأ: 'apartment' شقة.\nWrong: 'apartment' means flat."
+      }
+    }
+  },
+  {
+    "question": "87. My boss needs my ———- on the paper.",
+    "answers": [
+      { "text": "A) Acceptation" },
+      { "text": "B) Mark" },
+      { "text": "C) Signature", "correct": 1 },
+      { "text": "D) Refuse" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Signature",
+      "correct_answer": "C) Signature",
+      "why_correct": "'Signature' توقيع.\n\n'Signature' means signed name.",
+      "why_others_wrong": {
+        "A": "خطأ: 'acceptation' قبول.\nWrong: 'acceptation' means acceptance.",
+        "B": "خطأ: 'mark' علامة.\nWrong: 'mark' means symbol.",
+        "D": "خطأ: 'refuse' رفض.\nWrong: 'refuse' means rejection."
+      }
+    }
+  },
+  {
+    "question": "88. Do you like the red -------- ?",
+    "answers": [
+      { "text": "A) One", "correct": 1 },
+      { "text": "B) It" },
+      { "text": "C) That" }
+    ],
+    "explanation": {
+      "rule": "Pronoun - One (replaces countable noun)",
+      "correct_answer": "A) One",
+      "why_correct": "'One' يحل محل اسم قابل للعد.\n\n'One' replaces countable noun.",
+      "why_others_wrong": {
+        "B": "خطأ: 'it' لاسم محدد مذكور.\nWrong: 'it' for specific mentioned noun.",
+        "C": "خطأ: 'that' للإشارة.\nWrong: 'that' for pointing."
+      }
+    }
+  },
+  {
+    "question": "89. They do not get on well. They are having a (an) ———— now.",
+    "answers": [
+      { "text": "A) Fighting" },
+      { "text": "B) War" },
+      { "text": "C) Argument", "correct": 1 },
+      { "text": "D) Talking" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Argument",
+      "correct_answer": "C) Argument",
+      "why_correct": "'Argument' جدال/خلاف.\n\n'Argument' means dispute/quarrel.",
+      "why_others_wrong": {
+        "A": "خطأ: 'fighting' قتال (جسدي).\nWrong: 'fighting' means physical combat.",
+        "B": "خطأ: 'war' حرب.\nWrong: 'war' means armed conflict.",
+        "D": "خطأ: 'talking' محادثة (محايد).\nWrong: 'talking' means conversation (neutral)."
+      }
+    }
+  },
+  {
+    "question": "90. The new job will provide you with———-experience. It is so helpful for your future as a programmer.",
+    "answers": [
+      { "text": "A) Praiseworthy" },
+      { "text": "B) Invaluable", "correct": 1 },
+      { "text": "C) Admirable" },
+      { "text": "D) Merit" }
+    ],
+    "explanation": {
+      "rule": "Adjective - Invaluable",
+      "correct_answer": "B) Invaluable",
+      "why_correct": "'Invaluable' لا يُقدر بثمن/قيّم جداً.\n\n'Invaluable' means extremely valuable.",
+      "why_others_wrong": {
+        "A": "خطأ: 'praiseworthy' جدير بالثناء.\nWrong: 'praiseworthy' means commendable.",
+        "C": "خطأ: 'admirable' جدير بالإعجاب.\nWrong: 'admirable' means worthy of admiration.",
+        "D": "خطأ: 'merit' اسم.\nWrong: 'merit' is noun."
+      }
+    }
+  },
+  {
+    "question": "91. It is quite ———- that they have already made up their mind about the project.",
+    "answers": [
+      { "text": "A) Probable", "correct": 1 },
+      { "text": "B) Opportunity" },
+      { "text": "C) Chance" },
+      { "text": "D) Possibility" }
+    ],
+    "explanation": {
+      "rule": "Adjective - Probable",
+      "correct_answer": "A) Probable",
+      "why_correct": "'Probable' محتمل.\n\n'Probable' means likely.",
+      "why_others_wrong": {
+        "B": "خطأ: 'opportunity' فرصة (اسم).\nWrong: 'opportunity' means chance (noun).",
+        "C": "خطأ: 'chance' فرصة (اسم).\nWrong: 'chance' means possibility (noun).",
+        "D": "خطأ: 'possibility' إمكانية (اسم).\nWrong: 'possibility' means potential (noun)."
+      }
+    }
+  },
+  {
+    "question": "92. The bridge———- into the river without any warning. Lots of people were injured.",
+    "answers": [
+      { "text": "A) Submerged" },
+      { "text": "B) Collapsed", "correct": 1 },
+      { "text": "C) Relapsed" },
+      { "text": "D) Degenerated" }
+    ],
+    "explanation": {
+      "rule": "Verb - Collapse",
+      "correct_answer": "B) Collapsed",
+      "why_correct": "'Collapsed' انهار.\n\n'Collapsed' means fell down.",
+      "why_others_wrong": {
+        "A": "خطأ: 'submerged' غطس/غمر.\nWrong: 'submerged' means went underwater.",
+        "C": "خطأ: 'relapsed' انتكس (طبياً).\nWrong: 'relapsed' means returned to illness.",
+        "D": "خطأ: 'degenerated' تدهور.\nWrong: 'degenerated' means deteriorated."
+      }
+    }
+  },
+  {
+    "question": "93. Children would rather --------- .",
+    "answers": [
+      { "text": "A) To play than to study" },
+      { "text": "B) Play than study", "correct": 1 },
+      { "text": "C) Playing than studying" },
+      { "text": "D) To play than studying" }
+    ],
+    "explanation": {
+      "rule": "Would rather + bare infinitive",
+      "correct_answer": "B) Play than study",
+      "why_correct": "'Would rather' يتبعه مصدر بدون 'to'.\n\n'Would rather' followed by bare infinitive.",
+      "why_others_wrong": {
+        "A": "خطأ: لا نستخدم 'to'.\nWrong: Don't use 'to'.",
+        "C": "خطأ: لا نستخدم gerund.\nWrong: Don't use gerund.",
+        "D": "خطأ: خليط خاطئ.\nWrong: Wrong mixture."
+      }
+    }
+  },
+  {
+    "question": "94. If you don't like the soup, why don't you ———- to the waiter and he can bring another one",
+    "answers": [
+      { "text": "A) Protest" },
+      { "text": "B) Criticise" },
+      { "text": "C) Complain", "correct": 1 },
+      { "text": "D) Consult" }
+    ],
+    "explanation": {
+      "rule": "Verb - Complain",
+      "correct_answer": "C) Complain",
+      "why_correct": "'Complain' يشتكي.\n\n'Complain' means express dissatisfaction.",
+      "why_others_wrong": {
+        "A": "خطأ: 'protest' يحتج (رسمي).\nWrong: 'protest' means object formally.",
+        "B": "خطأ: 'criticise' ينتقد.\nWrong: 'criticise' means find fault.",
+        "D": "خطأ: 'consult' يستشير.\nWrong: 'consult' means seek advice."
+      }
+    }
+  },
+  {
+    "question": "95. The weather changed ———— . It suddenly started to rain.",
+    "answers": [
+      { "text": "A) Unexpected" },
+      { "text": "B) Expectedly" },
+      { "text": "C) Unexpectedly", "correct": 1 },
+      { "text": "D) unexpectancy" }
+    ],
+    "explanation": {
+      "rule": "Adverb - Unexpectedly",
+      "correct_answer": "C) Unexpectedly",
+      "why_correct": "'Unexpectedly' بشكل غير متوقع.\n\n'Unexpectedly' means surprisingly.",
+      "why_others_wrong": {
+        "A": "خطأ: 'unexpected' صفة.\nWrong: 'unexpected' is adjective.",
+        "B": "خطأ: 'expectedly' كما متوقع.\nWrong: 'expectedly' means as expected.",
+        "D": "خطأ: 'unexpectancy' اسم.\nWrong: 'unexpectancy' is noun."
+      }
+    }
+  },
+  {
+    "question": "96. I do not know how we are going to get to the airport. We will have to ——— for a taxi to come",
+    "answers": [
+      { "text": "A) Arrange" },
+      { "text": "B) Plan" },
+      { "text": "C) Hire" },
+      { "text": "D) Book", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Verb - Book (reserve)",
+      "correct_answer": "D) Book",
+      "why_correct": "'Book' يحجز.\n\n'Book' means reserve/make reservation.",
+      "why_others_wrong": {
+        "A": "خطأ: 'arrange' ينظّم.\nWrong: 'arrange' means organize.",
+        "B": "خطأ: 'plan' يخطط.\nWrong: 'plan' means make plans.",
+        "C": "خطأ: 'hire' يستأجر (للمدة).\nWrong: 'hire' means rent (for duration)."
+      }
+    }
+  },
+  {
+    "question": "97. A funeral can ———- the feelings of regret and loss for the relatives.",
+    "answers": [
+      { "text": "A) Amplify", "correct": 1 },
+      { "text": "B) Extend" },
+      { "text": "C) Develop" },
+      { "text": "D) Exaggerate" }
+    ],
+    "explanation": {
+      "rule": "Verb - Amplify",
+      "correct_answer": "A) Amplify",
+      "why_correct": "'Amplify' يكثّف/يضخّم.\n\n'Amplify' means intensify/magnify.",
+      "why_others_wrong": {
+        "B": "خطأ: 'extend' يمدد.\nWrong: 'extend' means prolong.",
+        "C": "خطأ: 'develop' يطوّر.\nWrong: 'develop' means evolve.",
+        "D": "خطأ: 'exaggerate' يبالغ.\nWrong: 'exaggerate' means overstate."
+      }
+    }
+  },
+  {
+    "question": "98. Peter ———— at six in the morning",
+    "answers": [
+      { "text": "A) Gets up", "correct": 1 },
+      { "text": "B) Goes" },
+      { "text": "C) Goes up" }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Get up",
+      "correct_answer": "A) Gets up",
+      "why_correct": "'Get up' يستيقظ.\n\n'Get up' means wake up/rise.",
+      "why_others_wrong": {
+        "B": "خطأ: 'goes' يذهب (ناقص).\nWrong: 'goes' means leaves (incomplete).",
+        "C": "خطأ: 'goes up' يصعد.\nWrong: 'goes up' means ascends."
+      }
+    }
+  },
+  {
+    "question": "99. He was left alone in the hospital, with——— to take care of him .",
+    "answers": [
+      { "text": "A) No one", "correct": 1 },
+      { "text": "B) Not one" },
+      { "text": "C) Anyone" },
+      { "text": "D) Someone" }
+    ],
+    "explanation": {
+      "rule": "Indefinite Pronouns - No one",
+      "correct_answer": "A) No one",
+      "why_correct": "'No one' لا أحد.\n\n'No one' means nobody.",
+      "why_others_wrong": {
+        "B": "خطأ: 'not one' ولا واحد (تأكيد).\nWrong: 'not one' means not a single one (emphasis).",
+        "C": "خطأ: 'anyone' للجمل المنفية/الاستفهامية.\nWrong: 'anyone' for negative/questions.",
+        "D": "خطأ: 'someone' شخص ما (إيجابي).\nWrong: 'someone' means somebody (positive)."
+      }
+    }
+  },
+  {
+    "question": "100. The company did not have any ———- opening shops in Paris and Marseilles so they closed after only three months",
+    "answers": [
+      { "text": "A) Profit", "correct": 1 },
+      { "text": "B) Winnings" },
+      { "text": "C) Victory" },
+      { "text": "D) Success" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Profit",
+      "correct_answer": "A) Profit",
+      "why_correct": "'Profit' ربح/مكسب.\n\n'Profit' means financial gain.",
+      "why_others_wrong": {
+        "B": "خطأ: 'winnings' جوائز مالية.\nWrong: 'winnings' means prize money.",
+        "C": "خطأ: 'victory' انتصار.\nWrong: 'victory' means triumph.",
+        "D": "خطأ: 'success' نجاح (عام).\nWrong: 'success' means achievement (general)."
+      }
+    }
   }
 ]

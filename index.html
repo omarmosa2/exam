@@ -6,7 +6,7 @@
     <title>اختبار اللغة الإنجليزية - English Quiz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -59,7 +59,7 @@
             </div>
 
             <!-- Question Container -->
-            <div class="question-container">
+            <div class="question-container" dir="ltr">
                 <h2 id="questionText" class="question-text"></h2>
                 <div id="answersContainer" class="answers-container"></div>
             </div>
@@ -73,6 +73,11 @@
             <!-- Finish Quiz Button -->
             <div class="finish-quiz-container">
                 <button id="finishQuizBtn" class="btn-finish">🏁 إنهاء الاختبار حالاً / Finish Quiz Now</button>
+            </div>
+            
+            <!-- Footer Credit -->
+            <div class="footer-credit">
+                <span class="icon">💙</span> إذا أعجبك الموقع لا تنسى المطور من الدعاء <span class="icon">🤲</span>
             </div>
         </div>
     </div>
@@ -109,6 +114,11 @@
                 <div class="performance-message" id="performanceMessage"></div>
                 
                 <button id="restartBtn" class="btn-primary large">🔄 إعادة الاختبار / Restart Quiz</button>
+                
+                <!-- Footer Credit -->
+                <div class="footer-credit">
+                    <span class="icon">💙</span> إذا أعجبك الموقع لا تنسى المطور من الدعاء <span class="icon">🤲</span>
+                </div>
             </div>
         </div>
     </div>

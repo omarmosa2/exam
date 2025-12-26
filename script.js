@@ -114,6 +114,12 @@ function switchScreen(screen) {
 function displayQuestion() {
     const question = state.selectedQuestions[state.currentQuestionIndex];
     
+    // Remove any existing explanation when displaying a new question
+    const existingExplanation = document.querySelector('.explanation-container');
+    if (existingExplanation) {
+        existingExplanation.remove();
+    }
+    
     // Update question text
     elements.questionText.textContent = question.question;
     
@@ -170,6 +176,7 @@ function handleAnswerClick(event) {
     const button = event.target;
     const answerIndex = parseInt(button.dataset.index);
     const isCorrect = button.dataset.correct === '1';
+    const question = state.selectedQuestions[state.currentQuestionIndex];
     
     // Mark this question as answered
     state.answers[state.currentQuestionIndex] = answerIndex;
@@ -197,13 +204,97 @@ function handleAnswerClick(event) {
     // Update score display
     elements.currentScoreSpan.textContent = state.score;
     
-    // Auto-advance to next question after a short delay (optional)
-    // Uncomment the following lines if you want auto-advance
-    // setTimeout(() => {
-    //     if (state.currentQuestionIndex < state.totalQuestions - 1) {
-    //         goToNextQuestion();
+    // Update navigation buttons to enable next button after answering
+    updateNavigationButtons();
+    
+    // Show explanation if available
+    if (question.explanation) {
+        showExplanation(question, answerIndex, isCorrect);
+    }
+}
+
+// Show explanation for the answer
+function showExplanation(question, selectedIndex, isCorrect) {
+    // Remove any existing explanation
+    const existingExplanation = document.querySelector('.explanation-container');
+    if (existingExplanation) {
+        existingExplanation.remove();
+    }
+    
+    const explanationDiv = document.createElement('div');
+    explanationDiv.className = 'explanation-container';
+    
+    let explanationHTML = '<div class="explanation-card">';
+    
+    // Rule being tested
+    if (question.explanation.rule) {
+        explanationHTML += `
+            <div class="explanation-section rule-section">
+                <h3>📚 القاعدة / Grammar Rule</h3>
+                <p class="rule-text">${question.explanation.rule}</p>
+            </div>
+        `;
+    }
+    
+    // Correct answer explanation
+    if (question.explanation.correct_answer && question.explanation.why_correct) {
+        explanationHTML += `
+            <div class="explanation-section correct-section">
+                <h3>✅ الإجابة الصحيحة / Correct Answer</h3>
+                <p class="answer-text">${question.explanation.correct_answer}</p>
+                <p class="explanation-text">${question.explanation.why_correct}</p>
+            </div>
+        `;
+    }
+    
+    // If answer was wrong, show why
+    if (!isCorrect && question.explanation.why_others_wrong) {
+        const selectedAnswerLetter = question.answers[selectedIndex].text.charAt(0);
+        const wrongExplanation = question.explanation.why_others_wrong[selectedAnswerLetter];
+        
+        if (wrongExplanation) {
+            explanationHTML += `
+                <div class="explanation-section wrong-section">
+                    <h3>❌ لماذا إجابتك خاطئة / Why Your Answer is Wrong</h3>
+                    <p class="explanation-text">${wrongExplanation}</p>
+                </div>
+            `;
+        }
+    }
+    
+    // Show all wrong answers explanations
+    // if (question.explanation.why_others_wrong) {
+    //     explanationHTML += `
+    //         <div class="explanation-section all-wrong-section">
+    //             <h3>📝 شرح جميع الخيارات الخاطئة / All Wrong Options Explained</h3>
+    //     `;
+        
+    //     for (const [letter, explanation] of Object.entries(question.explanation.why_others_wrong)) {
+    //         explanationHTML += `<p class="wrong-option"><strong>${letter})</strong> ${explanation}</p>`;
     //     }
-    // }, 1500);
+        
+    //     explanationHTML += '</div>';
+    // }
+    
+    // Add note if exists
+    if (question.explanation.note) {
+        explanationHTML += `
+            <div class="explanation-section note-section">
+                <h3>📌 ملاحظة / Note</h3>
+                <p class="note-text">${question.explanation.note}</p>
+            </div>
+        `;
+    }
+    
+    explanationHTML += '</div>';
+    
+    explanationDiv.innerHTML = explanationHTML;
+    elements.answersContainer.after(explanationDiv);
+    
+    // Smooth scroll to explanation
+    setTimeout(() => {
+        explanationDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 100);
 }
 
 // Navigation functions
@@ -215,6 +306,12 @@ function goToPreviousQuestion() {
 }
 
 function goToNextQuestion() {
+    // Check if current question has been answered
+    if (state.answers[state.currentQuestionIndex] === null) {
+        alert('الرجاء الإجابة على السؤال الحالي أولاً\nPlease answer the current question first');
+        return;
+    }
+    
     if (state.currentQuestionIndex < state.totalQuestions - 1) {
         state.currentQuestionIndex++;
         displayQuestion();
@@ -228,6 +325,10 @@ function goToNextQuestion() {
 function updateNavigationButtons() {
     // Previous button
     elements.prevBtn.disabled = state.currentQuestionIndex === 0;
+    
+    // Next button - disable if current question not answered
+    const isCurrentQuestionAnswered = state.answers[state.currentQuestionIndex] !== null;
+    elements.nextBtn.disabled = !isCurrentQuestionAnswered;
     
     // Next button - change text on last question
     if (state.currentQuestionIndex === state.totalQuestions - 1) {
