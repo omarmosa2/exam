@@ -358,16 +358,16 @@ function showResults() {
     let messageClass = '';
     
     if (percentageScore >= 90) {
-        message = '🌟 ممتاز! أداء رائع! / Excellent! Outstanding performance!';
+        message = 'Excellent! Outstanding performance!';
         messageClass = 'excellent';
     } else if (percentageScore >= 70) {
-        message = '👏 جيد جداً! استمر في التقدم! / Very Good! Keep up the good work!';
+        message = ' Very Good! Keep up the good work!';
         messageClass = 'good';
     } else if (percentageScore >= 50) {
-        message = '👍 جيد! يمكنك تحسين أدائك / Good! You can improve your performance';
+        message = ' Good! You can improve your performance';
         messageClass = 'average';
     } else {
-        message = '💪 يحتاج إلى مزيد من التدريب / Needs more practice';
+        message = 'Needs more practice';
         messageClass = 'poor';
     }
     
