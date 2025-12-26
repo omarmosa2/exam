@@ -17,7 +17,7 @@
             <p class="subtitle">تصميم المهندس عمر موسى</p>
             
             <div class="question-selector">
-                <h2>اختر عدد الأسئلة / Choose Number of Questions</h2>
+                <h2> Choose Number of Questions</h2>
                 
                 <div class="button-grid">
                     <button class="select-btn" data-count="10">10 أسئلة</button>
@@ -25,11 +25,11 @@
                     <button class="select-btn" data-count="30">30 سؤال</button>
                     <button class="select-btn" data-count="40">40 سؤال</button>
                     <button class="select-btn" data-count="50">50 سؤال</button>
-                    <button class="select-btn" data-count="all">جميع الأسئلة / All</button>
+                    <button class="select-btn" data-count="all"> All</button>
                 </div>
                 
                 <div class="custom-input">
-                    <label for="customCount">أو أدخل عددًا مخصصًا / Custom Number:</label>
+                    <label for="customCount"> Custom Number:</label>
                     <div class="input-group">
                         <input type="number" id="customCount" min="1" max="150" placeholder="مثال: 15">
                         <button id="startCustomBtn" class="btn-primary">ابدأ الاختبار / Start</button>
@@ -54,7 +54,7 @@
 
             <!-- Score Display -->
             <div class="score-display">
-                <span class="score-label">النقاط / Score:</span>
+                <span class="score-label"> Score:</span>
                 <span id="currentScore">0</span> / <span id="totalScore">0</span>
             </div>
 
@@ -72,7 +72,7 @@
             
             <!-- Finish Quiz Button -->
             <div class="finish-quiz-container">
-                <button id="finishQuizBtn" class="btn-finish">🏁 إنهاء الاختبار حالاً / Finish Quiz Now</button>
+                <button id="finishQuizBtn" class="btn-finish">Finish Quiz Now</button>
             </div>
             
             <!-- Footer Credit -->
@@ -91,29 +91,29 @@
                 
                 <div class="results-card">
                     <div class="result-item">
-                        <span class="result-label">مجموع النقاط / Total Score:</span>
+                        <span class="result-label"> Total Score:</span>
                         <span class="result-value" id="finalScore">0 / 0</span>
                     </div>
                     
                     <div class="result-item">
-                        <span class="result-label">النسبة المئوية / Percentage:</span>
+                        <span class="result-label">Percentage:</span>
                         <span class="result-value" id="percentage">0%</span>
                     </div>
                     
                     <div class="result-item">
-                        <span class="result-label">الإجابات الصحيحة / Correct Answers:</span>
+                        <span class="result-label"> Correct Answers:</span>
                         <span class="result-value success" id="correctCount">0</span>
                     </div>
                     
                     <div class="result-item">
-                        <span class="result-label">الإجابات الخاطئة / Wrong Answers:</span>
+                        <span class="result-label"> Wrong Answers:</span>
                         <span class="result-value error" id="wrongCount">0</span>
                     </div>
                 </div>
                 
                 <div class="performance-message" id="performanceMessage"></div>
                 
-                <button id="restartBtn" class="btn-primary large">🔄 إعادة الاختبار / Restart Quiz</button>
+                <button id="restartBtn" class="btn-primary large">🔄 Restart Quiz</button>
                 
                 <!-- Footer Credit -->
                 <div class="footer-credit">
