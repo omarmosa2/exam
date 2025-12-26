@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار اللغة الإنجليزية - English Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="startScreen" class="screen active">
+        <div class="container">
+            <h1 class="title">🎓 اختبار اللغة الإنجليزية</h1>
+            <p class="subtitle">English Language Quiz</p>
+            
+            <div class="question-selector">
+                <h2>اختر عدد الأسئلة / Choose Number of Questions</h2>
+                
+                <div class="button-grid">
+                    <button class="select-btn" data-count="10">10 أسئلة</button>
+                    <button class="select-btn" data-count="20">20 سؤال</button>
+                    <button class="select-btn" data-count="30">30 سؤال</button>
+                    <button class="select-btn" data-count="40">40 سؤال</button>
+                    <button class="select-btn" data-count="50">50 سؤال</button>
+                    <button class="select-btn" data-count="all">جميع الأسئلة / All</button>
+                </div>
+                
+                <div class="custom-input">
+                    <label for="customCount">أو أدخل عددًا مخصصًا / Custom Number:</label>
+                    <div class="input-group">
+                        <input type="number" id="customCount" min="1" max="150" placeholder="مثال: 15">
+                        <button id="startCustomBtn" class="btn-primary">ابدأ الاختبار / Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="screen">
+        <div class="container">
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span id="currentQuestion">1</span> / <span id="totalQuestions">0</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+
+            <!-- Score Display -->
+            <div class="score-display">
+                <span class="score-label">النقاط / Score:</span>
+                <span id="currentScore">0</span> / <span id="totalScore">0</span>
+            </div>
+
+            <!-- Question Container -->
+            <div class="question-container">
+                <h2 id="questionText" class="question-text"></h2>
+                <div id="answersContainer" class="answers-container"></div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="navigation">
+                <button id="prevBtn" class="btn-nav" disabled>⏮ السابق / Previous</button>
+                <button id="nextBtn" class="btn-nav">التالي / Next ⏭</button>
+            </div>
+            
+            <!-- Finish Quiz Button -->
+            <div class="finish-quiz-container">
+                <button id="finishQuizBtn" class="btn-finish">🏁 إنهاء الاختبار حالاً / Finish Quiz Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="resultsScreen" class="screen">
+        <div class="container">
+            <div class="results-container">
+                <h1 class="title">🎉 انتهى الاختبار!</h1>
+                <p class="subtitle">Quiz Completed!</p>
+                
+                <div class="results-card">
+                    <div class="result-item">
+                        <span class="result-label">مجموع النقاط / Total Score:</span>
+                        <span class="result-value" id="finalScore">0 / 0</span>
+                    </div>
+                    
+                    <div class="result-item">
+                        <span class="result-label">النسبة المئوية / Percentage:</span>
+                        <span class="result-value" id="percentage">0%</span>
+                    </div>
+                    
+                    <div class="result-item">
+                        <span class="result-label">الإجابات الصحيحة / Correct Answers:</span>
+                        <span class="result-value success" id="correctCount">0</span>
+                    </div>
+                    
+                    <div class="result-item">
+                        <span class="result-label">الإجابات الخاطئة / Wrong Answers:</span>
+                        <span class="result-value error" id="wrongCount">0</span>
+                    </div>
+                </div>
+                
+                <div class="performance-message" id="performanceMessage"></div>
+                
+                <button id="restartBtn" class="btn-primary large">🔄 إعادة الاختبار / Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1389 @@
+[
+  {
+    "question": "1. A: I don’t want to talk to _____.               B: And I want to talk to _____ either.",
+    "answers": [
+      { "text": "A) anyone / no one" },
+      { "text": "B) somebody/everyone" },
+      { "text": "C) nobody / somebody", "correct": 1 },
+      { "text": "D) everybody/anybody" }
+    ]
+  },
+  {
+    "question": "2.  I work in _____ company that makes _____ carpets.",
+    "answers": [
+      { "text": "A) a /X", "correct": 1 },
+      { "text": "B) the / the" },
+      { "text": "C) the /X" },
+      { "text": "D) a / a" }
+    ]
+  },
+  {
+    "question": "3. There are _____ apples.",
+    "answers": [
+      { "text": "A) most" },
+      { "text": "B) a lot of", "correct": 1 },
+      { "text": "C) a little" },
+      { "text": "D) much" }
+    ]
+  },
+  {
+    "question": "4. They arrived _____ three o’clock _____ the afternoon.",
+    "answers": [
+      { "text": "A) at / in", "correct": 1 },
+      { "text": "B) in / for" },
+      { "text": "C) when / ago" },
+      { "text": "D) last / *" }
+    ]
+  },
+  {
+    "question": "5. I _____ a friend while I _____ the shopping",
+    "answers": [
+      { "text": "A) was meeting / did" },
+      { "text": "B) met / was doing", "correct": 1 },
+      { "text": "C) meet / do" },
+      { "text": "D) met / did" }
+    ]
+  },
+  {
+    "question": "6. I _____ hello to the children, but they didn’t say anything because they _____ television.",
+    "answers": [
+      { "text": "A) say / watched" },
+      { "text": "B) said / were watching", "correct": 1 },
+      { "text": "C) was / saying" },
+      { "text": "D) said / watched" }
+    ]
+  },
+  {
+    "question": "7. The man ______ you met at the party was a famous film star.",
+    "answers": [
+      { "text": "A) who", "correct": 1 },
+      { "text": "B) when" },
+      { "text": "C) where" },
+      { "text": "D) which" }
+    ]
+  },
+  {
+    "question": "8. She’s _____ than her sister.",
+    "answers": [
+      { "text": "A) much nicer", "correct": 1 },
+      { "text": "B) more nicer" },
+      { "text": "C) much more nicer" },
+      { "text": "D) more nicer" }
+    ]
+  },
+  {
+    "question": "9. How much must I ............... a good second-hand car?",
+    "answers": [
+      { "text": "A) buy from" },
+      { "text": "B) pay for", "correct": 1 },
+      { "text": "C) borrow from" },
+      { "text": "D) own for" },
+      { "text": "E) lend to" }
+    ]
+  },
+  {
+    "question": "10. It's getting quite ______. I think it's going to rain soon.",
+    "answers": [
+      { "text": "A) windy" },
+      { "text": "B) hot" },
+      { "text": "C) foggy" },
+      { "text": "D) cold" },
+      { "text": "E) cloudy", "correct": 1 }
+    ]
+  },
+  {
+    "question": "11. The ............... today is full of the news of yesterday's concert.",
+    "answers": [
+      { "text": "A) press", "correct": 1 },
+      { "text": "B) publisher" },
+      { "text": "C) reporter" },
+      { "text": "D) literature" },
+      { "text": "E) journalism" }
+    ]
+  },
+  {
+    "question": "12. It's a very ............... picture. I laugh at it all the time.",
+    "answers": [
+      { "text": "A) laughing" },
+      { "text": "B) smiling" },
+      { "text": "C) joking" },
+      { "text": "D) funny", "correct": 1 },
+      { "text": "E) serious" }
+    ]
+  },
+  {
+    "question": "13. Nobody gave him a hand. He did it on his ______.",
+    "answers": [
+      { "text": "A) single" },
+      { "text": "B) self" },
+      { "text": "C) alone" },
+      { "text": "D) own", "correct": 1 },
+      { "text": "E) lonely" }
+    ]
+  },
+  {
+    "question": "14. Yes, we certainly want to move to a bigger house, but our ............... of money is only part of the problem.",
+    "answers": [
+      { "text": "A) inflation" },
+      { "text": "B) presence" },
+      { "text": "C) shortage", "correct": 1 },
+      { "text": "D) absence" },
+      { "text": "E) border" }
+    ]
+  },
+  {
+    "question": "15. Sorry, it's much too expensive for me; I can't ............... it.",
+    "answers": [
+      { "text": "A) help" },
+      { "text": "B) stand" },
+      { "text": "C) forgive" },
+      { "text": "D) export" },
+      { "text": "E) afford", "correct": 1 }
+    ]
+  },
+  {
+    "question": "16. His friends advised him to see a doctor about his headaches, but he ............... to listen to them.",
+    "answers": [
+      { "text": "A) remembered" },
+      { "text": "B) refused", "correct": 1 },
+      { "text": "C) memorized" },
+      { "text": "D) requested" },
+      { "text": "E) mentioned" }
+    ]
+  },
+  {
+    "question": "17. The Prime Minister of Italy ____ .",
+    "answers": [
+      { "text": "A) has been resigned" },
+      { "text": "B) have resigned" },
+      { "text": "C) resigned" },
+      { "text": "D) has resigned", "correct": 1 }
+    ]
+  },
+  {
+    "question": "18. A new prime minister _____ .",
+    "answers": [
+      { "text": "A) has elected" },
+      { "text": "B) has been elected", "correct": 1 },
+      { "text": "C) have elected" },
+      { "text": "D) elected" }
+    ]
+  },
+  {
+    "question": "19. The Italian people ____ of his resignation on television yesterday evening.",
+    "answers": [
+      { "text": "A) was told" },
+      { "text": "B) have been told" },
+      { "text": "C) told" },
+      { "text": "D) were told", "correct": 1 }
+    ]
+  },
+  {
+    "question": "20. I _____ my glasses. _____ them anywhere?",
+    "answers": [
+      { "text": "A) have been lost / Have you seen" },
+      { "text": "B) lost / Have you seen" },
+      { "text": "C) have lost / Did you see", "correct": 1 },
+      { "text": "D) lost / Did you see" }
+    ]
+  },
+  {
+    "question": "21. What noisy neighbors you’ve got! If my neighbors _____ as bad as yours, I _____ crazy.",
+    "answers": [
+      { "text": "A) were / would go", "correct": 1 },
+      { "text": "B) are / will go" },
+      { "text": "C) are / would go" },
+      { "text": "D) had been / would have gone" }
+    ]
+  },
+  {
+    "question": "22. _____ Friday evening we went to a party.",
+    "answers": [
+      { "text": "A) At" },
+      { "text": "B) In" },
+      { "text": "C) On", "correct": 1 },
+      { "text": "D) x" }
+    ]
+  },
+  {
+    "question": "23. I’d love _____ help you, but I can’t. I’m sorry.",
+    "answers": [
+      { "text": "A) can" },
+      { "text": "B) could" },
+      { "text": "C) managed to" },
+      { "text": "D) to be able to", "correct": 1 }
+    ]
+  },
+  {
+    "question": "24. Give me Peter’s letter. If I _____ him, I _____ it to him.",
+    "answers": [
+      { "text": "A) see-will give" },
+      { "text": "B) saw-would give", "correct": 1 },
+      { "text": "C) meet-would visit" },
+      { "text": "D) had seen- would give" }
+    ]
+  },
+  {
+    "question": "25. Do you really ............... to go there tonight?",
+    "answers": [
+      { "text": "A) neglect" },
+      { "text": "B) admire" },
+      { "text": "C) ignore" },
+      { "text": "D) involve" },
+      { "text": "E) intend", "correct": 1 }
+    ]
+  },
+  {
+    "question": "26. You'll have to learn to control your ............... if you still want to work here with us.",
+    "answers": [
+      { "text": "A) mind" },
+      { "text": "B) temper", "correct": 1 },
+      { "text": "C) reason" },
+      { "text": "D) habit" },
+      { "text": "E) mentality" }
+    ]
+  },
+  {
+    "question": "27. I have some wonderful news to ............... you.",
+    "answers": [
+      { "text": "A) speak" },
+      { "text": "B) say" },
+      { "text": "C) tell", "correct": 1 },
+      { "text": "D) talk" },
+      { "text": "E) communicate" }
+    ]
+  },
+  {
+    "question": "28. Would you ............... my keeping the door ajar?",
+    "answers": [
+      { "text": "A) agree" },
+      { "text": "B) intend" },
+      { "text": "C) obstruct" },
+      { "text": "D) close" },
+      { "text": "E) mind", "correct": 1 }
+    ]
+  },
+  {
+    "question": "29. I noticed that there were two buttons ................ from his coat.",
+    "answers": [
+      { "text": "A) falling" },
+      { "text": "B) losing" },
+      { "text": "C) departing" },
+      { "text": "D) dropping" },
+      { "text": "E) missing", "correct": 1 }
+    ]
+  },
+  {
+    "question": "30. The main road through Oxford circus and Holborn was blocked all day yesterday due to an accident ............... two lorries (trucks).",
+    "answers": [
+      { "text": "A) containing" },
+      { "text": "B) fastening" },
+      { "text": "C) involving", "correct": 1 },
+      { "text": "D) including" },
+      { "text": "E) combining" }
+    ]
+  },
+  {
+    "question": "31. The doctors tried everything they could to ............ the patient's blood pressure.",
+    "answers": [
+      { "text": "A) produce" },
+      { "text": "B) reduce", "correct": 1 },
+      { "text": "C) clarify" },
+      { "text": "D) hasten" },
+      { "text": "E) climb" }
+    ]
+  },
+  {
+    "question": "32. His new appointment takes ............. from the beginning of next month.",
+    "answers": [
+      { "text": "A) place", "correct": 1 },
+      { "text": "B) effect" },
+      { "text": "C) post" },
+      { "text": "D) part" },
+      { "text": "E) position" }
+    ]
+  },
+  {
+    "question": "32. It needed the collective genius of mankind to ............ the wheel.",
+    "answers": [
+      { "text": "A) discover" },
+      { "text": "B) constitute" },
+      { "text": "C) find" },
+      { "text": "D) perform" },
+      { "text": "E) invent", "correct": 1 }
+    ]
+  },
+  {
+    "question": "33. Ann ___ that she ___ the visitor before.",
+    "answers": [
+      { "text": "A) thought / saw" },
+      { "text": "B) thinks / sees" },
+      { "text": "C) is thinking / sees" },
+      { "text": "D) thought / had seen", "correct": 1 },
+      { "text": "E) have thought / had seen" }
+    ]
+  },
+  {
+    "question": "34. As it ___ dark we ___ to go home.",
+    "answers": [
+      { "text": "A) gets / decided" },
+      { "text": "B) would get / shall decide" },
+      { "text": "C) had got / have decided" },
+      { "text": "D) was getting / decided", "correct": 1 },
+      { "text": "E) will be getting / had decided" }
+    ]
+  },
+  {
+    "question": "35. He ___ looking at her, wondering where he ___ her",
+    "answers": [
+      { "text": "A) keep / see" },
+      { "text": "B) kept / had seen", "correct": 1 },
+      { "text": "C) keeps / saw" },
+      { "text": "D) had kept / had seen" },
+      { "text": "E) being kept / would see" }
+    ]
+  },
+  {
+    "question": "36. They ___ to get married last month although they ___ each other for only six weeks.",
+    "answers": [
+      { "text": "A) decide / know" },
+      { "text": "B) decided / know" },
+      { "text": "C) decided / had known", "correct": 1 },
+      { "text": "D) decided / knew" },
+      { "text": "E) decided / has known" }
+    ]
+  },
+  {
+    "question": "37. ___ the weather good when you ___ tennis?",
+    "answers": [
+      { "text": "A) is / played" },
+      { "text": "B) was / were playing", "correct": 1 },
+      { "text": "C) will be / played" },
+      { "text": "D) is / will be playing" },
+      { "text": "E) has been / will play" }
+    ]
+  },
+  {
+    "question": "38. When he ___ to the station the train already ___ .",
+    "answers": [
+      { "text": "A) comes / left" },
+      { "text": "B) came / leaves" },
+      { "text": "C) came / had left", "correct": 1 },
+      { "text": "D) had come / left" },
+      { "text": "E) has come / leaves" }
+    ]
+  },
+  {
+    "question": "39. Last Monday when I ___ the house it ___ heavily.",
+    "answers": [
+      { "text": "A) leave / rain" },
+      { "text": "B) left / was raining", "correct": 1 },
+      { "text": "C) left / had rained" },
+      { "text": "D) was leaving / rained" },
+      { "text": "E) leave / rains" }
+    ]
+  },
+  {
+    "question": "40. Yesterday when Tom ___ the lesson___ .",
+    "answers": [
+      { "text": "A) comes / already begins" },
+      { "text": "B) came / had already begun", "correct": 1 },
+      { "text": "C) came / already began" },
+      { "text": "D) will come / already begins" },
+      { "text": "E) came / already begins" }
+    ]
+  },
+  {
+    "question": "41. I ___ the call because I ___ a shower.",
+    "answers": [
+      { "text": "A) didn’t answer / was taking", "correct": 1 },
+      { "text": "B) don’t answer / take" },
+      { "text": "C) doesn’t answer / am taking" },
+      { "text": "D) will not answer / take" },
+      { "text": "E) am answering / am taking" }
+    ]
+  },
+  {
+    "question": "42. What measures have been ________ to control the crowd at Saturday’s football match?",
+    "answers": [
+      { "text": "A) imagined" },
+      { "text": "B) made" },
+      { "text": "C) given" },
+      { "text": "D) described" },
+      { "text": "E) taken", "correct": 1 }
+    ]
+  },
+  {
+    "question": "43. He left in such a hurry that I ________ had time to thank him.",
+    "answers": [
+      { "text": "A) almost" },
+      { "text": "B) even" },
+      { "text": "C) nearly" },
+      { "text": "D) scarcely", "correct": 1 },
+      { "text": "E) least" }
+    ]
+  },
+  {
+    "question": "44. He gave me some very ________ advice on buying a house.",
+    "answers": [
+      { "text": "A) precious" },
+      { "text": "B) wealthy" },
+      { "text": "C) dear" },
+      { "text": "D) prized" },
+      { "text": "E) valuable", "correct": 1 }
+    ]
+  },
+  {
+    "question": "45. To get my travelers’ cheques I had to ________ a special cheque to the Bank for the total amount.",
+    "answers": [
+      { "text": "A) make for" },
+      { "text": "B) make off" },
+      { "text": "C) make out", "correct": 1 },
+      { "text": "D) makeover" },
+      { "text": "E) make up" }
+    ]
+  },
+  {
+    "question": "46. If we can ________ our present difficulties, then everything should be all right.",
+    "answers": [
+      { "text": "A) get off" },
+      { "text": "B) come across" },
+      { "text": "C) come over" },
+      { "text": "D) get over", "correct": 1 },
+      { "text": "E) get away" }
+    ]
+  },
+  {
+    "question": "47. I’m ________ to get the tickets for the show today, as there are hardly any left.",
+    "answers": [
+      { "text": "A) worried" },
+      { "text": "B) curious" },
+      { "text": "C) anxious", "correct": 1 },
+      { "text": "D) afraid" },
+      { "text": "E) troubled" }
+    ]
+  },
+  {
+    "question": "48. His landlady gave him a week’s ________ to leave the flat.",
+    "answers": [
+      { "text": "A) threat" },
+      { "text": "B) notice", "correct": 1 },
+      { "text": "C) advice" },
+      { "text": "D) caution" },
+      { "text": "E) dismissal" }
+    ]
+  },
+  {
+    "question": "49. We forgave his bad temper because we knew that his son’s illness had put him under great _____.",
+    "answers": [
+      { "text": "A) emotion" },
+      { "text": "B) excitement" },
+      { "text": "C) crisis" },
+      { "text": "D) stress", "correct": 1 },
+      { "text": "E) nervousness" }
+    ]
+  },
+  {
+    "question": "50. A completely new situation is likely to ________ when the school leaving age is raised to 16.",
+    "answers": [
+      { "text": "A) affect" },
+      { "text": "B) rise" },
+      { "text": "C) arise", "correct": 1 },
+      { "text": "D) raise" },
+      { "text": "E) happen" }
+    ]
+  },
+   {
+    "question": "1. The new line of trains ——— all the suburbs to the city center.",
+    "answers": [
+      { "text": "Refer" },
+      { "text": "Connect", "correct": 1 },
+      { "text": "Conduct" },
+      { "text": "Conclude" }
+    ]
+  },
+  {
+    "question": "2. The legend has been ————- down from generation to generation.",
+    "answers": [
+      { "text": "Banded" },
+      { "text": "Branded" },
+      { "text": "Handed", "correct": 1 },
+      { "text": "Hanged" }
+    ]
+  },
+  {
+    "question": "3. The post office? Well, walk ———— this road for about half a kilometre and it is on you are left.",
+    "answers": [
+      { "text": "Along", "correct": 1 },
+      { "text": "Under" },
+      { "text": "Over" },
+      { "text": "Cross" }
+    ]
+  },
+  {
+    "question": "4. The ———- of the forest will result in the ———- of many species.",
+    "answers": [
+      { "text": "Destructing / disappearance" },
+      { "text": "Destruction / disappear" },
+      { "text": "Destruction / disappearance", "correct": 1 },
+      { "text": "Destruct / disappear" }
+    ]
+  },
+  {
+    "question": "5. She has been very kind -------- .",
+    "answers": [
+      { "text": "Is not she" },
+      { "text": "Has not she", "correct": 1 },
+      { "text": "Does not she" },
+      { "text": "Was not she" }
+    ]
+  },
+  {
+    "question": "6. I do not like --------- .",
+    "answers": [
+      { "text": "To take my photograph" },
+      { "text": "Take photograph of myself" },
+      { "text": "Having my photograph taken", "correct": 1 },
+      { "text": "My photograph been taken" }
+    ]
+  },
+  {
+    "question": "7. I made him————what I had told him.",
+    "answers": [
+      { "text": "Repeat" },
+      { "text": "That he repeated" },
+      { "text": "To repeat", "correct": 1 },
+      { "text": "Repeating" }
+    ]
+  },
+  {
+    "question": "8. He ———- live in the country than in the city.",
+    "answers": [
+      { "text": "Had better" },
+      { "text": "Prefers", "correct": 1 },
+      { "text": "Would rather" },
+      { "text": "Likes better to" }
+    ]
+  },
+  {
+    "question": "9. My kitchen is very old. I am going to ——- it.",
+    "answers": [
+      { "text": "Modernize", "correct": 1 },
+      { "text": "Paint" },
+      { "text": "New" },
+      { "text": "Clean" }
+    ]
+  },
+  {
+    "question": "10. I am afraid I do not know where he lives. I wish I ---------.",
+    "answers": [
+      { "text": "Do" },
+      { "text": "Did" },
+      { "text": "Were" },
+      { "text": "Had known", "correct": 1 }
+    ]
+  },
+  {
+    "question": "11. A big crowd of demonstrators was ——— cuts in health spending.",
+    "answers": [
+      { "text": "Protesting against", "correct": 1 },
+      { "text": "Provoking" },
+      { "text": "Protesting for" },
+      { "text": "Refusing to" }
+    ]
+  },
+  {
+    "question": "12. It does not matter. It's of no ——- sig",
+    "answers": [
+      { "text": "Learning" },
+      { "text": "Important" },
+      { "text": "Work" },
+      { "text": "Significance / importance", "correct": 1 }
+    ]
+  },
+  {
+    "question": "13. Mike spent several years as a (n) ——— to a master-builder, so that he might learn the trade.",
+    "answers": [
+      { "text": "Apprentice", "correct": 1 },
+      { "text": "Applicant" },
+      { "text": "Learner" },
+      { "text": "Student" }
+    ]
+  },
+  {
+    "question": "14. My chest hurts———I breathe, do you think I got Covid",
+    "answers": [
+      { "text": "Wherever" },
+      { "text": "Whenever", "correct": 1 },
+      { "text": "Whoever" },
+      { "text": "Whatever" }
+    ]
+  },
+  {
+    "question": "15. What do you do?",
+    "answers": [
+      { "text": "Am from Italy" },
+      { "text": "Am a student", "correct": 1 },
+      { "text": "Am fine thank you" }
+    ]
+  },
+  {
+    "question": "16. We do not have ——-butter.",
+    "answers": [
+      { "text": "A" },
+      { "text": "Any", "correct": 1 },
+      { "text": "Got" }
+    ]
+  },
+  {
+    "question": "17. hat is the dog ----------- .",
+    "answers": [
+      { "text": "After which we have been looking" },
+      { "text": "What we have been looking after" },
+      { "text": "We have been looking after", "correct": 1 },
+      { "text": "We have been taking care" }
+    ]
+  },
+  {
+    "question": "18. She ——- her father.",
+    "answers": [
+      { "text": "Remembers me" },
+      { "text": "Reminds me of", "correct": 1 },
+      { "text": "Remembers me of" },
+      { "text": "Reminds me" }
+    ]
+  },
+  {
+    "question": "19. The incident has been witnessed by a number of ---------",
+    "answers": [
+      { "text": "passer-bys" },
+      { "text": "Passer-by" },
+      { "text": "Passers-bys" },
+      { "text": "Passers-by", "correct": 1 }
+    ]
+  },
+  {
+    "question": "20. -------- Name is Mary.",
+    "answers": [
+      { "text": "Me" },
+      { "text": "I" },
+      { "text": "My", "correct": 1 }
+    ]
+  },{
+    "question": "21. How long is it? The ———- must be very exact.",
+    "answers": [
+      { "text": "Side" },
+      { "text": "Area" },
+      { "text": "Measurement", "correct": 1 },
+      { "text": "Longing" }
+    ]
+  },
+  {
+    "question": "22. The boss listened to them with great patience——-he was obviously infuriated",
+    "answers": [
+      { "text": "However", "correct": 1 },
+      { "text": "Consequently" },
+      { "text": "In spite of" },
+      { "text": "Though" }
+    ]
+  },
+  {
+    "question": "23. What about 6 o'clock? Will that time ——-you.",
+    "answers": [
+      { "text": "Suit", "correct": 1 },
+      { "text": "Match" },
+      { "text": "Agree" },
+      { "text": "Approve" }
+    ]
+  },
+  {
+    "question": "24. How he manages to keep going with all this is ——- me.",
+    "answers": [
+      { "text": "Beneath" },
+      { "text": "Beyond", "correct": 1 },
+      { "text": "Below" },
+      { "text": "Beside" }
+    ]
+  },
+  {
+    "question": "25. I am afraid this car does not have enough ————- to get up that hill. We will have to walk up.",
+    "answers": [
+      { "text": "Motor" },
+      { "text": "Charge" },
+      { "text": "Engine" },
+      { "text": "Power", "correct": 1 }
+    ]
+  },
+  {
+    "question": "26. Have you ———- a car ?",
+    "answers": [
+      { "text": "Have" },
+      { "text": "Ant" },
+      { "text": "Got", "correct": 1 }
+    ]
+  },
+  {
+    "question": "27. If you were a more ———— person, you would not have left me waiting for you in the rain for an hour.",
+    "answers": [
+      { "text": "Kind" },
+      { "text": "Considerate", "correct": 1 },
+      { "text": "Polite" },
+      { "text": "Humorous" }
+    ]
+  },
+  {
+    "question": "28. Her condition is improving---------.",
+    "answers": [
+      { "text": "Steadly" },
+      { "text": "Steady" },
+      { "text": "Steadily", "correct": 1 },
+      { "text": "Steadiness" }
+    ]
+  },
+  {
+    "question": "29. Put on your raincoat———- it rains",
+    "answers": [
+      { "text": "Because" },
+      { "text": "In any case" },
+      { "text": "In case", "correct": 1 },
+      { "text": "For" }
+    ]
+  },
+  {
+    "question": "30. The patient was————-examined by three of the best doctors in our hospital.",
+    "answers": [
+      { "text": "Thoroughly", "correct": 1 },
+      { "text": "Fondly" },
+      { "text": "Shyly" },
+      { "text": "Utter" }
+    ]
+  },
+  {
+    "question": "31. It is very difficult to ——— this machine.",
+    "answers": [
+      { "text": "Make" },
+      { "text": "Operate", "correct": 1 },
+      { "text": "Work" },
+      { "text": "Do" }
+    ]
+  },
+  {
+    "question": "32. It is highly unlikely to raise income ———— in an election year, according to an official in the parliament.",
+    "answers": [
+      { "text": "Tax", "correct": 1 },
+      { "text": "Payment" },
+      { "text": "Price" },
+      { "text": "Salary" }
+    ]
+  },
+  {
+    "question": "33. I did not buy the sweater because it was not------",
+    "answers": [
+      { "text": "Washed" },
+      { "text": "Washing" },
+      { "text": "Washer" },
+      { "text": "Washable", "correct": 1 }
+    ]
+  },
+  {
+    "question": "34. The poet had written several ———- before completing the final version.",
+    "answers": [
+      { "text": "Originals" },
+      { "text": "Novels" },
+      { "text": "Drafts", "correct": 1 },
+      { "text": "Rehearsals" }
+    ]
+  },
+  {
+    "question": "35. His uncle owns four computer companies and lives in a big ————- out in the country.",
+    "answers": [
+      { "text": "Bungalow" },
+      { "text": "Hut" },
+      { "text": "Apartment" },
+      { "text": "Mansion", "correct": 1 }
+    ]
+  },
+  {
+    "question": "36. My boss needs my ———- on the paper.",
+    "answers": [
+      { "text": "Acceptation" },
+      { "text": "Mark" },
+      { "text": "Signature", "correct": 1 },
+      { "text": "Refuse" }
+    ]
+  },
+  {
+    "question": "37. Do you like the red -------- ?",
+    "answers": [
+      { "text": "One", "correct": 1 },
+      { "text": "It" },
+      { "text": "That" }
+    ]
+  },
+  {
+    "question": "38. They do not get on well. They are having a (an) ———— now.",
+    "answers": [
+      { "text": "Fighting" },
+      { "text": "War" },
+      { "text": "Argument", "correct": 1 },
+      { "text": "Talking" }
+    ]
+  },
+  {
+    "question": "39. The new job will provide you with———-experience. It is so helpful for your future as a programmer.",
+    "answers": [
+      { "text": "Praiseworthy" },
+      { "text": "Invaluable", "correct": 1 },
+      { "text": "Admirable" },
+      { "text": "Merit" }
+    ]
+  },
+  {
+    "question": "40. It is quite ———- that they have already made up their mind about the project.",
+    "answers": [
+      { "text": "Probable", "correct": 1 },
+      { "text": "Opportunity" },
+      { "text": "Chance" },
+      { "text": "Possibility" }
+    ]
+  },
+  {
+    "question": "41. The bridge———- into the river without any warning. Lots of people were injured.",
+    "answers": [
+      { "text": "Submerged" },
+      { "text": "Collapsed", "correct": 1 },
+      { "text": "Relapsed" },
+      { "text": "Degenerated" }
+    ]
+  },
+  {
+    "question": "42. Children would rather --------- .",
+    "answers": [
+      { "text": "To play than to study" },
+      { "text": "Play than study", "correct": 1 },
+      { "text": "Playing than studying" },
+      { "text": "To play than studying" }
+    ]
+  },
+  {
+    "question": "43. If you don't like the soup, why don't you ———- to the waiter and he can bring another one",
+    "answers": [
+      { "text": "Protest" },
+      { "text": "Criticise" },
+      { "text": "Complain", "correct": 1 },
+      { "text": "Consult" }
+    ]
+  },
+  {
+    "question": "44. The weather changed ———— . It suddenly started to rain.",
+    "answers": [
+      { "text": "Unexpected" },
+      { "text": "Expectedly" },
+      { "text": "Unexpectedly", "correct": 1 },
+      { "text": "unexpectancy" }
+    ]
+  },
+  {
+    "question": "45. T do not know how we are going to get to the airport. We will have to ——— for a taxi to come",
+    "answers": [
+      { "text": "Arrange" },
+      { "text": "Plan" },
+      { "text": "Hire" },
+      { "text": "Book", "correct": 1 }
+    ]
+  },
+  {
+    "question": "46. A funeral can ———- the feelings of regret and loss for the relatives.",
+    "answers": [
+      { "text": "Amplify", "correct": 1 },
+      { "text": "Extend" },
+      { "text": "Develop" },
+      { "text": "Exaggerate" }
+    ]
+  },
+  {
+    "question": "47. Peter ———— at six in the morning",
+    "answers": [
+      { "text": "Gets up", "correct": 1 },
+      { "text": "Goes" },
+      { "text": "Goes up" }
+    ]
+  },
+  {
+    "question": "48. He was left alone in the hospital, with——— to take care of him .",
+    "answers": [
+      { "text": "No one", "correct": 1 },
+      { "text": "Not one" },
+      { "text": "Anyone" },
+      { "text": "Someone" }
+    ]
+  },
+  {
+    "question": "49. The company did not have any ———- opening shops in Paris and Marseilles so they closed after only three months",
+    "answers": [
+      { "text": "Profit", "correct": 1 },
+      { "text": "Winnings" },
+      { "text": "Victory" },
+      { "text": "Success" }
+    ]
+  },
+  {
+    "question": "50. His new appointment takes -------- from the beginning of next month",
+    "answers": [
+      { "text": "position" },
+      { "text": "Place", "correct": 1 },
+      { "text": "Part" },
+      { "text": "effect" }
+    ]
+  },
+    {
+    "question": "51. I wish you would stop ——- me all the time.",
+    "answers": [
+      { "text": "Interrupting", "correct": 1 },
+      { "text": "To interrupt" },
+      { "text": "Interrupt" },
+      { "text": "Interrupted" }
+    ]
+  },
+  {
+    "question": "52. The house is ——- old. It needs repairing.",
+    "answers": [
+      { "text": "Enough", "correct": 1 },
+      { "text": "Too much" },
+      { "text": "Very much" },
+      { "text": "Such" }
+    ]
+  },
+  {
+    "question": "53. He was very angry ——- what she said.",
+    "answers": [
+      { "text": "At", "correct": 1 },
+      { "text": "With" },
+      { "text": "For" },
+      { "text": "On" }
+    ]
+  },
+  {
+    "question": "54. She is not used to ——- up early.",
+    "answers": [
+      { "text": "Get" },
+      { "text": "Getting", "correct": 1 },
+      { "text": "Got" },
+      { "text": "Gets" }
+    ]
+  },
+  {
+    "question": "55. The teacher made the students ——- the text again.",
+    "answers": [
+      { "text": "Read", "correct": 1 },
+      { "text": "To read" },
+      { "text": "Reading" },
+      { "text": "Reads" }
+    ]
+  },
+  {
+    "question": "56. I will phone you ——- I arrive.",
+    "answers": [
+      { "text": "As soon as", "correct": 1 },
+      { "text": "Until" },
+      { "text": "Unless" },
+      { "text": "Before" }
+    ]
+  },
+  {
+    "question": "57. He behaves ——- a child sometimes.",
+    "answers": [
+      { "text": "As", "correct": 1 },
+      { "text": "Like" },
+      { "text": "Than" },
+      { "text": "So" }
+    ]
+  },
+  {
+    "question": "58. This is the ——- film I have ever seen.",
+    "answers": [
+      { "text": "More interesting" },
+      { "text": "Most interesting", "correct": 1 },
+      { "text": "Very interesting" },
+      { "text": "Much interesting" }
+    ]
+  },
+  {
+    "question": "59. She speaks ——- than her sister.",
+    "answers": [
+      { "text": "More confidently", "correct": 1 },
+      { "text": "Most confidently" },
+      { "text": "Very confidently" },
+      { "text": "Too confidently" }
+    ]
+  },
+  {
+    "question": "60. There is ——- milk left in the fridge.",
+    "answers": [
+      { "text": "Few" },
+      { "text": "Little", "correct": 1 },
+      { "text": "Many" },
+      { "text": "Several" }
+    ]
+  },
+  {
+    "question": "61. He asked me ——- I had finished my work.",
+    "answers": [
+      { "text": "That" },
+      { "text": "If", "correct": 1 },
+      { "text": "What" },
+      { "text": "Which" }
+    ]
+  },
+  {
+    "question": "62. The car ——- repaired yesterday.",
+    "answers": [
+      { "text": "Is" },
+      { "text": "Was", "correct": 1 },
+      { "text": "Has" },
+      { "text": "Had" }
+    ]
+  },
+  {
+    "question": "63. We have lived here ——- five years.",
+    "answers": [
+      { "text": "Since" },
+      { "text": "For", "correct": 1 },
+      { "text": "During" },
+      { "text": "From" }
+    ]
+  },
+  {
+    "question": "64. She looks ——- she has been crying.",
+    "answers": [
+      { "text": "As if", "correct": 1 },
+      { "text": "So that" },
+      { "text": "Although" },
+      { "text": "Unless" }
+    ]
+  },
+  {
+    "question": "65. He apologized ——- being late.",
+    "answers": [
+      { "text": "For", "correct": 1 },
+      { "text": "About" },
+      { "text": "To" },
+      { "text": "With" }
+    ]
+  },
+  {
+    "question": "66. I am looking forward to ——- you soon.",
+    "answers": [
+      { "text": "See" },
+      { "text": "Seeing", "correct": 1 },
+      { "text": "Seen" },
+      { "text": "To see" }
+    ]
+  },
+  {
+    "question": "67. The book was ——- interesting that I finished it in one day.",
+    "answers": [
+      { "text": "So", "correct": 1 },
+      { "text": "Such" },
+      { "text": "Very" },
+      { "text": "Too" }
+    ]
+  },
+  {
+    "question": "68. He denied ——- the window.",
+    "answers": [
+      { "text": "Break" },
+      { "text": "Breaking", "correct": 1 },
+      { "text": "To break" },
+      { "text": "Broken" }
+    ]
+  },
+  {
+    "question": "69. This time tomorrow we ——- on the beach.",
+    "answers": [
+      { "text": "Will lie" },
+      { "text": "Will be lying", "correct": 1 },
+      { "text": "Lie" },
+      { "text": "Lied" }
+    ]
+  },
+  {
+    "question": "70. She ——- be very tired after the journey.",
+    "answers": [
+      { "text": "Must", "correct": 1 },
+      { "text": "Can" },
+      { "text": "May" },
+      { "text": "Should" }
+    ]
+  },
+  {
+    "question": "71. I did not have ——- time to finish the test.",
+    "answers": [
+      { "text": "Enough", "correct": 1 },
+      { "text": "Too" },
+      { "text": "Very" },
+      { "text": "So" }
+    ]
+  },
+  {
+    "question": "72. He asked ——- I wanted some help.",
+    "answers": [
+      { "text": "That" },
+      { "text": "If", "correct": 1 },
+      { "text": "Which" },
+      { "text": "What" }
+    ]
+  },
+  {
+    "question": "73. She was made ——- her homework again.",
+    "answers": [
+      { "text": "Do" },
+      { "text": "To do", "correct": 1 },
+      { "text": "Doing" },
+      { "text": "Did" }
+    ]
+  },
+  {
+    "question": "74. The train arrives ——- time every day.",
+    "answers": [
+      { "text": "At", "correct": 1 },
+      { "text": "In" },
+      { "text": "On" },
+      { "text": "By" }
+    ]
+  },
+  {
+    "question": "75. I am not as ——- as my brother.",
+    "answers": [
+      { "text": "Taller" },
+      { "text": "Tall", "correct": 1 },
+      { "text": "Tallest" },
+      { "text": "More tall" }
+    ]
+  },
+  {
+    "question": "76. We stayed at home ——- it was raining.",
+    "answers": [
+      { "text": "Because", "correct": 1 },
+      { "text": "Although" },
+      { "text": "Unless" },
+      { "text": "So that" }
+    ]
+  },
+  {
+    "question": "77. The letter ——- yesterday.",
+    "answers": [
+      { "text": "Was sent", "correct": 1 },
+      { "text": "Is sent" },
+      { "text": "Has sent" },
+      { "text": "Had sent" }
+    ]
+  },
+  {
+    "question": "78. He is interested ——- learning languages.",
+    "answers": [
+      { "text": "On" },
+      { "text": "In", "correct": 1 },
+      { "text": "At" },
+      { "text": "For" }
+    ]
+  },
+  {
+    "question": "79. I have never ——- to London.",
+    "answers": [
+      { "text": "Gone", "correct": 1 },
+      { "text": "Went" },
+      { "text": "Been going" },
+      { "text": "Go" }
+    ]
+  },
+  {
+    "question": "80. She speaks ——- English.",
+    "answers": [
+      { "text": "Fluent" },
+      { "text": "Fluently", "correct": 1 },
+      { "text": "Fluency" },
+      { "text": "Fluents" }
+    ]
+  },
+  {
+    "question": "81. There were ——- people waiting outside.",
+    "answers": [
+      { "text": "Much" },
+      { "text": "A lot of", "correct": 1 },
+      { "text": "Little" },
+      { "text": "Few" }
+    ]
+  },
+  {
+    "question": "82. He works ——- a teacher.",
+    "answers": [
+      { "text": "As", "correct": 1 },
+      { "text": "Like" },
+      { "text": "Than" },
+      { "text": "Such as" }
+    ]
+  },
+  {
+    "question": "83. I will never forget ——- you for the first time.",
+    "answers": [
+      { "text": "To meet" },
+      { "text": "Meeting", "correct": 1 },
+      { "text": "Meet" },
+      { "text": "Met" }
+    ]
+  },
+  {
+    "question": "84. She was too tired ——- go out.",
+    "answers": [
+      { "text": "That" },
+      { "text": "To", "correct": 1 },
+      { "text": "For" },
+      { "text": "So" }
+    ]
+  },
+  {
+    "question": "85. He stopped ——- because he was tired.",
+    "answers": [
+      { "text": "To work" },
+      { "text": "Working", "correct": 1 },
+      { "text": "Work" },
+      { "text": "Worked" }
+    ]
+  },
+  {
+    "question": "86. She asked me where I ——- from.",
+    "answers": [
+      { "text": "Am" },
+      { "text": "Was", "correct": 1 },
+      { "text": "Were" },
+      { "text": "Have been" }
+    ]
+  },
+  {
+    "question": "87. The room was ——- cleaned.",
+    "answers": [
+      { "text": "Recently", "correct": 1 },
+      { "text": "Recent" },
+      { "text": "Recency" },
+      { "text": "More recent" }
+    ]
+  },
+  {
+    "question": "88. He ran ——- fast to catch the bus.",
+    "answers": [
+      { "text": "So", "correct": 1 },
+      { "text": "Such" },
+      { "text": "Too" },
+      { "text": "Very" }
+    ]
+  },
+  {
+    "question": "89. She is the ——- student in the class.",
+    "answers": [
+      { "text": "More intelligent" },
+      { "text": "Most intelligent", "correct": 1 },
+      { "text": "Very intelligent" },
+      { "text": "Too intelligent" }
+    ]
+  },
+  {
+    "question": "90. I forgot ——- him about the meeting.",
+    "answers": [
+      { "text": "Tell" },
+      { "text": "To tell", "correct": 1 },
+      { "text": "Telling" },
+      { "text": "Told" }
+    ]
+  },
+  {
+    "question": "91. He has lived here ——- 2010.",
+    "answers": [
+      { "text": "Since", "correct": 1 },
+      { "text": "For" },
+      { "text": "From" },
+      { "text": "During" }
+    ]
+  },
+  {
+    "question": "92. The work must be finished ——- Friday.",
+    "answers": [
+      { "text": "Until" },
+      { "text": "By", "correct": 1 },
+      { "text": "In" },
+      { "text": "At" }
+    ]
+  },
+  {
+    "question": "93. She looks forward ——- her holidays.",
+    "answers": [
+      { "text": "For" },
+      { "text": "To", "correct": 1 },
+      { "text": "At" },
+      { "text": "With" }
+    ]
+  },
+  {
+    "question": "94. He did not have ——- money to buy the car.",
+    "answers": [
+      { "text": "Enough", "correct": 1 },
+      { "text": "Very" },
+      { "text": "Too" },
+      { "text": "So" }
+    ]
+  },
+  {
+    "question": "95. The children were made ——- quietly.",
+    "answers": [
+      { "text": "Sit", "correct": 1 },
+      { "text": "To sit" },
+      { "text": "Sitting" },
+      { "text": "Sat" }
+    ]
+  },
+  {
+    "question": "96. He succeeded ——- solving the problem.",
+    "answers": [
+      { "text": "In", "correct": 1 },
+      { "text": "At" },
+      { "text": "On" },
+      { "text": "For" }
+    ]
+  },
+  {
+    "question": "97. She was accused ——- stealing the money.",
+    "answers": [
+      { "text": "Of", "correct": 1 },
+      { "text": "For" },
+      { "text": "With" },
+      { "text": "At" }
+    ]
+  },
+  {
+    "question": "98. He did not know ——- to say.",
+    "answers": [
+      { "text": "Which" },
+      { "text": "What", "correct": 1 },
+      { "text": "That" },
+      { "text": "If" }
+    ]
+  },
+  {
+    "question": "99. The house ——— built last year.",
+    "answers": [
+      { "text": "Is" },
+      { "text": "Was", "correct": 1 },
+      { "text": "Has" },
+      { "text": "Had" }
+    ]
+  },
+  {
+    "question": "100. I am tired ——- working all day.",
+    "answers": [
+      { "text": "Of", "correct": 1 },
+      { "text": "From" },
+      { "text": "With" },
+      { "text": "At" }
+    ]
+  }
+]
