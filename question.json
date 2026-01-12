@@ -1960,5 +1960,958 @@
         "D": "خطأ: 'success' نجاح (عام).\nWrong: 'success' means achievement (general)."
       }
     }
+  },
+
+
+
+  {
+    "question": "101. She _____ the project with great enthusiasm.",
+    "answers": [
+      { "text": "A) approached", "correct": 1 },
+      { "text": "B) access" },
+      { "text": "C) approve" },
+      { "text": "D) appraise" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Approach",
+      "correct_answer": "A) approached",
+      "why_correct": "'Approach' يتعامل مع/يقترب.\n\n'Approach' means tackle or deal with.",
+      "why_others_wrong": {
+        "B": "خطأ: 'access' يصل إلى.\nWrong: 'access' means reach/enter.",
+        "C": "خطأ: 'approve' يوافق على.\nWrong: 'approve' means accept officially.",
+        "D": "خطأ: 'appraise' يقدّر القيمة.\nWrong: 'appraise' means assess value."
+      }
+    }
+  },
+  {
+    "question": "102. The witness _____ his statement in court.",
+    "answers": [
+      { "text": "A) confronted" },
+      { "text": "B) confirmed", "correct": 1 },
+      { "text": "C) confessed" },
+      { "text": "D) confused" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Confirmed",
+      "correct_answer": "A) confirmed",
+      "why_correct": "'Confirmed' أكد على.\n\n'Confirmed' means verified/affirmed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'confronted' واجه.\nWrong: 'confronted' means faced/challenged.",
+        "C": "خطأ: 'confessed' اعترف.\nWrong: 'confessed' means admitted.",
+        "D": "خطأ: 'confused' التبس.\nWrong: 'confused' means mixed up."
+      }
+    }
+  },
+  {
+    "question": "103. The _____ between the two countries led to diplomatic tensions.",
+    "answers": [
+      { "text": "A) distance" },
+      { "text": "B) disgrace" },
+      { "text": "C) dispute", "correct": 1 },
+      { "text": "D) display" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Dispute",
+      "correct_answer": "A) dispute",
+      "why_correct": "'Dispute' نزاع/خلاف.\n\n'Dispute' means disagreement/conflict.",
+      "why_others_wrong": {
+        "B": "خطأ: 'distance' مسافة.\nWrong: 'distance' means space between.",
+        "C": "خطأ: 'disgrace' عار.\nWrong: 'disgrace' means shame.",
+        "D": "خطأ: 'display' عرض.\nWrong: 'display' means show."
+      }
+    }
+  },
+  {
+    "question": "104. He _____ a great love for classical music.",
+    "answers": [
+      { "text": "A) hardened" },
+      { "text": "B) harmed" },
+      { "text": "C) harassed" },
+      { "text": "D) harbored", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Harbored",
+      "correct_answer": "A) harbored",
+      "why_correct": "'Harbored' يكنّ (شعور/مشاعر).\n\n'Harbored' means cherished/held.",
+      "why_others_wrong": {
+        "B": "خطأ: 'hardened' تصلب.\nWrong: 'hardened' means became hard.",
+        "C": "خطأ: 'harmed' أضر.\nWrong: 'harmed' means injured.",
+        "D": "خطأ: 'harassed' ضايق.\nWrong: 'harassed' means troubled."
+      }
+    }
+  },
+  {
+    "question": "105. The manager _____ the employees on their excellent performance.",
+    "answers": [
+      { "text": "A) commanded" },
+      { "text": "B) commended", "correct": 1 },
+      { "text": "C) commented" },
+      { "text": "D) committed" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Commended",
+      "correct_answer": "A) commended",
+      "why_correct": "'Commended' امتدح.\n\n'Commended' means praised/complimented.",
+      "why_others_wrong": {
+        "B": "خطأ: 'commanded' أمر.\nWrong: 'commanded' means ordered.",
+        "C": "خطأ: 'commented' علّق.\nWrong: 'commented' means remarked.",
+        "D": "خطأ: 'committed' التزم.\nWrong: 'committed' means pledged."
+      }
+    }
+  },
+  {
+    "question": "106. The ancient ruins _____ a glimpse into the past civilization.",
+    "answers": [
+      { "text": "A) averted" },
+      { "text": "B) availed" },
+      { "text": "C) afforded", "correct": 1 },
+      { "text": "D) acquired" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Afforded",
+      "correct_answer": "A) afforded",
+      "why_correct": "'Afforded' وفرّ/أتاح.\n\n'Afforded' means provided/granted access.",
+      "why_others_wrong": {
+        "B": "خطأ: 'averted' صرف النظر.\nWrong: 'averted' means turned away.",
+        "C": "خطأ: 'availed' استفاد.\nWrong: 'availed' means took advantage.",
+        "D": "خطأ: 'acquired' حصل على.\nWrong: 'acquired' means obtained."
+      }
+    }
+  },
+  {
+    "question": "107. The politician's speech _____ the crowd into an uproar.",
+    "answers": [
+      { "text": "A) invited" },
+      { "text": "B) infuriated" },
+      { "text": "C) invaded" },
+      { "text": "D) incited", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Incited",
+      "correct_answer": "A) incited",
+      "why_correct": "'Incited' حرّض/أثار.\n\n'Incited' means provoked/stirred up.",
+      "why_others_wrong": {
+        "B": "خطأ: 'invited' دعا.\nWrong: 'invited' means asked to come.",
+        "C": "خطأ: 'infuriated' أغضب شديد.\nWrong: 'infuriated' means enraged.",
+        "D": "خطأ: 'invaded' غزا.\nWrong: 'invaded' means attacked/entered."
+      }
+    }
+  },
+  {
+    "question": "108. The company will _____ from the new market opportunity.",
+    "answers": [
+      { "text": "A) borrow" },
+      { "text": "B) benefit", "correct": 1 },
+      { "text": "C) berate" },
+      { "text": "D) beseech" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Benefit",
+      "correct_answer": "A) benefit",
+      "why_correct": "'Benefit' يستفيد/ينتفع.\n\n'Benefit' means gain/profit.",
+      "why_others_wrong": {
+        "B": "خطأ: 'borrow' يستعير.\nWrong: 'borrow' means loan.",
+        "C": "خطأ: 'berate' يوبخ.\nWrong: 'berate' means scold.",
+        "D": "خطأ: 'beseech' يتوسل.\nWrong: 'beseech' means plead."
+      }
+    }
+  },
+  {
+    "question": "109. If you _____ working hard, you will succeed.",
+    "answers": [
+      { "text": "A) permit in" },
+      { "text": "B) prosper in" },
+      { "text": "C) persist in", "correct": 1 },
+      { "text": "D) proceed in" }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verbs - Persist in",
+      "correct_answer": "A) persist in",
+      "why_correct": "'Persist in' استمرّ في.\n\n'Persist in' means continue doing.",
+      "why_others_wrong": {
+        "B": "خطأ: 'permit in' سمح بالدخول.\nWrong: 'permit in' means allow entry.",
+        "C": "خطأ: 'prosper in' ازدهر في.\nWrong: 'prosper in' means flourish in.",
+        "D": "خطأ: 'proceed in' تابع في.\nWrong: 'proceed in' means continue with."
+      }
+    }
+  },
+  {
+    "question": "110. The scientist _____ a breakthrough in medical research.",
+    "answers": [
+      { "text": "A) accumulated" },
+      { "text": "B) accelerated" },
+      { "text": "C) acknowledged" },
+      { "text": "D) accomplished", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Accomplished",
+      "correct_answer": "A) accomplished",
+      "why_correct": "'Accomplished' حقق/أنجز.\n\n'Accomplished' means achieved/completed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'accumulated' تراكم.\nWrong: 'accumulated' means piled up.",
+        "C": "خطأ: 'accelerated' تسارع.\nWrong: 'accelerated' means speeded up.",
+        "D": "خطأ: 'acknowledged' اعترف.\nWrong: 'acknowledged' means admitted."
+      }
+    }
+  },
+  {
+    "question": "111. She _____ her talents to help others in need.",
+    "answers": [
+      { "text": "A) demoted" },
+      { "text": "B) devoted", "correct": 1 },
+      { "text": "C) delayed" },
+      { "text": "D) deplored" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Devoted",
+      "correct_answer": "A) devoted",
+      "why_correct": "'Devoted' كرّس.\n\n'Devoted' means dedicated/committed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'demoted' تم خفض رتبته.\nWrong: 'demoted' means reduced in rank.",
+        "C": "خطأ: 'delayed' أرجل.\nWrong: 'delayed' means postponed.",
+        "D": "خطأ: 'deplored' استنكر.\nWrong: 'deplored' means disapproved."
+      }
+    }
+  },
+  {
+    "question": "112. The policy _____ a significant change in the organization.",
+    "answers": [
+      { "text": "A) entitled" },
+      { "text": "B) enabled" },
+      { "text": "C) entailed", "correct": 1 },
+      { "text": "D) endangered" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Entailed",
+      "correct_answer": "A) entailed",
+      "why_correct": "'Entailed' استتبع/تطلب.\n\n'Entailed' means involved/required.",
+      "why_others_wrong": {
+        "B": "خطأ: 'entitled' أعطى الحق.\nWrong: 'entitled' means gave right to.",
+        "C": "خطأ: 'enabled' مكّن.\nWrong: 'enabled' means made possible.",
+        "D": "خطأ: 'endangered' عرّض للخطر.\nWrong: 'endangered' means put at risk."
+      }
+    }
+  },
+  {
+    "question": "113. The evidence _____ him of the crime.",
+    "answers": [
+      { "text": "A) convinced" },
+      { "text": "B) confected" },
+      { "text": "C) conflated" },
+      { "text": "D) convicted", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Convicted",
+      "correct_answer": "A) convicted",
+      "why_correct": "'Convicted' أدين.\n\n'Convicted' means declared guilty.",
+      "why_others_wrong": {
+        "B": "خطأ: 'convinced' أقنع.\nWrong: 'convinced' means persuaded.",
+        "C": "خطأ: 'confected' اخترع.\nWrong: 'confected' means made up.",
+        "D": "خطأ: 'conflated' خلط.\nWrong: 'conflated' means merged/combined."
+      }
+    }
+  },
+  {
+    "question": "114. The author's writing style _____ readers from around the world.",
+    "answers": [
+      { "text": "A) captures" },
+      { "text": "B) captivates", "correct": 1 },
+      { "text": "C) carpets" },
+      { "text": "D) carpools" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Captivates",
+      "correct_answer": "A) captivates",
+      "why_correct": "'Captivates' يسحر/يجذب.\n\n'Captivates' means enchants/fascinates.",
+      "why_others_wrong": {
+        "B": "خطأ: 'captures' يقبض على.\nWrong: 'captures' means seizes.",
+        "C": "خطأ: 'carpets' سجادات.\nWrong: 'carpets' is a noun (rugs).",
+        "D": "خطأ: 'carpools' المشاركة في السيارات.\nWrong: 'carpools' means shared rides."
+      }
+    }
+  },
+  {
+    "question": "115. The government _____ new environmental regulations.",
+    "answers": [
+      { "text": "A) endured" },
+      { "text": "B) enlarged" },
+      { "text": "C) enacted", "correct": 1 },
+      { "text": "D) developed" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Enacted",
+      "correct_answer": "A) enacted",
+      "why_correct": "'Enacted' شرّع/أقرّ.\n\n'Enacted' means passed/made into law.",
+      "why_others_wrong": {
+        "B": "خطأ: نفس الإجابة.\nWrong: Same answer.",
+        "C": "خطأ: 'endured' تحمل.\nWrong: 'endured' means suffered/lasted.",
+        "D": "خطأ: 'enlarged' وسّع.\nWrong: 'enlarged' means made bigger."
+      }
+    }
+  },
+  {
+    "question": "116. The musician _____ several awards for his outstanding performances.",
+    "answers": [
+      { "text": "A) gathered" },
+      { "text": "B) guaranteed" },
+      { "text": "C) generalized" },
+      { "text": "D) garnered", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Garnered",
+      "correct_answer": "A) garnered",
+      "why_correct": "'Garnered' حصل على/نال.\n\n'Garnered' means obtained/collected.",
+      "why_others_wrong": {
+        "B": "خطأ: 'gathered' جمع.\nWrong: 'gathered' means assembled.",
+        "C": "خطأ: 'guaranteed' ضمن.\nWrong: 'guaranteed' means promised.",
+        "D": "خطأ: 'generalized' عمّم.\nWrong: 'generalized' means made general."
+      }
+    }
+  },
+  {
+    "question": "117. The scandal _____ the politician's reputation.",
+    "answers": [
+      { "text": "A) targeted" },
+      { "text": "B) tarnished", "correct": 1 },
+      { "text": "C) terminated" },
+      { "text": "D) tampered" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Tarnished",
+      "correct_answer": "A) tarnished",
+      "why_correct": "'Tarnished' شوّه/أفسد.\n\n'Tarnished' means damaged/dirtied.",
+      "why_others_wrong": {
+        "B": "خطأ: 'targeted' استهدف.\nWrong: 'targeted' means aimed at.",
+        "C": "خطأ: 'terminated' أنهى.\nWrong: 'terminated' means ended.",
+        "D": "خطأ: 'tampered' عبث.\nWrong: 'tampered' means interfered."
+      }
+    }
+  },
+  {
+    "question": "118. The patient _____ under the doctor's careful treatment.",
+    "answers": [
+      { "text": "A) recalled" },
+      { "text": "B) recited" },
+      { "text": "C) recovered", "correct": 1 },
+      { "text": "D) refrained" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Recovered",
+      "correct_answer": "A) recovered",
+      "why_correct": "'Recovered' تعافى.\n\n'Recovered' means got better/healed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'recalled' استدعى.\nWrong: 'recalled' means called back.",
+        "C": "خطأ: 'recited' ألقى قصيدة.\nWrong: 'recited' means recounted.",
+        "D": "خطأ: 'refrained' امتنع.\nWrong: 'refrained' means abstained."
+      }
+    }
+  },
+  {
+    "question": "119. The student _____ from copying during the exam.",
+    "answers": [
+      { "text": "A) absconded" },
+      { "text": "B) absorbed" },
+      { "text": "C) absolved" },
+      { "text": "D) abstained", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Abstained",
+      "correct_answer": "A) abstained",
+      "why_correct": "'Abstained' امتنع.\n\n'Abstained' means reframed/declined.",
+      "why_others_wrong": {
+        "B": "خطأ: 'absconded' فرّ.\nWrong: 'absconded' means fled.",
+        "C": "خطأ: 'absorbed' امتص.\nWrong: 'absorbed' means soaked up.",
+        "D": "خطأ: 'absolved' برّأ.\nWrong: 'absolved' means freed/pardoned."
+      }
+    }
+  },
+  {
+    "question": "120. The project's success can be _____ to the team's hard work.",
+    "answers": [
+      { "text": "A) attired" },
+      { "text": "B) attributed", "correct": 1 },
+      { "text": "C) attuned" },
+      { "text": "D) atoned" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Attributed",
+      "correct_answer": "A) attributed",
+      "why_correct": "'Attributed' نُسب إلى.\n\n'Attributed' means ascribed/credited.",
+      "why_others_wrong": {
+        "B": "خطأ: 'attired' ارتدى.\nWrong: 'attired' means clothed.",
+        "C": "خطأ: 'attuned' توافق.\nWrong: 'attuned' means harmonized.",
+        "D": "خطأ: 'atoned' كفّر.\nWrong: 'atoned' means made amends."
+      }
+    }
+  },
+  {
+    "question": "121. The _____ between the two friends eventually led to a reconciliation.",
+    "answers": [
+      { "text": "A) misbehavior" },
+      { "text": "B) misconduct" },
+      { "text": "C) misunderstanding", "correct": 1 },
+      { "text": "D) mistrust" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Misunderstanding",
+      "correct_answer": "A) misunderstanding",
+      "why_correct": "'Misunderstanding' سوء فهم.\n\n'Misunderstanding' means miscommunication.",
+      "why_others_wrong": {
+        "B": "خطأ: 'misbehavior' سلوك سيء.\nWrong: 'misbehavior' means bad conduct.",
+        "C": "خطأ: 'misconduct' أخطاء.\nWrong: 'misconduct' means wrongdoing.",
+        "D": "خطأ: 'mistrust' عدم ثقة.\nWrong: 'mistrust' means lack of trust."
+      }
+    }
+  },
+  {
+    "question": "122. The architect _____ an innovative design for the building.",
+    "answers": [
+      { "text": "A) processed" },
+      { "text": "B) prosecuted" },
+      { "text": "C) proposed", "correct": 1 },
+      { "text": "D) propagated" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Proposed",
+      "correct_answer": "A) proposed",
+      "why_correct": "'Proposed' اقترح.\n\n'Proposed' means suggested/put forward.",
+      "why_others_wrong": {
+        "B": "خطأ: 'processed' معالج.\nWrong: 'processed' means handled.",
+        "C": "خطأ: 'prosecuted' قاضى.\nWrong: 'prosecuted' means sued.",
+        "D": "خطأ: 'propagated' نشّر.\nWrong: 'propagated' means spread."
+      }
+    }
+  },
+  {
+    "question": "123. The company will _____ its operations to Asia next year.",
+    "answers": [
+      { "text": "A) expect" },
+      { "text": "B) export" },
+      { "text": "C) expand", "correct": 1 },
+      { "text": "D) expose" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Expand",
+      "correct_answer": "A) expand",
+      "why_correct": "'Expand' توسع/يزيد.\n\n'Expand' means grow/increase in size.",
+      "why_others_wrong": {
+        "B": "خطأ: 'expect' يتوقع.\nWrong: 'expect' means anticipate.",
+        "C": "خطأ: 'export' يصدّر.\nWrong: 'export' means send abroad.",
+        "D": "خطأ: 'expose' يكشف.\nWrong: 'expose' means reveal."
+      }
+    }
+  },
+  {
+    "question": "124. The historical documents _____ light on the ancient civilization.",
+    "answers": [
+      { "text": "A) shred" },
+      { "text": "B) shed", "correct": 1 },
+      { "text": "C) share" },
+      { "text": "D) shape" }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb - Shed light on",
+      "correct_answer": "A) shed",
+      "why_correct": "'Shed light on' سلّط الضوء على.\n\n'Shed light on' means clarify/explain.",
+      "why_others_wrong": {
+        "B": "خطأ: 'shred' فتّت.\nWrong: 'shred' means cut into pieces.",
+        "C": "خطأ: 'share' شاركة.\nWrong: 'share' means divide.",
+        "D": "خطأ: 'shape' شكّل.\nWrong: 'shape' means form."
+      }
+    }
+  },
+  {
+    "question": "125. The teacher _____ the students for their exceptional work.",
+    "answers": [
+      { "text": "A) expelled" },
+      { "text": "B) exempted" },
+      { "text": "C) extolled", "correct": 1 },
+      { "text": "D) exalted" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Extolled",
+      "correct_answer": "A) extolled",
+      "why_correct": "'Extolled' مدح بحماس.\n\n'Extolled' means praised highly.",
+      "why_others_wrong": {
+        "B": "خطأ: 'expelled' طرد.\nWrong: 'expelled' means forced out.",
+        "C": "خطأ: 'exempted' أعفى.\nWrong: 'exempted' means freed from.",
+        "D": "خطأ: 'exalted' رفع الشأن.\nWrong: 'exalted' means elevated."
+      }
+    }
+  },
+  {
+    "question": "126. The news _____ him greatly.",
+    "answers": [
+      { "text": "A) perfected" },
+      { "text": "B) performed" },
+      { "text": "C) perturbed", "correct": 1 },
+      { "text": "D) permitted" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Perturbed",
+      "correct_answer": "A) perturbed",
+      "why_correct": "'Perturbed' قلق/أزعج.\n\n'Perturbed' means disturbed/worried.",
+      "why_others_wrong": {
+        "B": "خطأ: 'perfected' أتقن.\nWrong: 'perfected' means made perfect.",
+        "C": "خطأ: 'performed' قام.\nWrong: 'performed' means acted.",
+        "D": "خطأ: 'permitted' سمح.\nWrong: 'permitted' means allowed."
+      }
+    }
+  },
+  {
+    "question": "127. The organization _____ to provide aid to disaster victims.",
+    "answers": [
+      { "text": "A) pleaded" },
+      { "text": "B) pleased" },
+      { "text": "C) pledged", "correct": 1 },
+      { "text": "D) plunged" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Pledged",
+      "correct_answer": "A) pledged",
+      "why_correct": "'Pledged' تعهد/تفانى.\n\n'Pledged' means promised/committed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'pleaded' توسل.\nWrong: 'pleaded' means begged.",
+        "C": "خطأ: 'pleased' سعيد.\nWrong: 'pleased' means satisfied.",
+        "D": "خطأ: 'plunged' غطس.\nWrong: 'plunged' means dived."
+      }
+    }
+  },
+  {
+    "question": "128. The employee _____ the company with a resignation letter.",
+    "answers": [
+      { "text": "A) acquired" },
+      { "text": "B) acquitted" },
+      { "text": "C) accustomed" },
+      { "text": "D) acquainted", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Acquainted",
+      "correct_answer": "A) acquainted",
+      "why_correct": "'Acquainted' أخطر/أبلغ.\n\n'Acquainted' means notified/informed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'acquired' حصل على.\nWrong: 'acquired' means obtained.",
+        "C": "خطأ: 'acquitted' برّأ.\nWrong: 'acquitted' means cleared charges.",
+        "D": "خطأ: 'accustomed' اعتاد.\nWrong: 'accustomed' means used to."
+      }
+    }
+  },
+  {
+    "question": "129. The wildlife _____ in the protected reserve.",
+    "answers": [
+      { "text": "A) flattered" },
+      { "text": "B) fluctuated" },
+      { "text": "C) flourished", "correct": 1 },
+      { "text": "D) floundered" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Flourished",
+      "correct_answer": "A) flourished",
+      "why_correct": "'Flourished' ازدهر.\n\n'Flourished' means thrived/prospered.",
+      "why_others_wrong": {
+        "B": "خطأ: 'flattered' مجّد.\nWrong: 'flattered' means complimented.",
+        "C": "خطأ: 'fluctuated' تذبذب.\nWrong: 'fluctuated' means varied.",
+        "D": "خطأ: 'floundered' تعثر.\nWrong: 'floundered' means struggled."
+      }
+    }
+  },
+  {
+    "question": "130. He _____ for hours about his achievement.",
+    "answers": [
+      { "text": "A) pondered" },
+      { "text": "B) popularized" },
+      { "text": "C) pontificated", "correct": 1 },
+      { "text": "D) postulated" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Pontificated",
+      "correct_answer": "A) pontificated",
+      "why_correct": "'Pontificated' اجتهد بآرائه/تفاخر.\n\n'Pontificated' means spoke authoritatively.",
+      "why_others_wrong": {
+        "B": "خطأ: 'pondered' تأمل.\nWrong: 'pondered' means thought about.",
+        "C": "خطأ: 'popularized' شاع.\nWrong: 'popularized' means made popular.",
+        "D": "خطأ: 'postulated' افترض.\nWrong: 'postulated' means assumed."
+      }
+    }
+  },
+  {
+    "question": "131. The team _____ to achieve victory in the championship.",
+    "answers": [
+      { "text": "A) embezzled" },
+      { "text": "B) embodied" },
+      { "text": "C) endeavored", "correct": 1 },
+      { "text": "D) embellished" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Endeavored",
+      "correct_answer": "A) endeavored",
+      "why_correct": "'Endeavored' حاول/سعى.\n\n'Endeavored' means made effort/tried.",
+      "why_others_wrong": {
+        "B": "خطأ: 'embezzled' اختلس.\nWrong: 'embezzled' means stole.",
+        "C": "خطأ: 'embodied' تجسد.\nWrong: 'embodied' means represented.",
+        "D": "خطأ: 'embellished' زيّن.\nWrong: 'embellished' means adorned."
+      }
+    }
+  },
+  {
+    "question": "132. The lawyer _____ the defendant's innocence in court.",
+    "answers": [
+      { "text": "A) procured" },
+      { "text": "B) professed" },
+      { "text": "C) proclaimed", "correct": 1 },
+      { "text": "D) profaned" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Proclaimed",
+      "correct_answer": "A) proclaimed",
+      "why_correct": "'Proclaimed' أعلن بشكل علني.\n\n'Proclaimed' means declared publicly.",
+      "why_others_wrong": {
+        "B": "خطأ: 'procured' حصل على.\nWrong: 'procured' means obtained.",
+        "C": "خطأ: 'professed' ادعى.\nWrong: 'professed' means claimed.",
+        "D": "خطأ: 'profaned' نجّس.\nWrong: 'profaned' means desecrated."
+      }
+    }
+  },
+  {
+    "question": "133. The artist _____ the canvas with vibrant colors.",
+    "answers": [
+      { "text": "A) embittered" },
+      { "text": "B) emblazoned" },
+      { "text": "C) embellished", "correct": 1 },
+      { "text": "D) embarrassed" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Embellished",
+      "correct_answer": "A) embellished",
+      "why_correct": "'Embellished' زيّن.\n\n'Embellished' means decorated/adorned.",
+      "why_others_wrong": {
+        "B": "خطأ: 'embittered' أساء.\nWrong: 'embittered' means made bitter.",
+        "C": "خطأ: 'emblazoned' نقش/لفت النظر.\nWrong: 'emblazoned' means displayed prominently.",
+        "D": "خطأ: 'embarrassed' أربك.\nWrong: 'embarrassed' means made uncomfortable."
+      }
+    }
+  },
+  {
+    "question": "134. The speaker _____ the audience with his eloquence.",
+    "answers": [
+      { "text": "A) entitled" },
+      { "text": "B) entrapped" },
+      { "text": "C) enthralled", "correct": 1 },
+      { "text": "D) entrusted" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Enthralled",
+      "correct_answer": "A) enthralled",
+      "why_correct": "'Enthralled' افتتن/سحر.\n\n'Enthralled' means captivated/fascinated.",
+      "why_others_wrong": {
+        "B": "خطأ: 'entitled' أعطى الحق.\nWrong: 'entitled' means gave right.",
+        "C": "خطأ: 'entrapped' أوقع.\nWrong: 'entrapped' means trapped.",
+        "D": "خطأ: 'entrusted' ائتمن.\nWrong: 'entrusted' means trusted with."
+      }
+    }
+  },
+  {
+    "question": "135. The detective _____ the mystery through careful investigation.",
+    "answers": [
+      { "text": "A) uncovered" },
+      { "text": "B) unfurled" },
+      { "text": "C) unraveled", "correct": 1 },
+      { "text": "D) unknown" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Unraveled",
+      "correct_answer": "A) unraveled",
+      "why_correct": "'Unraveled' حلّ اللغز.\n\n'Unraveled' means solved/figured out.",
+      "why_others_wrong": {
+        "B": "خطأ: نفس الإجابة.\nWrong: Same answer.",
+        "C": "خطأ: 'uncovered' اكتشف.\nWrong: 'uncovered' means discovered.",
+        "D": "خطأ: 'unfurled' نشّر.\nWrong: 'unfurled' means unrolled."
+      }
+    }
+  },
+  {
+    "question": "136. The journalist _____ the evidence before publishing the article.",
+    "answers": [
+      { "text": "A) ventured" },
+      { "text": "B) veered" },
+      { "text": "C) verified", "correct": 1 },
+      { "text": "D) versed" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Verified",
+      "correct_answer": "A) verified",
+      "why_correct": "'Verified' تحقق من.\n\n'Verified' means confirmed/checked.",
+      "why_others_wrong": {
+        "B": "خطأ: نفس الإجابة.\nWrong: Same answer.",
+        "C": "خطأ: 'ventured' تجرأ.\nWrong: 'ventured' means dared.",
+        "D": "خطأ: 'veered' انحرف.\nWrong: 'veered' means turned aside."
+      }
+    }
+  },
+  {
+    "question": "137. The activist _____ for human rights throughout her career.",
+    "answers": [
+      { "text": "A) fainted" },
+      { "text": "B) fashioned" },
+      { "text": "C) fought", "correct": 1 },
+      { "text": "D) faltered" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Fought",
+      "correct_answer": "A) fought",
+      "why_correct": "'Fought' قاتل من أجل.\n\n'Fought' means struggled/advocated.",
+      "why_others_wrong": {
+        "B": "خطأ: 'fainted' أغمي.\nWrong: 'fainted' means lost consciousness.",
+        "C": "خطأ: 'fashioned' صنع.\nWrong: 'fashioned' means created.",
+        "D": "خطأ: 'faltered' تردد.\nWrong: 'faltered' means hesitated."
+      }
+    }
+  },
+  {
+    "question": "138. The climber _____ the mountain peak after days of effort.",
+    "answers": [
+      { "text": "A) conquered", "correct": 1 },
+      { "text": "B) contacted" },
+      { "text": "C) contemplated" },
+      { "text": "D) contested" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Conquered",
+      "correct_answer": "A) conquered",
+      "why_correct": "'Conquered' فتح/غزا.\n\n'Conquered' means overcame/mastered.",
+      "why_others_wrong": {
+        "B": "خطأ: 'contacted' اتصل.\nWrong: 'contacted' means communicated.",
+        "C": "خطأ: 'contemplated' تأمل.\nWrong: 'contemplated' means thought about.",
+        "D": "خطأ: 'contested' طعن.\nWrong: 'contested' means challenged."
+      }
+    }
+  },
+  {
+    "question": "139. The performance _____ the critics' expectations.",
+    "answers": [
+      { "text": "A) surpassed", "correct": 1 },
+      { "text": "B) surprised" },
+      { "text": "C) surfaced" },
+      { "text": "D) sustained" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Surpassed",
+      "correct_answer": "A) surpassed",
+      "why_correct": "'Surpassed' تجاوز.\n\n'Surpassed' means exceeded/went beyond.",
+      "why_others_wrong": {
+        "B": "خطأ: 'surprised' فاجأ.\nWrong: 'surprised' means astonished.",
+        "C": "خطأ: 'surfaced' ظهر.\nWrong: 'surfaced' means emerged.",
+        "D": "خطأ: 'sustained' استمر.\nWrong: 'sustained' means maintained."
+      }
+    }
+  },
+  {
+    "question": "140. The government _____ emergency measures to control inflation.",
+    "answers": [
+      { "text": "A) instituted", "correct": 1 },
+      { "text": "B) instructed" },
+      { "text": "C) insulted" },
+      { "text": "D) insisted" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Instituted",
+      "correct_answer": "A) instituted",
+      "why_correct": "'Instituted' أنشأ/فرض.\n\n'Instituted' means established/introduced.",
+      "why_others_wrong": {
+        "B": "خطأ: 'instructed' أرشد.\nWrong: 'instructed' means taught.",
+        "C": "خطأ: 'insulted' أساء.\nWrong: 'insulted' means offended.",
+        "D": "خطأ: 'insisted' أصرّ.\nWrong: 'insisted' means demanded."
+      }
+    }
+  },
+  {
+    "question": "141. The author _____ her latest novel with a world tour.",
+    "answers": [
+      { "text": "A) promoted", "correct": 1 },
+      { "text": "B) provided" },
+      { "text": "C) profited" },
+      { "text": "D) proceeded" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Promoted",
+      "correct_answer": "A) promoted",
+      "why_correct": "'Promoted' روّج لـ.\n\n'Promoted' means publicized/marketed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'provided' وفّر.\nWrong: 'provided' means supplied.",
+        "C": "خطأ: 'profited' استفاد.\nWrong: 'profited' means gained benefit.",
+        "D": "خطأ: 'proceeded' تابع.\nWrong: 'proceeded' means continued."
+      }
+    }
+  },
+  {
+    "question": "142. The scientist _____ a new theory about the universe.",
+    "answers": [
+      { "text": "A) formatted" },
+      { "text": "B) formed" },
+      { "text": "C) formulated", "correct": 1 },
+      { "text": "D) forwarded" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Formulated",
+      "correct_answer": "A) formulated",
+      "why_correct": "'Formulated' صاغ نظرية.\n\n'Formulated' means developed/created.",
+      "why_others_wrong": {
+        "B": "خطأ: 'formatted' نسّق.\nWrong: 'formatted' means arranged format.",
+        "C": "خطأ: 'formed' تشكل.\nWrong: 'formed' means shaped.",
+        "D": "خطأ: 'forwarded' أرسل.\nWrong: 'forwarded' means sent on."
+      }
+    }
+  },
+  {
+    "question": "143. The teacher _____ her students' curiosity by asking thought-provoking questions.",
+    "answers": [
+      { "text": "A) stifled" },
+      { "text": "B) stamped" },
+      { "text": "C) stimulated", "correct": 1 },
+      { "text": "D) stood" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Stimulated",
+      "correct_answer": "A) stimulated",
+      "why_correct": "'Stimulated' أثار الفضول.\n\n'Stimulated' means excited/provoked.",
+      "why_others_wrong": {
+        "B": "خطأ: 'stifled' كبت.\nWrong: 'stifled' means suppressed.",
+        "C": "خطأ: 'stamped' طبع.\nWrong: 'stamped' means marked.",
+        "D": "خطأ: 'stood' وقف.\nWrong: 'stood' means remained upright."
+      }
+    }
+  },
+  {
+    "question": "144. The company _____ its market share through innovative marketing.",
+    "answers": [
+      { "text": "A) amended" },
+      { "text": "B) amused" },
+      { "text": "C) augmented", "correct": 1 },
+      { "text": "D) amazed" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Augmented",
+      "correct_answer": "A) augmented",
+      "why_correct": "'Augmented' زاد/عزز.\n\n'Augmented' means increased/enlarged.",
+      "why_others_wrong": {
+        "B": "خطأ: 'amended' عدّل.\nWrong: 'amended' means changed.",
+        "C": "خطأ: 'amused' أرّح.\nWrong: 'amused' means entertained.",
+        "D": "خطأ: 'amazed' أدهش.\nWrong: 'amazed' means astonished."
+      }
+    }
+  },
+  {
+    "question": "145. The community _____ to provide assistance after the disaster.",
+    "answers": [
+      { "text": "A) railed" },
+      { "text": "B) raided" },
+      { "text": "C) rallied", "correct": 1 },
+      { "text": "D) rained" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Rallied",
+      "correct_answer": "A) rallied",
+      "why_correct": "'Rallied' تجمع/تضامن.\n\n'Rallied' means united/gathered.",
+      "why_others_wrong": {
+        "B": "خطأ: 'railed' احتج.\nWrong: 'railed' means protested.",
+        "C": "خطأ: 'raided' غزا.\nWrong: 'raided' means attacked.",
+        "D": "خطأ: 'rained' أمطرت.\nWrong: 'rained' means fell (of rain)."
+      }
+    }
+  },
+  {
+    "question": "146. The minister _____ a controversial decision without consulting the parliament.",
+    "answers": [
+      { "text": "A) deemed" },
+      { "text": "B) defended" },
+      { "text": "C) decreed", "correct": 1 },
+      { "text": "D) defied" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Decreed",
+      "correct_answer": "A) decreed",
+      "why_correct": "'Decreed' أصدر قرار.\n\n'Decreed' means ordered/proclaimed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'deemed' اعتبر.\nWrong: 'deemed' means considered.",
+        "C": "خطأ: 'defended' دافع.\nWrong: 'defended' means protected.",
+        "D": "خطأ: 'defied' تحدى.\nWrong: 'defied' means resisted."
+      }
+    }
+  },
+  {
+    "question": "147. The novelist _____ readers into her fantasy world.",
+    "answers": [
+      { "text": "A) transformed" },
+      { "text": "B) transmitted" },
+      { "text": "C) transported", "correct": 1 },
+      { "text": "D) transcended" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Transported",
+      "correct_answer": "A) transported",
+      "why_correct": "'Transported' نقل (مجازياً).\n\n'Transported' means moved/carried away.",
+      "why_others_wrong": {
+        "B": "خطأ: 'transformed' حوّل.\nWrong: 'transformed' means changed.",
+        "C": "خطأ: 'transmitted' نقل.\nWrong: 'transmitted' means sent.",
+        "D": "خطأ: 'transcended' تجاوز.\nWrong: 'transcended' means surpassed."
+      }
+    }
+  },
+  {
+    "question": "148. The engineer _____ a cost-effective solution to the problem.",
+    "answers": [
+      { "text": "A) deviated" },
+      { "text": "B) devoted" },
+      { "text": "C) devised", "correct": 1 },
+      { "text": "D) developed" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Devised",
+      "correct_answer": "A) devised",
+      "why_correct": "'Devised' ابتكر/اخترع.\n\n'Devised' means invented/planned.",
+      "why_others_wrong": {
+        "B": "خطأ: 'deviated' انحرف.\nWrong: 'deviated' means departed.",
+        "C": "خطأ: 'devoted' كرّس.\nWrong: 'devoted' means dedicated.",
+        "D": "خطأ: 'developed' طوّر.\nWrong: 'developed' means evolved."
+      }
+    }
+  },
+  {
+    "question": "149. The doctor _____ the patient from further harm by removing the infection.",
+    "answers": [
+      { "text": "A) shifted" },
+      { "text": "B) showed" },
+      { "text": "C) shielded", "correct": 1 },
+      { "text": "D) shocked" }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Shielded",
+      "correct_answer": "A) shielded",
+      "why_correct": "'Shielded' حمى.\n\n'Shielded' means protected/guarded.",
+      "why_others_wrong": {
+        "B": "خطأ: 'shifted' نقل.\nWrong: 'shifted' means moved.",
+        "C": "خطأ: 'showed' أظهر.\nWrong: 'showed' means displayed.",
+        "D": "خطأ: 'shocked' أدهش.\nWrong: 'shocked' means surprised."
+      }
+    }
+  },
+  {
+    "question": "150. The evidence _____ his guilt beyond any doubt.",
+    "answers": [
+      { "text": "A) estimated" },
+      { "text": "B) eliminated" },
+      { "text": "C) encouraged" },
+      { "text": "D) established", "correct": 1 }
+    ],
+    "explanation": {
+      "rule": "Vocabulary - Established",
+      "correct_answer": "A) established",
+      "why_correct": "'Established' أثبت.\n\n'Established' means proved/confirmed.",
+      "why_others_wrong": {
+        "B": "خطأ: 'estimated' قدّر.\nWrong: 'estimated' means calculated.",
+        "C": "خطأ: 'eliminated' أزال.\nWrong: 'eliminated' means removed.",
+        "D": "خطأ: 'encouraged' شجّع.\nWrong: 'encouraged' means inspired."
+      }
+    }
   }
 ]

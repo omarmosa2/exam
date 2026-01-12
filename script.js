@@ -65,19 +65,27 @@ function selectRandomQuestions(count) {
 
 // Start quiz with selected number of questions
 function startQuiz(count) {
-    // Validate count
-    const questionCount = count === 'all' ? state.questions.length : parseInt(count);
-    
-    if (questionCount <= 0 || questionCount > state.questions.length) {
-        alert(`الرجاء إدخال عدد صحيح بين 1 و ${state.questions.length}\nPlease enter a valid number between 1 and ${state.questions.length}`);
-        return;
+    // Handle important model (questions 101-150)
+    if (count === 'important-model') {
+        state.selectedQuestions = state.questions.slice(100, 150);
+        state.selectedQuestions = shuffleArray(state.selectedQuestions);
+        state.totalQuestions = state.selectedQuestions.length;
+    } else {
+        // Validate count
+        const questionCount = count === 'all' ? state.questions.length : parseInt(count);
+        
+        if (questionCount <= 0 || questionCount > state.questions.length) {
+            alert(`الرجاء إدخال عدد صحيح بين 1 و ${state.questions.length}\nPlease enter a valid number between 1 and ${state.questions.length}`);
+            return;
+        }
+        
+        // Initialize quiz state
+        state.selectedQuestions = count === 'all' 
+            ? shuffleArray(state.questions) 
+            : selectRandomQuestions(questionCount);
+        state.totalQuestions = state.selectedQuestions.length;
     }
     
-    // Initialize quiz state
-    state.selectedQuestions = count === 'all' 
-        ? shuffleArray(state.questions) 
-        : selectRandomQuestions(questionCount);
-    state.totalQuestions = state.selectedQuestions.length;
     state.currentQuestionIndex = 0;
     state.score = 0;
     state.answers = new Array(state.totalQuestions).fill(null);
