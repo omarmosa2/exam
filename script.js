@@ -1,6 +1,7 @@
 // Application State
 const state = {
     questions: [],
+    newModelQuestions: [],
     selectedQuestions: [],
     currentQuestionIndex: 0,
     score: 0,
@@ -41,6 +42,11 @@ async function loadQuestions() {
         const data = await response.json();
         state.questions = data;
         console.log(`Loaded ${state.questions.length} questions successfully`);
+        
+        const newModelResponse = await fetch('new-model.json');
+        const newModelData = await newModelResponse.json();
+        state.newModelQuestions = newModelData;
+        console.log(`Loaded ${state.newModelQuestions.length} new model questions successfully`);
     } catch (error) {
         console.error('Error loading questions:', error);
         alert('خطأ في تحميل الأسئلة / Error loading questions. Please make sure question.json exists.');
@@ -69,6 +75,9 @@ function startQuiz(count) {
     if (count === 'important-model') {
         state.selectedQuestions = state.questions.slice(100, 150);
         state.selectedQuestions = shuffleArray(state.selectedQuestions);
+        state.totalQuestions = state.selectedQuestions.length;
+    } else if (count === 'new-model') {
+        state.selectedQuestions = shuffleArray(state.newModelQuestions);
         state.totalQuestions = state.selectedQuestions.length;
     } else {
         // Validate count
