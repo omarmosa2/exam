@@ -1,0 +1,1484 @@
+[
+  {
+    "question": "1. A: I don't want to talk to _____. B: And I want to talk to _____ either.",
+    "answers": [
+      {
+        "text": "A) anyone / no one",
+        "correct": 1
+      },
+      {
+        "text": "B) somebody/everyone"
+      },
+      {
+        "text": "C) nobody / somebody"
+      },
+      {
+        "text": "D) everybody/anybody"
+      }
+    ],
+    "explanation": {
+      "rule": "Indefinite Pronouns in Negative Sentences",
+      "correct_answer": "A) anyone / no one",
+      "why_correct": "بعد النفي نستخدم anyone، وno one تحمل معنى النفي. ملاحظة: صياغة الجملة الثانية غير طبيعية قليلًا، والأفضل: And I don’t want to talk to anyone either.\n\nAfter a negative verb, we normally use anyone. No one already carries a negative meaning. The second sentence is slightly unnatural; a better form is: And I don’t want to talk to anyone either.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "2. I work in _____ company that makes _____ carpets.",
+    "answers": [
+      {
+        "text": "A) a / X",
+        "correct": 1
+      },
+      {
+        "text": "B) the / the"
+      },
+      {
+        "text": "C) the / X"
+      },
+      {
+        "text": "D) a / a"
+      }
+    ],
+    "explanation": {
+      "rule": "Articles with Singular and General Plural Nouns",
+      "correct_answer": "A) a / ×",
+      "why_correct": "نقول a company لأنها مفردة غير محددة، ولا نضع أداة قبل الجمع العام carpets.\n\nWe use a with the singular, non-specific noun company, and no article before the general plural noun carpets.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "3. There are _____ apples.",
+    "answers": [
+      {
+        "text": "A) most"
+      },
+      {
+        "text": "B) a lot of",
+        "correct": 1
+      },
+      {
+        "text": "C) a little"
+      },
+      {
+        "text": "D) much"
+      }
+    ],
+    "explanation": {
+      "rule": "Quantifiers with Countable Plural Nouns",
+      "correct_answer": "B) a lot of",
+      "why_correct": "لأن apples اسم جمع معدود، فنستخدم a lot of.\n\nApples is a plural countable noun, so a lot of is suitable.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "4. They arrived _____ three o’clock _____ the afternoon.",
+    "answers": [
+      {
+        "text": "A) at / in",
+        "correct": 1
+      },
+      {
+        "text": "B) in / for"
+      },
+      {
+        "text": "C) when / ago"
+      },
+      {
+        "text": "D) last / *"
+      }
+    ],
+    "explanation": {
+      "rule": "Prepositions of Time",
+      "correct_answer": "A) at / in",
+      "why_correct": "نستخدم at مع الساعة، وin مع أجزاء اليوم: at three o’clock in the afternoon.\n\nWe use at with clock times and in with parts of the day.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "5. I _____ a friend while I _____ the shopping.",
+    "answers": [
+      {
+        "text": "A) was meeting / did"
+      },
+      {
+        "text": "B) met / was doing",
+        "correct": 1
+      },
+      {
+        "text": "C) meet / do"
+      },
+      {
+        "text": "D) met / did"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "B) met / was doing",
+      "why_correct": "حدث قصير وقع أثناء حدث مستمر: I met a friend while I was doing the shopping.\n\nA short completed event happened during a continuing action.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "6. I _____ hello to the children, but they didn’t say anything because they _____ television.",
+    "answers": [
+      {
+        "text": "A) say / watched"
+      },
+      {
+        "text": "B) said / were watching",
+        "correct": 1
+      },
+      {
+        "text": "C) was / saying"
+      },
+      {
+        "text": "D) said / watched"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "B) said / were watching",
+      "why_correct": "said حدث قصير، وwere watching فعل كان مستمرًا وقتها.\n\nSaid is a short completed action, while were watching describes an action in progress.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "7. The man _____ you met at the party was a famous film star.",
+    "answers": [
+      {
+        "text": "A) who",
+        "correct": 1
+      },
+      {
+        "text": "B) when"
+      },
+      {
+        "text": "C) where"
+      },
+      {
+        "text": "D) which"
+      }
+    ],
+    "explanation": {
+      "rule": "Relative Pronouns for People",
+      "correct_answer": "A) who",
+      "why_correct": "نستخدم who لأن الاسم السابق شخص: the man who...\n\nWe use who because the antecedent is a person.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": false
+  },
+  {
+    "question": "8. Complete with the correct comparative form: It was _____ than before.",
+    "answers": [
+      {
+        "text": "A) much nicer",
+        "correct": 1
+      },
+      {
+        "text": "B) more nicer"
+      },
+      {
+        "text": "C) much more nicer"
+      },
+      {
+        "text": "D) more nicer"
+      }
+    ],
+    "explanation": {
+      "rule": "Comparative Adjectives and Intensifiers",
+      "correct_answer": "A) much nicer",
+      "why_correct": "nicer صيغة المقارنة الصحيحة، وmuch لتقوية المقارنة.\n\nNicer is the correct comparative form, and much strengthens the comparison.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "9. Complete the expression: _____ a car.",
+    "answers": [
+      {
+        "text": "A) buy from"
+      },
+      {
+        "text": "B) pay for",
+        "correct": 1
+      },
+      {
+        "text": "C) borrow from"
+      },
+      {
+        "text": "D) own for"
+      },
+      {
+        "text": "E) lend to"
+      }
+    ],
+    "explanation": {
+      "rule": "Verb and Preposition Collocations",
+      "correct_answer": "B) pay for",
+      "why_correct": "التعبير الصحيح: pay for a car، أي يدفع ثمن السيارة.\n\nThe correct expression is pay for a car, meaning to give money for it.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "10. The sky is full of clouds, so the weather is _____.",
+    "answers": [
+      {
+        "text": "A) windy"
+      },
+      {
+        "text": "B) hot"
+      },
+      {
+        "text": "C) foggy"
+      },
+      {
+        "text": "D) cold"
+      },
+      {
+        "text": "E) cloudy",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Weather Vocabulary",
+      "correct_answer": "E) cloudy",
+      "why_correct": "وجود الغيوم يدل على احتمال هطول المطر، لذلك الوصف المناسب هو cloudy.\n\nClouds in the sky indicate cloudy weather and possible rain.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "11. Newspapers and journalists are collectively called the _____.",
+    "answers": [
+      {
+        "text": "A) press",
+        "correct": 1
+      },
+      {
+        "text": "B) publisher"
+      },
+      {
+        "text": "C) reporter"
+      },
+      {
+        "text": "D) literature"
+      },
+      {
+        "text": "E) journalism"
+      }
+    ],
+    "explanation": {
+      "rule": "Media Vocabulary",
+      "correct_answer": "A) press",
+      "why_correct": "the press تعني الصحافة أو وسائل الإعلام المكتوبة.\n\nThe press means newspapers, journalists, and the written news media.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "12. The picture made us laugh. It was _____.",
+    "answers": [
+      {
+        "text": "A) laughing"
+      },
+      {
+        "text": "B) smiling"
+      },
+      {
+        "text": "C) joking"
+      },
+      {
+        "text": "D) funny",
+        "correct": 1
+      },
+      {
+        "text": "E) serious"
+      }
+    ],
+    "explanation": {
+      "rule": "Adjectives Describing Reactions",
+      "correct_answer": "D) funny",
+      "why_correct": "الصورة التي تجعلنا نضحك توصف بأنها funny.\n\nA picture that makes us laugh is described as funny.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "13. He completed the work on his _____.",
+    "answers": [
+      {
+        "text": "A) single"
+      },
+      {
+        "text": "B) self"
+      },
+      {
+        "text": "C) alone"
+      },
+      {
+        "text": "D) own",
+        "correct": 1
+      },
+      {
+        "text": "E) lonely"
+      }
+    ],
+    "explanation": {
+      "rule": "Fixed Expression: on one’s own",
+      "correct_answer": "D) own",
+      "why_correct": "التعبير الثابت: on his own، أي بمفرده ودون مساعدة.\n\nThe fixed expression on his own means alone and without help.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "14. There is a _____ of money.",
+    "answers": [
+      {
+        "text": "A) inflation"
+      },
+      {
+        "text": "B) presence"
+      },
+      {
+        "text": "C) shortage",
+        "correct": 1
+      },
+      {
+        "text": "D) absence"
+      },
+      {
+        "text": "E) border"
+      }
+    ],
+    "explanation": {
+      "rule": "Noun Collocations",
+      "correct_answer": "C) shortage",
+      "why_correct": "shortage of money تعني نقص المال.\n\nA shortage of money means that there is not enough money.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "15. I can’t _____ it.",
+    "answers": [
+      {
+        "text": "A) help"
+      },
+      {
+        "text": "B) stand"
+      },
+      {
+        "text": "C) forgive"
+      },
+      {
+        "text": "D) export"
+      },
+      {
+        "text": "E) afford",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Ability to Pay",
+      "correct_answer": "E) afford",
+      "why_correct": "can’t afford it تعني لا أستطيع تحمّل تكلفته.\n\nCan’t afford it means not having enough money to pay for it.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "16. He _____ to listen.",
+    "answers": [
+      {
+        "text": "A) remembered"
+      },
+      {
+        "text": "B) refused",
+        "correct": 1
+      },
+      {
+        "text": "C) memorized"
+      },
+      {
+        "text": "D) requested"
+      },
+      {
+        "text": "E) mentioned"
+      }
+    ],
+    "explanation": {
+      "rule": "Verb Patterns: refuse to + infinitive",
+      "correct_answer": "B) refused",
+      "why_correct": "التعبير الصحيح: refused to listen، أي رفض الاستماع.\n\nThe correct pattern is refused to listen.",
+      "why_others_wrong": {}
+    },
+    "model_level": "PRE-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "17. The minister _____ recently.",
+    "answers": [
+      {
+        "text": "A) has been resigned"
+      },
+      {
+        "text": "B) have resigned"
+      },
+      {
+        "text": "C) resigned"
+      },
+      {
+        "text": "D) has resigned",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Present Perfect for Recent Events",
+      "correct_answer": "D) has resigned",
+      "why_correct": "المضارع التام مناسب لحدث حديث له نتيجة في الوقت الحاضر.\n\nThe present perfect is suitable for a recent event with a present result.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "18. A new Prime Minister _____.",
+    "answers": [
+      {
+        "text": "A) has elected"
+      },
+      {
+        "text": "B) has been elected",
+        "correct": 1
+      },
+      {
+        "text": "C) have elected"
+      },
+      {
+        "text": "D) elected"
+      }
+    ],
+    "explanation": {
+      "rule": "Present Perfect Passive",
+      "correct_answer": "B) has been elected",
+      "why_correct": "الجملة مبنية للمجهول؛ لأن رئيس الوزراء الجديد تم انتخابه.\n\nThe passive is required because the new Prime Minister received the action.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "19. The Italian people _____ the news.",
+    "answers": [
+      {
+        "text": "A) was told"
+      },
+      {
+        "text": "B) have been told"
+      },
+      {
+        "text": "C) told"
+      },
+      {
+        "text": "D) were told",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple Passive",
+      "correct_answer": "D) were told",
+      "why_correct": "The Italian people جمع، والجملة مبنية للمجهول وفي الماضي.\n\nThe Italian people is plural, and the sentence requires the past passive form were told.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "20. I _____ my glasses. _____ them?",
+    "answers": [
+      {
+        "text": "A) have been lost / Have you seen"
+      },
+      {
+        "text": "B) lost / Have you seen",
+        "correct": 1
+      },
+      {
+        "text": "C) have lost / Did you see"
+      },
+      {
+        "text": "D) lost / Did you see"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Present Perfect",
+      "correct_answer": "B) lost / Have you seen",
+      "why_correct": "I lost my glasses فعل ماضٍ، ثم سؤال عن وجودها حتى الآن بالمضارع التام.\n\nLost describes the past event, while Have you seen asks about the period up to now.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "21. If I _____ you, I _____ there.",
+    "answers": [
+      {
+        "text": "A) were / would go",
+        "correct": 1
+      },
+      {
+        "text": "B) are / will go"
+      },
+      {
+        "text": "C) are / would go"
+      },
+      {
+        "text": "D) had been / would have gone"
+      }
+    ],
+    "explanation": {
+      "rule": "Second Conditional",
+      "correct_answer": "A) were / would go",
+      "why_correct": "شرط من النوع الثاني: If + past simple, would + verb.\n\nThis is the second conditional: If + past simple, would + base verb.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "22. _____ Friday evening, we went out.",
+    "answers": [
+      {
+        "text": "A) At"
+      },
+      {
+        "text": "B) In"
+      },
+      {
+        "text": "C) On",
+        "correct": 1
+      },
+      {
+        "text": "D) x"
+      }
+    ],
+    "explanation": {
+      "rule": "Prepositions with Days",
+      "correct_answer": "C) On",
+      "why_correct": "نستخدم on مع الأيام وأجزائها: On Friday evening.\n\nWe use on with days and parts of named days.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "23. I’d love _____ help you.",
+    "answers": [
+      {
+        "text": "A) can"
+      },
+      {
+        "text": "B) could"
+      },
+      {
+        "text": "C) managed to"
+      },
+      {
+        "text": "D) to be able to",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Infinitive Expression: be able to",
+      "correct_answer": "D) to be able to",
+      "why_correct": "التعبير الصحيح: I’d love to be able to help you.\n\nThe correct construction is: I’d love to be able to help you.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "24. If I _____ him, I _____ it to him.",
+    "answers": [
+      {
+        "text": "A) see / will give",
+        "correct": 1
+      },
+      {
+        "text": "B) saw / would give"
+      },
+      {
+        "text": "C) meet / would visit"
+      },
+      {
+        "text": "D) had seen / would give"
+      }
+    ],
+    "explanation": {
+      "rule": "First Conditional",
+      "correct_answer": "A) see / will give",
+      "why_correct": "شرط من النوع الأول: If I see him, I will give it to him.\n\nThis is the first conditional: If + present simple, will + base verb.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "25. They _____ to go.",
+    "answers": [
+      {
+        "text": "A) neglect"
+      },
+      {
+        "text": "B) admire"
+      },
+      {
+        "text": "C) ignore"
+      },
+      {
+        "text": "D) involve"
+      },
+      {
+        "text": "E) intend",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Verb Pattern: intend to + infinitive",
+      "correct_answer": "E) intend",
+      "why_correct": "intend to go تعني ينوي الذهاب.\n\nIntend to go means plan or mean to go.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "26. You must control your _____.",
+    "answers": [
+      {
+        "text": "A) mind"
+      },
+      {
+        "text": "B) temper",
+        "correct": 1
+      },
+      {
+        "text": "C) reason"
+      },
+      {
+        "text": "D) habit"
+      },
+      {
+        "text": "E) mentality"
+      }
+    ],
+    "explanation": {
+      "rule": "Fixed Expression: control one’s temper",
+      "correct_answer": "B) temper",
+      "why_correct": "control your temper تعني السيطرة على الغضب.\n\nControl your temper means manage your anger.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "27. Let me _____ you some news.",
+    "answers": [
+      {
+        "text": "A) speak"
+      },
+      {
+        "text": "B) say"
+      },
+      {
+        "text": "C) tell",
+        "correct": 1
+      },
+      {
+        "text": "D) talk"
+      },
+      {
+        "text": "E) communicate"
+      }
+    ],
+    "explanation": {
+      "rule": "Tell Someone Something",
+      "correct_answer": "C) tell",
+      "why_correct": "نقول tell someone something: tell you some news.\n\nWe use tell + person + thing.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "28. Would you _____ my keeping this here?",
+    "answers": [
+      {
+        "text": "A) agree"
+      },
+      {
+        "text": "B) intend"
+      },
+      {
+        "text": "C) obstruct"
+      },
+      {
+        "text": "D) close"
+      },
+      {
+        "text": "E) mind",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Would you mind + possessive + gerund",
+      "correct_answer": "E) mind",
+      "why_correct": "التركيب الصحيح: Would you mind my keeping...?\n\nThe correct construction is: Would you mind my keeping...?",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "29. There were two buttons _____ from his coat.",
+    "answers": [
+      {
+        "text": "A) falling"
+      },
+      {
+        "text": "B) losing"
+      },
+      {
+        "text": "C) departing"
+      },
+      {
+        "text": "D) dropping"
+      },
+      {
+        "text": "E) missing",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Adjective: missing",
+      "correct_answer": "E) missing",
+      "why_correct": "buttons missing from his coat تعني أزرار مفقودة من معطفه.\n\nButtons missing from his coat means that the buttons were absent.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "30. It was an accident _____ two lorries.",
+    "answers": [
+      {
+        "text": "A) containing"
+      },
+      {
+        "text": "B) fastening"
+      },
+      {
+        "text": "C) involving",
+        "correct": 1
+      },
+      {
+        "text": "D) including"
+      },
+      {
+        "text": "E) combining"
+      }
+    ],
+    "explanation": {
+      "rule": "Participle Clauses",
+      "correct_answer": "C) involving",
+      "why_correct": "الحادث كان يتضمن أو يشمل شاحنتين.\n\nThe accident involved or included two lorries.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "31. This treatment may _____ blood pressure.",
+    "answers": [
+      {
+        "text": "A) produce"
+      },
+      {
+        "text": "B) reduce",
+        "correct": 1
+      },
+      {
+        "text": "C) clarify"
+      },
+      {
+        "text": "D) hasten"
+      },
+      {
+        "text": "E) climb"
+      }
+    ],
+    "explanation": {
+      "rule": "Health Vocabulary",
+      "correct_answer": "B) reduce",
+      "why_correct": "reduce blood pressure تعني خفض ضغط الدم.\n\nReduce blood pressure means lower it.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "32. The medicine will soon take _____.",
+    "answers": [
+      {
+        "text": "A) place"
+      },
+      {
+        "text": "B) effect",
+        "correct": 1
+      },
+      {
+        "text": "C) post"
+      },
+      {
+        "text": "D) part"
+      },
+      {
+        "text": "E) position"
+      }
+    ],
+    "explanation": {
+      "rule": "Fixed Expression: take effect",
+      "correct_answer": "B) effect",
+      "why_correct": "التعبير الثابت: take effect، أي يبدأ مفعوله.\n\nThe fixed expression take effect means begin to work.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "32 مكرّر. People did not discover the wheel; they _____ it.",
+    "answers": [
+      {
+        "text": "A) discover"
+      },
+      {
+        "text": "B) constitute"
+      },
+      {
+        "text": "C) find"
+      },
+      {
+        "text": "D) perform"
+      },
+      {
+        "text": "E) invent",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Invent versus Discover",
+      "correct_answer": "E) invent",
+      "why_correct": "العجلة اختراع بشري، لذلك نستخدم invent وليس discover.\n\nThe wheel is a human creation, so we use invent rather than discover.",
+      "why_others_wrong": {}
+    },
+    "model_level": "INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "33. I _____ I _____ her before.",
+    "answers": [
+      {
+        "text": "A) thought / saw"
+      },
+      {
+        "text": "B) thinks / sees"
+      },
+      {
+        "text": "C) is thinking / sees"
+      },
+      {
+        "text": "D) thought / had seen",
+        "correct": 1
+      },
+      {
+        "text": "E) have thought / had seen"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Perfect",
+      "correct_answer": "D) thought / had seen",
+      "why_correct": "الرؤية حدثت قبل التفكير، لذلك نستخدم الماضي التام had seen.\n\nSeeing happened before thinking, so the earlier action takes the past perfect.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "34. It _____ dark, so we _____ to go back.",
+    "answers": [
+      {
+        "text": "A) gets / decided"
+      },
+      {
+        "text": "B) would get / shall decide"
+      },
+      {
+        "text": "C) had got / have decided"
+      },
+      {
+        "text": "D) was getting / decided",
+        "correct": 1
+      },
+      {
+        "text": "E) will be getting / had decided"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Continuous and Past Simple",
+      "correct_answer": "D) was getting / decided",
+      "why_correct": "الظلام كان يزداد تدريجيًا، ثم اتخذوا قرارًا بالعودة.\n\nIt was gradually becoming dark, and then they made a completed decision.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "35. He _____ looking at her and wondered where he _____ her before.",
+    "answers": [
+      {
+        "text": "A) keep / see"
+      },
+      {
+        "text": "B) kept / had seen",
+        "correct": 1
+      },
+      {
+        "text": "C) keeps / saw"
+      },
+      {
+        "text": "D) had kept / had seen"
+      },
+      {
+        "text": "E) being kept / would see"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Perfect",
+      "correct_answer": "B) kept / had seen",
+      "why_correct": "استمر في النظر، وتساءل أين كان قد رآها من قبل.\n\nHe continued looking, while had seen refers to an earlier past experience.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "36. They _____ to marry after they _____ each other for several years.",
+    "answers": [
+      {
+        "text": "A) decide / know"
+      },
+      {
+        "text": "B) decided / know"
+      },
+      {
+        "text": "C) decided / had known",
+        "correct": 1
+      },
+      {
+        "text": "D) decided / knew"
+      },
+      {
+        "text": "E) decided / has known"
+      }
+    ],
+    "explanation": {
+      "rule": "Sequence of Past Events",
+      "correct_answer": "C) decided / had known",
+      "why_correct": "قرار الزواج حدث بعد فترة التعارف، لذلك نستخدم had known.\n\nThe decision came after the earlier period of knowing each other.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "37. What _____ the weather like while you _____ tennis?",
+    "answers": [
+      {
+        "text": "A) is / played"
+      },
+      {
+        "text": "B) was / were playing",
+        "correct": 1
+      },
+      {
+        "text": "C) will be / played"
+      },
+      {
+        "text": "D) is / will be playing"
+      },
+      {
+        "text": "E) has been / will play"
+      }
+    ],
+    "explanation": {
+      "rule": "Past State and Ongoing Past Action",
+      "correct_answer": "B) was / were playing",
+      "why_correct": "سؤال عن حالة الطقس أثناء ممارسة التنس في الماضي.\n\nThe question asks about a past state while an activity was in progress.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "38. When he _____ to the station, the train _____.",
+    "answers": [
+      {
+        "text": "A) comes / left"
+      },
+      {
+        "text": "B) came / leaves"
+      },
+      {
+        "text": "C) came / had left",
+        "correct": 1
+      },
+      {
+        "text": "D) had come / left"
+      },
+      {
+        "text": "E) has come / leaves"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Perfect",
+      "correct_answer": "C) came / had left",
+      "why_correct": "القطار غادر قبل وصوله، لذلك نستخدم الماضي التام.\n\nThe train left before he arrived, so the earlier event takes the past perfect.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "39. He _____ home while it _____.",
+    "answers": [
+      {
+        "text": "A) leave / rain"
+      },
+      {
+        "text": "B) left / was raining",
+        "correct": 1
+      },
+      {
+        "text": "C) left / had rained"
+      },
+      {
+        "text": "D) was leaving / rained"
+      },
+      {
+        "text": "E) leave / rains"
+      }
+    ],
+    "explanation": {
+      "rule": "Past Simple and Past Continuous",
+      "correct_answer": "B) left / was raining",
+      "why_correct": "خرج من المنزل بينما كان المطر يهطل باستمرار.\n\nLeaving was a completed action, while the rain was continuing.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "40. When Tom _____, the lesson _____.",
+    "answers": [
+      {
+        "text": "A) comes / already begins"
+      },
+      {
+        "text": "B) came / had already begun",
+        "correct": 1
+      },
+      {
+        "text": "C) came / already began"
+      },
+      {
+        "text": "D) will come / already begins"
+      },
+      {
+        "text": "E) came / already begins"
+      }
+    ],
+    "explanation": {
+      "rule": "Earlier Past with already",
+      "correct_answer": "B) came / had already begun",
+      "why_correct": "الدرس بدأ قبل أن يصل توم.\n\nThe lesson began before Tom arrived.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "41. He _____ the phone because he _____ a bath.",
+    "answers": [
+      {
+        "text": "A) didn?t answer / was taking",
+        "correct": 1
+      },
+      {
+        "text": "B) don?t answer / take"
+      },
+      {
+        "text": "C) doesn?t answer / am taking"
+      },
+      {
+        "text": "D) will not answer / take"
+      },
+      {
+        "text": "E) am answering / am taking"
+      }
+    ],
+    "explanation": {
+      "rule": "Simultaneous Past Actions",
+      "correct_answer": "A) didn’t answer / was taking",
+      "why_correct": "لم يرد على الاتصال لأنه كان يستحم في تلك اللحظة.\n\nHe did not answer because the bath was in progress at that moment.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Grammar",
+    "reconstructed_question": true
+  },
+  {
+    "question": "42. Measures have been _____.",
+    "answers": [
+      {
+        "text": "A) imagined"
+      },
+      {
+        "text": "B) made"
+      },
+      {
+        "text": "C) given"
+      },
+      {
+        "text": "D) described"
+      },
+      {
+        "text": "E) taken",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Fixed Expression: take measures",
+      "correct_answer": "E) taken",
+      "why_correct": "التعبير الصحيح: measures have been taken، أي تم اتخاذ إجراءات.\n\nThe fixed expression is measures have been taken.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "43. He _____ had time to finish.",
+    "answers": [
+      {
+        "text": "A) almost"
+      },
+      {
+        "text": "B) even"
+      },
+      {
+        "text": "C) nearly"
+      },
+      {
+        "text": "D) scarcely",
+        "correct": 1
+      },
+      {
+        "text": "E) least"
+      }
+    ],
+    "explanation": {
+      "rule": "Adverb of Degree: scarcely",
+      "correct_answer": "D) scarcely",
+      "why_correct": "scarcely had time تعني بالكاد كان لديه وقت.\n\nScarcely had time means he barely had enough time.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "44. She gave me some _____ advice.",
+    "answers": [
+      {
+        "text": "A) precious"
+      },
+      {
+        "text": "B) wealthy"
+      },
+      {
+        "text": "C) dear"
+      },
+      {
+        "text": "D) prized"
+      },
+      {
+        "text": "E) valuable",
+        "correct": 1
+      }
+    ],
+    "explanation": {
+      "rule": "Adjective and Noun Collocation",
+      "correct_answer": "E) valuable",
+      "why_correct": "valuable advice تعني نصيحة مفيدة وقيّمة.\n\nValuable advice means useful and important advice.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "45. Please _____ a cheque for the amount.",
+    "answers": [
+      {
+        "text": "A) make for"
+      },
+      {
+        "text": "B) make off"
+      },
+      {
+        "text": "C) make out",
+        "correct": 1
+      },
+      {
+        "text": "D) makeover"
+      },
+      {
+        "text": "E) make up"
+      }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb: make out a cheque",
+      "correct_answer": "C) make out",
+      "why_correct": "make out a cheque تعني تحرير أو كتابة شيك.\n\nMake out a cheque means write and complete a cheque.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "46. We must _____ these difficulties.",
+    "answers": [
+      {
+        "text": "A) get off"
+      },
+      {
+        "text": "B) come across"
+      },
+      {
+        "text": "C) come over"
+      },
+      {
+        "text": "D) get over",
+        "correct": 1
+      },
+      {
+        "text": "E) get away"
+      }
+    ],
+    "explanation": {
+      "rule": "Phrasal Verb: get over",
+      "correct_answer": "D) get over",
+      "why_correct": "get over difficulties تعني تجاوز الصعوبات.\n\nGet over difficulties means overcome them.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "47. He was _____ to get the job.",
+    "answers": [
+      {
+        "text": "A) worried"
+      },
+      {
+        "text": "B) curious"
+      },
+      {
+        "text": "C) anxious",
+        "correct": 1
+      },
+      {
+        "text": "D) afraid"
+      },
+      {
+        "text": "E) troubled"
+      }
+    ],
+    "explanation": {
+      "rule": "Adjective Pattern: anxious to",
+      "correct_answer": "C) anxious",
+      "why_correct": "anxious to get تعني متلهف أو حريص جدًا على الحصول.\n\nAnxious to get means very eager or keen to obtain something.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "48. You must give a week’s _____.",
+    "answers": [
+      {
+        "text": "A) threat"
+      },
+      {
+        "text": "B) notice",
+        "correct": 1
+      },
+      {
+        "text": "C) advice"
+      },
+      {
+        "text": "D) caution"
+      },
+      {
+        "text": "E) dismissal"
+      }
+    ],
+    "explanation": {
+      "rule": "Employment Expression: give notice",
+      "correct_answer": "B) notice",
+      "why_correct": "a week’s notice تعني إشعارًا قبل أسبوع.\n\nA week’s notice means informing someone one week in advance.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "49. His son’s illness put him under great _____.",
+    "answers": [
+      {
+        "text": "A) emotion"
+      },
+      {
+        "text": "B) excitement"
+      },
+      {
+        "text": "C) crisis"
+      },
+      {
+        "text": "D) stress",
+        "correct": 1
+      },
+      {
+        "text": "E) nervousness"
+      }
+    ],
+    "explanation": {
+      "rule": "Fixed Expression: under stress",
+      "correct_answer": "D) stress",
+      "why_correct": "مرض ابنه وضعه تحت ضغط نفسي شديد: under great stress.\n\nHis son’s illness caused severe psychological pressure.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  },
+  {
+    "question": "50. Should a new situation _____, contact me.",
+    "answers": [
+      {
+        "text": "A) affect"
+      },
+      {
+        "text": "B) rise"
+      },
+      {
+        "text": "C) arise",
+        "correct": 1
+      },
+      {
+        "text": "D) raise"
+      },
+      {
+        "text": "E) happen"
+      }
+    ],
+    "explanation": {
+      "rule": "Verb: arise",
+      "correct_answer": "C) arise",
+      "why_correct": "a situation arises تعني ينشأ أو يظهر موقف جديد.\n\nA situation arises means that a new situation appears or develops.",
+      "why_others_wrong": {}
+    },
+    "model_level": "UPPER-INTERMEDIATE",
+    "section": "Vocabulary",
+    "reconstructed_question": true
+  }
+]

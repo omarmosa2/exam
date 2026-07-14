@@ -1,6 +1,7 @@
 // Application State
 const state = {
     questions: [],
+    universityQuestions: [],
     selectedQuestions: [],
     currentQuestionIndex: 0,
     score: 0,
@@ -41,6 +42,11 @@ async function loadQuestions() {
         const data = await response.json();
         state.questions = data;
         console.log(`Loaded ${state.questions.length} questions successfully`);
+
+        const universityResponse = await fetch('university-model.json');
+        const universityData = await universityResponse.json();
+        state.universityQuestions = universityData;
+        console.log(`Loaded ${state.universityQuestions.length} university model questions successfully`);
     } catch (error) {
         console.error('Error loading questions:', error);
         alert('خطأ في تحميل الأسئلة / Error loading questions. Please make sure question.json exists.');
@@ -72,6 +78,9 @@ function startQuiz(count) {
         state.totalQuestions = state.selectedQuestions.length;
     } else if (count === 'new-model') {
         state.selectedQuestions = state.questions.slice(150);
+        state.totalQuestions = state.selectedQuestions.length;
+    } else if (count === 'university-model') {
+        state.selectedQuestions = [...state.universityQuestions];
         state.totalQuestions = state.selectedQuestions.length;
     } else {
         // Validate count
@@ -403,7 +412,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Start screen - predefined question counts
     elements.selectButtons.forEach(button => {
         button.addEventListener('click', (e) => {
-            const count = e.target.dataset.count;
+            const count = e.currentTarget.dataset.count;
             startQuiz(count);
         });
     });
